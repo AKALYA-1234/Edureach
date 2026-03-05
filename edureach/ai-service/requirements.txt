@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+librosa
+scikit-learn
+transformers
+python-dotenv
+numpy
+torch
+openai
