@@ -3,6 +3,8 @@ const express = require("express");
 const cors = require("cors");
 const connectDB = require("./config/db");
 const authRoutes = require("./routes/auth.routes");
+const courseRoutes = require("./routes/course.routes");
+const scholarshipRoutes = require("./routes/scholarship.routes");
 
 connectDB();
 
@@ -16,6 +18,8 @@ app.get("/api/health", (req, res) => {
 });
 
 app.use("/api/auth", authRoutes);
+app.use("/api/courses", courseRoutes);
+app.use("/api/scholarships", scholarshipRoutes);
 
 app.use((req, res) => {
   res.status(404).json({ success: false, message: "Route not found" });

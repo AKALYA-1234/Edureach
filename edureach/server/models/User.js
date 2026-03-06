@@ -36,7 +36,11 @@ const userSchema = new mongoose.Schema(
     school: { type: String, default: "" },
     grade: { type: String, default: "" },
     profilePic: { type: String, default: "" },
+    gender: { type: String, default: "" },
+    caste: { type: String, default: "" },
+    income: { type: String, default: "" },
     isRural: { type: Boolean, default: false },
+    appliedScholarships: [{ type: mongoose.Schema.Types.ObjectId, ref: "Scholarship" }],
     resetPasswordToken: { type: String, select: false },
     resetPasswordExpire: { type: Date, select: false },
     createdAt: {
@@ -47,10 +51,9 @@ const userSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-userSchema.pre("save", async function (next) {
-  if (!this.isModified("password")) return next();
+userSchema.pre("save", async function () {
+  if (!this.isModified("password")) return;
   this.password = await bcrypt.hash(this.password, 12);
-  next();
 });
 
 userSchema.methods.matchPassword = async function (enteredPassword) {
