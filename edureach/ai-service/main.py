@@ -4,6 +4,8 @@ import re
 import httpx
 from fastapi import FastAPI, UploadFile, File, Form, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+from openai import AsyncOpenAI
 from dotenv import load_dotenv
 from groq import Groq
 
@@ -132,6 +134,29 @@ def translate_transcript(transcript: str, source_language: str, target_language_
     )
     return (completion.choices[0].message.content or transcript).strip()
 
+# Allow frontend to connect
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Initialize OpenAI client with Groq base URL and API key
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+
+# The client is only instantiated if the key is available
+client = AsyncOpenAI(
+    api_key=GROQ_API_KEY or "dummy_key_to_prevent_startup_crash",
+    base_url="https://api.groq.com/openai/v1"
+)
+
+class ChatRequest(BaseModel):
+    message: str
+    
+class ChatResponse(BaseModel):
+    response: str
 
 def analyse_with_groq(transcript: str, language_code: str, has_stutter_signals: bool) -> dict:
     lang_info = LANGUAGE_META.get(language_code, {"name": "English", "native": "English"})
@@ -203,7 +228,6 @@ Respond fully in {lang_name} only."""
 def health():
     return {"status": "EduReach AI service running"}
 
-
 @app.get("/speech-therapy/languages")
 def get_supported_languages():
     return {
@@ -262,3 +286,28 @@ async def analyze_speech(
         "language_code": effective_lang,
         "language_name": LANGUAGE_META[effective_lang]["name"],
     }
+
+@app.post("/chat", response_model=ChatResponse)
+async def chat(request: ChatRequest):
+    if not GROQ_API_KEY:
+        raise HTTPException(status_code=500, detail="Groq API key is not configured")
+        
+    try:
+        completion = await client.chat.completions.create(
+            messages=[
+                {
+                    "role": "system",
+                    "content": "You are a helpful, child-friendly education assistant for EduReach. Explain things simply."
+                },
+                {
+                    "role": "user",
+                    "content": request.message
+                }
+            ],
+            model="llama3-8b-8192",  # Llama 3 8B model on Groq
+            temperature=0.7,
+            max_tokens=1024,
+        )
+        return {"response": completion.choices[0].message.content}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error communicating with AI model: {str(e)}")

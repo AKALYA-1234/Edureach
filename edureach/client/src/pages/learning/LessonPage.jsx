@@ -163,6 +163,64 @@ const lessonData = {
         ],
         summaryEnd: 'Great job! You are learning addition!',
         nextLesson: { id: 'subtraction', title: 'Subtraction' }
+    },
+    'subtraction': {
+        title: 'Subtraction',
+        subtitle: 'Learn how to subtract numbers using simple examples and objects.',
+        videoSubtitle: 'Watch these fun videos to learn basic subtraction for kids! Click to watch them in full screen.',
+        videos: [
+            { src: 'https://www.youtube.com/embed/ZygCUtAUWJA?si=N5iRTSTNljzI-7Va', title: 'Subtraction Video 1', thumb: 'https://img.youtube.com/vi/ZygCUtAUWJA/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/YLPbduEc4sA?si=5oaig4nOGKGhu7yJ', title: 'Subtraction Video 2', thumb: 'https://img.youtube.com/vi/YLPbduEc4sA/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/lBfj-pm5kqc?si=IeoWjc99-DLWxNB1', title: 'Subtraction Video 3', thumb: 'https://img.youtube.com/vi/lBfj-pm5kqc/hqdefault.jpg' }
+        ],
+        quiz: [
+            { question: '5 − 2 = ?', visual: '5 − 2', options: ['2', '3', '4'], correct: 1 },
+            { question: '🍎 🍎 🍎 🍎 − 🍎 = ?', visual: '🍎 🍎 🍎 🍎 − 🍎', options: ['2', '3', '4'], correct: 1 },
+            { question: '⭐ ⭐ ⭐ − ⭐ = ?', visual: '⭐ ⭐ ⭐ − ⭐', options: ['1', '2', '3'], correct: 1 },
+            { question: '4 − 2 = ?', visual: '4 − 2', options: ['1', '2', '3'], correct: 1 },
+            { question: '🚗 🚗 🚗 🚗 🚗 − 🚗 🚗 = ?', visual: '🚗 🚗 🚗 🚗 🚗 − 🚗 🚗', options: ['2', '3', '4'], correct: 1 },
+            { question: '3 − 0 = ?', visual: '3 − 0', options: ['2', '3', '4'], correct: 1 },
+            { question: '🎈 🎈 🎈 − 🎈 🎈 = ?', visual: '🎈 🎈 🎈 − 🎈 🎈', options: ['1', '2', '3'], correct: 0 },
+            { question: '6 − 3 = ?', visual: '6 − 3', options: ['2', '3', '4'], correct: 1 },
+            { question: '🐶 🐶 🐶 🐶 − 🐶 🐶 🐶 = ?', visual: '🐶 🐶 🐶 🐶 − 🐶 🐶 🐶', options: ['1', '2', '3'], correct: 0 },
+            { question: '10 − 5 = ?', visual: '10 − 5', options: ['4', '5', '6'], correct: 1 }
+        ],
+        summary: [
+            'Subtraction means taking away objects',
+            'Subtracting numbers makes the total smaller',
+            'We can subtract apples, stars, and other objects'
+        ],
+        summaryEnd: 'Great job! You are learning subtraction!',
+        nextLesson: { id: 'shapes', title: 'Shapes' }
+    },
+    'shapes': {
+        title: 'Shapes',
+        subtitle: 'Learn about basic shapes like circle, square, triangle, and rectangle.',
+        videoSubtitle: 'Watch these fun videos to learn about shapes for kids! Click to watch them in full screen.',
+        videos: [
+            { src: 'https://www.youtube.com/embed/jlzX8jt0Now?si=H0iR9g89LVLGJ0v0', title: 'Shapes Video 1', thumb: 'https://img.youtube.com/vi/jlzX8jt0Now/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/o-6OKWU99Co?si=MG42fKzc7hypVNMp', title: 'Shapes Video 2', thumb: 'https://img.youtube.com/vi/o-6OKWU99Co/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/bJzZJi5z-2E?si=mssOcNVTYy2FWvO3', title: 'Shapes Video 3', thumb: 'https://img.youtube.com/vi/bJzZJi5z-2E/hqdefault.jpg' }
+        ],
+        quiz: [
+            { question: 'Which shape is round?', visual: '🔵', options: ['Circle', 'Square', 'Triangle'], correct: 0 },
+            { question: 'Which shape has three sides?', visual: '🔺', options: ['Triangle', 'Circle', 'Rectangle'], correct: 0 },
+            { question: 'Which shape looks like a book or TV?', visual: '📱', options: ['Rectangle', 'Circle', 'Square'], correct: 0 },
+            { question: 'What shape is a pizza slice?', visual: '🍕', options: ['Square', 'Triangle', 'Circle'], correct: 1 },
+            { question: 'What shape has four equal sides?', visual: '🟥', options: ['Rectangle', 'Triangle', 'Square'], correct: 2 },
+            { question: 'Which shape is like a wheel?', visual: '🛞', options: ['Circle', 'Square', 'Triangle'], correct: 0 },
+            { question: 'What shape is a window usually?', visual: '🪟', options: ['Circle', 'Square', 'Triangle'], correct: 1 },
+            { question: 'What shape is a door?', visual: '🚪', options: ['Rectangle', 'Circle', 'Triangle'], correct: 0 },
+            { question: 'Which shape has NO straight sides?', visual: '⭕', options: ['Square', 'Rectangle', 'Circle'], correct: 2 },
+            { question: 'What shape is a slice of watermelon?', visual: '🍉', options: ['Circle', 'Rectangle', 'Triangle'], correct: 2 }
+        ],
+        summary: [
+            'What shapes are',
+            'Basic shapes like circle, square, triangle, and rectangle',
+            'How shapes appear in objects around us'
+        ],
+        summaryEnd: 'Great job! You are learning shapes!',
+        nextLesson: { id: 'maths-practice', title: 'Practice Maths Skills' }
     }
 };
 
@@ -698,6 +756,262 @@ const LessonPage = () => {
                                             </span>
                                         </div>
                                     </div>
+                                </div>
+                            </Section>
+                        </>
+                    )}
+
+                    {chapterId === 'subtraction' && (
+                        <>
+                            {/* ──────────── WHAT IS SUBTRACTION ──────────── */}
+                            <Section>
+                                <SectionTitle emoji="➖">What is Subtraction?</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.8, margin: '0 0 16px' }}>
+                                    <strong>Subtraction</strong> means taking away some objects from a group.
+                                </p>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.8, margin: '0 0 16px' }}>
+                                    When we subtract numbers, the total becomes smaller. Subtraction helps us know how many objects remain after taking some away.
+                                </p>
+                                <div style={{
+                                    background: '#FEF2F2', borderRadius: '14px', padding: '20px 24px',
+                                    borderLeft: '4px solid #EF4444', textAlign: 'center'
+                                }}>
+                                    <p style={{ fontSize: '15px', fontWeight: 600, color: '#991B1B', margin: '0 0 10px' }}>Example:</p>
+                                    <div style={{ fontSize: '32px', fontWeight: 800, color: '#7F1D1D', letterSpacing: '4px' }}>
+                                        5 − 2 = 3
+                                    </div>
+                                </div>
+                            </Section>
+
+                            {/* ──────────── SUBTRACTION EXAMPLES ──────────── */}
+                            <Section>
+                                <SectionTitle emoji="👀">Subtraction Examples</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.8, margin: '0 0 20px' }}>
+                                    Subtraction helps us find how many objects are left. Let's see some examples!
+                                </p>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                                    <div style={{
+                                        display: 'flex', alignItems: 'center', gap: '20px',
+                                        background: '#FEF2F2', borderRadius: '12px', padding: '16px 24px', flexWrap: 'wrap'
+                                    }}>
+                                        <div style={{ flex: '1 1 auto' }}>
+                                            <p style={{ fontSize: '14px', fontWeight: 700, color: '#991B1B', marginBottom: '8px' }}>Example 1</p>
+                                            <div style={{ fontSize: '32px', letterSpacing: '4px' }}>
+                                                <span>🍎 🍎 🍎</span> <span style={{ textDecoration: 'line-through', textDecorationColor: '#EF4444', textDecorationThickness: '3px' }}>🍎 🍎</span>
+                                            </div>
+                                            <p style={{ fontSize: '14px', color: '#7F1D1D', margin: '8px 0 0' }}>Take away 2 apples. Remaining: 🍎 🍎 🍎</p>
+                                        </div>
+                                        <div style={{ fontSize: '18px', fontWeight: 600, color: '#7F1D1D' }}>5 apples − 2 apples = 3 apples</div>
+                                    </div>
+                                    <div style={{
+                                        display: 'flex', alignItems: 'center', gap: '20px',
+                                        background: '#FFFBEB', borderRadius: '12px', padding: '16px 24px', flexWrap: 'wrap'
+                                    }}>
+                                        <div style={{ flex: '1 1 auto' }}>
+                                            <p style={{ fontSize: '14px', fontWeight: 700, color: '#92400E', marginBottom: '8px' }}>Example 2</p>
+                                            <div style={{ fontSize: '32px', letterSpacing: '4px' }}>
+                                                <span>⭐ ⭐ ⭐</span> <span style={{ textDecoration: 'line-through', textDecorationColor: '#F59E0B', textDecorationThickness: '3px' }}>⭐</span>
+                                            </div>
+                                            <p style={{ fontSize: '14px', color: '#78350F', margin: '8px 0 0' }}>Take away 1 star. Remaining: ⭐ ⭐ ⭐</p>
+                                        </div>
+                                        <div style={{ fontSize: '18px', fontWeight: 600, color: '#78350F' }}>4 stars − 1 star = 3 stars</div>
+                                    </div>
+                                    <div style={{
+                                        display: 'flex', alignItems: 'center', gap: '20px',
+                                        background: '#EFF6FF', borderRadius: '12px', padding: '16px 24px', flexWrap: 'wrap'
+                                    }}>
+                                        <div style={{ flex: '1 1 auto' }}>
+                                            <p style={{ fontSize: '14px', fontWeight: 700, color: '#1E40AF', marginBottom: '8px' }}>Example 3</p>
+                                            <div style={{ fontSize: '32px', letterSpacing: '4px' }}>
+                                                <span>🚗 🚗</span> <span style={{ textDecoration: 'line-through', textDecorationColor: '#3B82F6', textDecorationThickness: '3px' }}>🚗</span>
+                                            </div>
+                                            <p style={{ fontSize: '14px', color: '#1E3A8A', margin: '8px 0 0' }}>Take away 1 car. Remaining: 🚗 🚗</p>
+                                        </div>
+                                        <div style={{ fontSize: '18px', fontWeight: 600, color: '#1E3A8A' }}>3 cars − 1 car = 2 cars</div>
+                                    </div>
+                                </div>
+                            </Section>
+
+                            {/* ──────────── PRACTICE ──────────── */}
+                            <Section style={{ background: '#F8FAFC', border: '1px solid #E2E8F0' }}>
+                                <SectionTitle emoji="✏️">Let's Practice Subtraction</SectionTitle>
+                                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '20px' }}>
+                                    <div style={{
+                                        background: '#FFFFFF', borderRadius: '16px', padding: '32px 24px',
+                                        textAlign: 'center', border: '1px solid #E2E8F0',
+                                    }}>
+                                        <div style={{ fontSize: '48px', letterSpacing: '8px', marginBottom: '16px' }}>
+                                            <span>🍎 🍎 🍎</span> <span style={{ textDecoration: 'line-through', textDecorationColor: '#EF4444', textDecorationThickness: '4px' }}>🍎</span>
+                                        </div>
+                                        <p style={{ fontSize: '16px', color: '#475569', marginBottom: '8px' }}>Take away 1 apple.</p>
+                                        <p style={{ fontSize: '20px', fontWeight: 600, color: '#0F172A', marginBottom: '16px' }}>
+                                            How many apples remain?
+                                        </p>
+                                        <div style={{
+                                            display: 'inline-block', background: '#DCFCE7', borderRadius: '12px',
+                                            padding: '14px 28px',
+                                        }}>
+                                            <span style={{ fontSize: '18px', fontWeight: 700, color: '#14532D' }}>
+                                                ✅ Answer: <strong>3</strong> apples
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div style={{
+                                        background: '#FFFFFF', borderRadius: '16px', padding: '32px 24px',
+                                        textAlign: 'center', border: '1px solid #E2E8F0',
+                                    }}>
+                                        <div style={{ fontSize: '48px', letterSpacing: '8px', marginBottom: '16px' }}>
+                                            <span>⭐ ⭐ ⭐</span> <span style={{ textDecoration: 'line-through', textDecorationColor: '#F59E0B', textDecorationThickness: '4px' }}>⭐ ⭐</span>
+                                        </div>
+                                        <p style={{ fontSize: '16px', color: '#475569', marginBottom: '8px' }}>Take away 2 stars.</p>
+                                        <p style={{ fontSize: '20px', fontWeight: 600, color: '#0F172A', marginBottom: '16px' }}>
+                                            How many stars remain?
+                                        </p>
+                                        <div style={{
+                                            display: 'inline-block', background: '#DCFCE7', borderRadius: '12px',
+                                            padding: '14px 28px',
+                                        }}>
+                                            <span style={{ fontSize: '18px', fontWeight: 700, color: '#14532D' }}>
+                                                ✅ Answer: <strong>3</strong> stars
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Section>
+                        </>
+                    )}
+
+                    {chapterId === 'shapes' && (
+                        <>
+                            {/* ──────────── WHAT ARE SHAPES ──────────── */}
+                            <Section>
+                                <SectionTitle emoji="🔵">What Are Shapes?</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.8, margin: '0 0 16px' }}>
+                                    <strong>Shapes</strong> are the forms of objects we see around us.
+                                </p>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.8, margin: '0 0 16px' }}>
+                                    Everything around us has a shape. For example, a ball is round, a book is rectangular, and a slice of pizza can look like a triangle. Learning shapes helps us understand the objects around us.
+                                </p>
+                            </Section>
+
+                            {/* ──────────── COMMON SHAPES ──────────── */}
+                            <Section>
+                                <SectionTitle emoji="✨">Common Shapes</SectionTitle>
+                                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px' }}>
+                                    {/* Circle */}
+                                    <div style={{
+                                        background: '#EFF6FF', borderRadius: '16px', padding: '24px',
+                                        border: '1px solid #BFDBFE', textAlign: 'center'
+                                    }}>
+                                        <div style={{ fontSize: '64px', marginBottom: '16px' }}>🔵</div>
+                                        <h3 style={{ fontSize: '20px', fontWeight: 700, color: '#1E3A8A', margin: '0 0 8px' }}>Circle</h3>
+                                        <p style={{ fontSize: '15px', color: '#1E40AF', margin: 0 }}>Circle looks round like a ball. It has no straight sides.</p>
+                                    </div>
+
+                                    {/* Square */}
+                                    <div style={{
+                                        background: '#FEF2F2', borderRadius: '16px', padding: '24px',
+                                        border: '1px solid #FECACA', textAlign: 'center'
+                                    }}>
+                                        <div style={{ fontSize: '64px', marginBottom: '16px' }}>🟥</div>
+                                        <h3 style={{ fontSize: '20px', fontWeight: 700, color: '#991B1B', margin: '0 0 8px' }}>Square</h3>
+                                        <p style={{ fontSize: '15px', color: '#B91C1C', margin: 0 }}>Square has four equal sides and four corners.</p>
+                                    </div>
+
+                                    {/* Triangle */}
+                                    <div style={{
+                                        background: '#FFFBEB', borderRadius: '16px', padding: '24px',
+                                        border: '1px solid #FDE68A', textAlign: 'center'
+                                    }}>
+                                        <div style={{ fontSize: '64px', marginBottom: '16px' }}>🔺</div>
+                                        <h3 style={{ fontSize: '20px', fontWeight: 700, color: '#92400E', margin: '0 0 8px' }}>Triangle</h3>
+                                        <p style={{ fontSize: '15px', color: '#B45309', margin: 0 }}>Triangle has three sides and three corners.</p>
+                                    </div>
+
+                                    {/* Rectangle */}
+                                    <div style={{
+                                        background: '#F0FDFA', borderRadius: '16px', padding: '24px',
+                                        border: '1px solid #A7F3D0', textAlign: 'center'
+                                    }}>
+                                        <div style={{ fontSize: '64px', marginBottom: '16px' }}>▭</div>
+                                        <h3 style={{ fontSize: '20px', fontWeight: 700, color: '#065F46', margin: '0 0 8px' }}>Rectangle</h3>
+                                        <p style={{ fontSize: '15px', color: '#047857', margin: 0 }}>Rectangle has four sides, with opposite sides being equal.</p>
+                                    </div>
+                                </div>
+                            </Section>
+
+                            {/* ──────────── SHAPES IN REAL LIFE ──────────── */}
+                            <Section>
+                                <SectionTitle emoji="🌍">Shapes in Real Life</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.8, margin: '0 0 20px' }}>
+                                    Many objects around us have these shapes. Let's see some examples!
+                                </p>
+                                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px' }}>
+                                    <div style={{
+                                        display: 'flex', alignItems: 'center', gap: '20px',
+                                        background: '#F8FAFC', borderRadius: '12px', padding: '16px 24px',
+                                        border: '1px solid #E2E8F0'
+                                    }}>
+                                        <div style={{ fontSize: '40px' }}>⚽</div>
+                                        <div style={{ fontSize: '18px', fontWeight: 600, color: '#334155' }}>Ball → Circle</div>
+                                    </div>
+                                    <div style={{
+                                        display: 'flex', alignItems: 'center', gap: '20px',
+                                        background: '#F8FAFC', borderRadius: '12px', padding: '16px 24px',
+                                        border: '1px solid #E2E8F0'
+                                    }}>
+                                        <div style={{ fontSize: '40px' }}>📺</div>
+                                        <div style={{ fontSize: '18px', fontWeight: 600, color: '#334155' }}>TV → Rectangle</div>
+                                    </div>
+                                    <div style={{
+                                        display: 'flex', alignItems: 'center', gap: '20px',
+                                        background: '#F8FAFC', borderRadius: '12px', padding: '16px 24px',
+                                        border: '1px solid #E2E8F0'
+                                    }}>
+                                        <div style={{ fontSize: '40px' }}>🪟</div>
+                                        <div style={{ fontSize: '18px', fontWeight: 600, color: '#334155' }}>Window → Square</div>
+                                    </div>
+                                    <div style={{
+                                        display: 'flex', alignItems: 'center', gap: '20px',
+                                        background: '#F8FAFC', borderRadius: '12px', padding: '16px 24px',
+                                        border: '1px solid #E2E8F0'
+                                    }}>
+                                        <div style={{ fontSize: '40px' }}>🍕</div>
+                                        <div style={{ fontSize: '18px', fontWeight: 600, color: '#334155' }}>Pizza → Triangle</div>
+                                    </div>
+                                </div>
+                            </Section>
+
+                            {/* ──────────── PRACTICE ──────────── */}
+                            <Section style={{ background: '#F8FAFC', border: '1px solid #E2E8F0' }}>
+                                <SectionTitle emoji="✏️">Let's Practice Identifying Shapes</SectionTitle>
+                                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '20px' }}>
+
+                                    <div style={{ background: '#FFFFFF', borderRadius: '16px', padding: '32px 24px', textAlign: 'center', border: '1px solid #E2E8F0' }}>
+                                        <div style={{ fontSize: '64px', marginBottom: '16px' }}>🔵</div>
+                                        <p style={{ fontSize: '18px', fontWeight: 600, color: '#0F172A', marginBottom: '16px' }}>What shape is this?</p>
+                                        <div style={{ display: 'inline-block', background: '#DCFCE7', borderRadius: '12px', padding: '10px 24px' }}>
+                                            <span style={{ fontSize: '16px', fontWeight: 700, color: '#14532D' }}>✅ Answer: <strong>Circle</strong></span>
+                                        </div>
+                                    </div>
+
+                                    <div style={{ background: '#FFFFFF', borderRadius: '16px', padding: '32px 24px', textAlign: 'center', border: '1px solid #E2E8F0' }}>
+                                        <div style={{ fontSize: '64px', marginBottom: '16px' }}>🔺</div>
+                                        <p style={{ fontSize: '18px', fontWeight: 600, color: '#0F172A', marginBottom: '16px' }}>What shape is this?</p>
+                                        <div style={{ display: 'inline-block', background: '#DCFCE7', borderRadius: '12px', padding: '10px 24px' }}>
+                                            <span style={{ fontSize: '16px', fontWeight: 700, color: '#14532D' }}>✅ Answer: <strong>Triangle</strong></span>
+                                        </div>
+                                    </div>
+
+                                    <div style={{ background: '#FFFFFF', borderRadius: '16px', padding: '32px 24px', textAlign: 'center', border: '1px solid #E2E8F0' }}>
+                                        <div style={{ fontSize: '64px', marginBottom: '16px' }}>▭</div>
+                                        <p style={{ fontSize: '18px', fontWeight: 600, color: '#0F172A', marginBottom: '16px' }}>What shape is this?</p>
+                                        <div style={{ display: 'inline-block', background: '#DCFCE7', borderRadius: '12px', padding: '10px 24px' }}>
+                                            <span style={{ fontSize: '16px', fontWeight: 700, color: '#14532D' }}>✅ Answer: <strong>Rectangle</strong></span>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </Section>
                         </>
