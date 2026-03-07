@@ -19,6 +19,8 @@ const mentorMatchSchema = new mongoose.Schema(
       default: "pending",
     },
     matchScore: { type: Number },
+    rating: { type: Number },
+    feedback: { type: String, default: "" },
     createdAt: { type: Date, default: Date.now },
   },
   { timestamps: true }

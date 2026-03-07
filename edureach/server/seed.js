@@ -7,6 +7,7 @@ dns.setServers(["8.8.8.8", "8.8.4.4"]);
 const Course = require("./models/Course");
 const Scholarship = require("./models/Scholarship");
 const User = require("./models/User");
+const Mentor = require("./models/Mentor");
 
 const MONGO_URI = process.env.MONGO_URI;
 
@@ -407,6 +408,75 @@ async function seed() {
     // Insert scholarships
     const insertedScholarships = await Scholarship.insertMany(scholarships);
     console.log(`Seeded ${insertedScholarships.length} scholarships.`);
+
+    // ── Mentor seed data ──────────────────────────────────────
+    const mentorData = [
+      {
+        name: "Arjun Sharma", email: "arjun.mentor@edureach.in", password: "mentor123",
+        language: "hi", state: "Uttar Pradesh",
+        subjects: ["Mathematics", "Physics"], languages: ["hi", "en"],
+        bio: "IIT Bombay graduate with 5 years teaching experience in Maths and Physics. Helped 80+ students crack JEE.",
+        rating: 4.8, totalSessions: 92,
+      },
+      {
+        name: "Priya Nair", email: "priya.mentor@edureach.in", password: "mentor123",
+        language: "ml", state: "Kerala",
+        subjects: ["Science", "Biology", "Chemistry"], languages: ["ml", "en"],
+        bio: "MBBS doctor and passionate educator. Specialises in NEET preparation and life sciences for Classes 10–12.",
+        rating: 4.9, totalSessions: 115,
+      },
+      {
+        name: "Suresh Babu", email: "suresh.mentor@edureach.in", password: "mentor123",
+        language: "ta", state: "Tamil Nadu",
+        subjects: ["Mathematics", "Computer Science"], languages: ["ta", "en"],
+        bio: "Software engineer at a Bangalore startup. Teaches Python, algorithms and Class 11-12 Maths on weekends.",
+        rating: 4.7, totalSessions: 64,
+      },
+      {
+        name: "Meena Reddy", email: "meena.mentor@edureach.in", password: "mentor123",
+        language: "te", state: "Andhra Pradesh",
+        subjects: ["English", "History", "Geography"], languages: ["te", "en", "hi"],
+        bio: "MA English Literature from Hyderabad University. Helps rural students build English fluency and board exam confidence.",
+        rating: 4.6, totalSessions: 78,
+      },
+      {
+        name: "Ravi Kumar", email: "ravi.mentor@edureach.in", password: "mentor123",
+        language: "kn", state: "Karnataka",
+        subjects: ["Mathematics", "Science"], languages: ["kn", "en"],
+        bio: "Class 10 topper turned mentor. Focuses on concept clarity for Classes 6–10 using simple, visual explanations.",
+        rating: 4.5, totalSessions: 43,
+      },
+      {
+        name: "Fatima Sheikh", email: "fatima.mentor@edureach.in", password: "mentor123",
+        language: "hi", state: "Maharashtra",
+        subjects: ["Chemistry", "Biology"], languages: ["hi", "en", "ml"],
+        bio: "PhD scholar in Biochemistry. Passionate about making science accessible to first-generation learners.",
+        rating: 4.9, totalSessions: 57,
+      },
+    ];
+
+    for (const m of mentorData) {
+      let mentorUser = await User.findOne({ email: m.email });
+      if (!mentorUser) {
+        mentorUser = await User.create({
+          name: m.name, email: m.email, password: m.password,
+          role: "mentor", language: m.language, state: m.state,
+        });
+      }
+      const existingProfile = await Mentor.findOne({ user: mentorUser._id });
+      if (!existingProfile) {
+        await Mentor.create({
+          user: mentorUser._id,
+          subjects: m.subjects,
+          languages: m.languages,
+          bio: m.bio,
+          rating: m.rating,
+          totalSessions: m.totalSessions,
+        });
+      }
+    }
+    console.log(`Seeded ${mentorData.length} mentor profiles.`);
+    // ─────────────────────────────────────────────────────────
 
     console.log("\n✅ Seed complete!");
     process.exit(0);

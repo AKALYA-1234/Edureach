@@ -16,8 +16,9 @@ const verifyToken = async (req, res, next) => {
   }
 
   try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
-    const user = await User.findById(decoded.id);
+    const secret = process.env.JWT_SECRET || "edureach_fallback_secret_key_2024";
+    const decoded = jwt.verify(token, secret);
+    const user = await User.findById(decoded.userId || decoded.id);
     if (!user) {
       return res.status(401).json({ success: false, message: "User not found." });
     }

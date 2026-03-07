@@ -11,6 +11,7 @@ const mentorSchema = new mongoose.Schema(
     subjects: [{ type: String }],
     availability: { type: String, default: "" },
     bio: { type: String, default: "" },
+    languages: [{ type: String }],
     rating: { type: Number, default: 0 },
     totalSessions: { type: Number, default: 0 },
   },
