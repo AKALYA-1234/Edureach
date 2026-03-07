@@ -7,3 +7,7 @@ python-dotenv
 numpy
 torch
 openai
+groq
+httpx
+python-multipart
+aiohttp

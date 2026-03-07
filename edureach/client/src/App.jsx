@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/common/Navbar';
-import Footer from './components/common/Footer';
 import ProtectedRoute from './components/common/ProtectedRoute';
 
 // Pages
@@ -29,7 +28,7 @@ const AppLayout = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Navbar />
-      <main className="flex-1">
+      <main className="flex-1 pt-[68px]">
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/login" element={<Login />} />
@@ -140,7 +139,6 @@ const AppLayout = () => {
           />
         </Routes>
       </main>
-      {showFooter && <Footer />}
     </div>
   );
 };
