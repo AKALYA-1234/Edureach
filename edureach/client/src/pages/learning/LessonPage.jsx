@@ -5067,6 +5067,14 @@ const LessonPage = () => {
     // Active section tracking for sidebar
     const [activeSection, setActiveSection] = useState('lesson-content');
 
+    // Reset quiz state whenever the lesson changes
+    useEffect(() => {
+        setAnswers({});
+        setShowResults(false);
+        setSelectedVideo(null);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, [chapterId]);
+
     useEffect(() => {
         const sectionIds = ['lesson-content', 'videos', 'quiz'];
         const observers = [];

@@ -10,16 +10,16 @@ const AI_URL = import.meta.env.VITE_AI_URL || "http://localhost:8000";
 
 const SUPPORTED_LANGUAGES = [
   { code: "en-IN", name: "English",   native: "English",    flag: "" },
-  { code: "hi-IN", name: "Hindi",     native: "हनद",      flag: "" },
-  { code: "ta-IN", name: "Tamil",     native: "தமழ",       flag: "" },
-  { code: "te-IN", name: "Telugu",    native: "తలగ",      flag: "" },
-  { code: "kn-IN", name: "Kannada",   native: "ಕನನಡ",       flag: "" },
-  { code: "ml-IN", name: "Malayalam", native: "മലയള",      flag: "" },
-  { code: "bn-IN", name: "Bengali",   native: "বল",       flag: "" },
-  { code: "mr-IN", name: "Marathi",   native: "मरठ",       flag: "" },
-  { code: "gu-IN", name: "Gujarati",  native: "ગજરત",     flag: "" },
-  { code: "pa-IN", name: "Punjabi",   native: "ਪਜਬ",      flag: "" },
-  { code: "or-IN", name: "Odia",      native: "ଓଡଆ",       flag: "" },
+  { code: "hi-IN", name: "Hindi",     native: "हिंदी",       flag: "" },
+  { code: "ta-IN", name: "Tamil",     native: "தமிழ்",       flag: "" },
+  { code: "te-IN", name: "Telugu",    native: "తెలుగు",      flag: "" },
+  { code: "kn-IN", name: "Kannada",   native: "ಕನ್ನಡ",       flag: "" },
+  { code: "ml-IN", name: "Malayalam", native: "മലയാളം",     flag: "" },
+  { code: "bn-IN", name: "Bengali",   native: "বাংলা",       flag: "" },
+  { code: "mr-IN", name: "Marathi",   native: "मराठी",       flag: "" },
+  { code: "gu-IN", name: "Gujarati",  native: "ગુજરાતી",    flag: "" },
+  { code: "pa-IN", name: "Punjabi",   native: "ਪੰਜਾਬੀ",     flag: "" },
+  { code: "or-IN", name: "Odia",      native: "ଓଡ଼ିଆ",      flag: "" },
 ];
 
 const RS = { IDLE: "idle", RECORDING: "recording", PAUSED: "paused", RECORDED: "recorded", ANALYZING: "analyzing", DONE: "done" };
@@ -91,7 +91,7 @@ function FeedbackContent({ text }) {
 }
 
 export default function SpeechTherapy() {
-  const [language,     setLanguage]     = useState("unknown");
+  const [language,     setLanguage]     = useState(null);
   const [langOpen,     setLangOpen]     = useState(false);
   const [recState,     setRecState]     = useState(RS.IDLE);
   const [timer,        setTimer]        = useState(0);
@@ -104,7 +104,6 @@ export default function SpeechTherapy() {
   const [error,        setError]        = useState("");
   const [isPlaying,    setIsPlaying]    = useState(false);
   const [isPaused,     setIsPaused]     = useState(false);
-  const [detectedLang, setDetectedLang] = useState(null);
 
   const mrRef     = useRef(null);
   const chunksRef = useRef([]);
@@ -170,7 +169,7 @@ export default function SpeechTherapy() {
   const reRecord = useCallback(() => {
     if (audioURL) URL.revokeObjectURL(audioURL);
     setAudioBlob(null); setAudioURL(null); setTranscript(""); setFeedback("");
-    setOverallScore(null); setHasStutter(false); setError(""); setIsPlaying(false); setTimer(0); setIsPaused(false); setDetectedLang(null);
+    setOverallScore(null); setHasStutter(false); setError(""); setIsPlaying(false); setTimer(0); setIsPaused(false);
     setRecState(RS.IDLE);
   }, [audioURL]);
 
@@ -197,7 +196,6 @@ export default function SpeechTherapy() {
       setFeedback(data.feedback || "");
       setOverallScore(data.overall_score ?? null);
       setHasStutter(data.has_stutter ?? false);
-      setDetectedLang(data.language_code || language);
       setRecState(RS.DONE);
     } catch (err) {
       setError(err.response?.data?.detail || err.message || "Analysis failed. Please try again.");
@@ -206,9 +204,6 @@ export default function SpeechTherapy() {
   }, [audioBlob, language]);
 
   const selectedLang = SUPPORTED_LANGUAGES.find((l) => l.code === language);
-  const displayLang = detectedLang
-    ? SUPPORTED_LANGUAGES.find((l) => l.code === detectedLang)
-    : selectedLang;
   const scoreColor = overallScore != null
     ? overallScore >= 7.5 ? "#059669" : overallScore >= 5 ? "#D97706" : "#DC2626"
     : "#0F172A";
@@ -266,19 +261,13 @@ export default function SpeechTherapy() {
                 style={{ display: "flex", alignItems: "center", gap: "7px", padding: "7px 12px", border: "1px solid #E2E8F0", borderRadius: "12px", background: "#F8FAFC", fontSize: "13px", fontWeight: 600, color: "#334155", cursor: "pointer" }}
               >
                 <Globe size={13} color="#2563EB" />
-                {language === "unknown" ? "Auto Detect" : `${selectedLang?.flag} ${selectedLang?.name}`}
+                {language === null ? "Select Language" : selectedLang?.name}
                 <ChevronDown size={12} color="#94A3B8" style={{ transform: langOpen ? "rotate(180deg)" : "none", transition: "transform 0.2s" }} />
               </button>
               {langOpen && (
                 <div style={{ position: "absolute", right: 0, top: "calc(100% + 8px)", background: "#fff", border: "1px solid #E2E8F0", borderRadius: "16px", boxShadow: "0 16px 48px rgba(0,0,0,0.12)", zIndex: 50, width: "220px", padding: "8px", maxHeight: "260px", overflowY: "auto" }}>
-                  <button
-                    onClick={() => { setLanguage("unknown"); setLangOpen(false); }}
-                    style={{ display: "flex", alignItems: "center", gap: "8px", width: "100%", padding: "9px 12px", borderRadius: "10px", border: "none", background: language === "unknown" ? "#EFF6FF" : "transparent", color: language === "unknown" ? "#2563EB" : "#334155", fontWeight: language === "unknown" ? 700 : 500, fontSize: "13px", cursor: "pointer" }}
-                  >
-                    <Globe size={14} color="#2563EB" /> Auto Detect
-                  </button>
-                  <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4px", marginTop: "4px" }}>
-                    {SUPPORTED_LANGUAGES.filter((l) => l.code !== "en-IN").map((lang) => (
+                  <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4px" }}>
+                    {SUPPORTED_LANGUAGES.map((lang) => (
                       <button
                         key={lang.code}
                         onClick={() => { setLanguage(lang.code); setLangOpen(false); }}
@@ -303,12 +292,13 @@ export default function SpeechTherapy() {
                 <div style={{ position: "relative" }}>
                   <div style={{ position: "absolute", inset: "-12px", borderRadius: "50%", background: "#DBEAFE", opacity: 0.5, animation: "idlePing 2s ease-in-out infinite" }} />
                   <button
-                    onClick={startRecording}
-                    style={{ position: "relative", width: "128px", height: "128px", borderRadius: "50%", background: "linear-gradient(135deg,#3B82F6,#4F46E5)", border: "none", boxShadow: "0 20px 60px rgba(79,70,229,0.35)", display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", transition: "transform 0.15s" }}
-                    onMouseEnter={e => e.currentTarget.style.transform = "scale(1.06)"}
+                    onClick={language ? startRecording : undefined}
+                    disabled={!language}
+                    style={{ position: "relative", width: "128px", height: "128px", borderRadius: "50%", background: language ? "linear-gradient(135deg,#3B82F6,#4F46E5)" : "linear-gradient(135deg,#CBD5E1,#94A3B8)", border: "none", boxShadow: language ? "0 20px 60px rgba(79,70,229,0.35)" : "none", display: "flex", alignItems: "center", justifyContent: "center", cursor: language ? "pointer" : "not-allowed", transition: "transform 0.15s, background 0.3s" }}
+                    onMouseEnter={e => { if (language) e.currentTarget.style.transform = "scale(1.06)"; }}
                     onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
-                    onMouseDown={e => e.currentTarget.style.transform = "scale(0.96)"}
-                    onMouseUp={e => e.currentTarget.style.transform = "scale(1.06)"}
+                    onMouseDown={e => { if (language) e.currentTarget.style.transform = "scale(0.96)"; }}
+                    onMouseUp={e => { if (language) e.currentTarget.style.transform = "scale(1.06)"; }}
                   >
                     <Mic size={48} color="white" />
                   </button>
@@ -316,7 +306,10 @@ export default function SpeechTherapy() {
                 </div>
                 <div>
                   <p style={{ fontSize: "20px", fontWeight: 800, color: "#0F172A", margin: 0 }}>Tap to Record</p>
-                  <p style={{ fontSize: "13px", color: "#94A3B8", marginTop: "4px" }}>Speak clearly in your chosen language</p>
+                  {language
+                    ? <p style={{ fontSize: "13px", color: "#94A3B8", marginTop: "4px" }}>Speak clearly in {selectedLang?.name}</p>
+                    : <p style={{ fontSize: "13px", color: "#DC2626", marginTop: "4px", fontWeight: 600 }}>Please select a language above before recording</p>
+                  }
                 </div>
                 <div style={{ width: "100%", background: "#EFF6FF", border: "1px solid #DBEAFE", borderRadius: "16px", padding: "18px 20px", textAlign: "left" }}>
                   <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "12px" }}>
@@ -485,8 +478,7 @@ export default function SpeechTherapy() {
                       <span style={{ fontSize: "13px", fontWeight: 700, color: "#0F172A" }}>What AI Heard</span>
                     </div>
                     <span style={{ fontSize: "10px", fontWeight: 700, background: "#DBEAFE", color: "#2563EB", padding: "3px 10px", borderRadius: "999px", textTransform: "uppercase", letterSpacing: "0.5px" }}>
-                      {displayLang?.name ?? "Detected"}
-                      {language === "unknown" && detectedLang && " ✓"}
+                      {selectedLang?.name}
                     </span>
                   </div>
                   <p style={{ fontSize: "13px", color: "#334155", lineHeight: "1.7", whiteSpace: "pre-wrap", margin: 0 }}>{transcript}</p>
