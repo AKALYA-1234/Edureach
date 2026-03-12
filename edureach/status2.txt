@@ -1,0 +1,25 @@
+﻿interactive rebase in progress; onto 695a815
+Last command done (1 command done):
+   pick 7b393ee # feat: complete Class 1 Maths lessons (Addition, Subtraction, Shapes) and integrate Groq AI service
+No commands remaining.
+You are currently rebasing branch 'main' on '695a815'.
+  (fix conflicts and then run "git rebase --continue")
+  (use "git rebase --skip" to skip this patch)
+  (use "git rebase --abort" to check out the original branch)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   ai-service/.env
+	modified:   client/src/pages/learning/LessonPage.jsx
+
+Unmerged paths:
+  (use "git restore --staged <file>..." to unstage)
+  (use "git add <file>..." to mark resolution)
+	both modified:   ai-service/main.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	diff.txt
+	status.txt
+	status2.txt
+

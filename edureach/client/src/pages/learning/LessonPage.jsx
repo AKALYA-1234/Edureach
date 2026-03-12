@@ -5051,6 +5051,599 @@ const lessonData = {
         ],
         summaryEnd: 'Great job! You are learning how to protect our planet!',
         nextLesson: null
+    },
+
+    // ============================================================
+    //                 CLASS 4 – SOCIAL STUDIES
+    // ============================================================
+
+    // CLASS 4 – SOCIAL STUDIES – EARLY HUMAN LIFE
+    '4-early-human-life': {
+        title: 'Early Human Life',
+        subtitle: 'Learn about how early humans lived, hunted, and discovered fire and tools.',
+        pdfUrl: '',
+        videos: [
+            { src: 'https://www.youtube.com/embed/BkVbjs4omjc?si=GmbeO-ZQ1cVdGaWn', title: 'Early Humans', thumb: 'https://img.youtube.com/vi/BkVbjs4omjc/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/wXbLdYEmkhI?si=9TXJHXw_ve6T0lPH', title: 'Stone Age Life', thumb: 'https://img.youtube.com/vi/wXbLdYEmkhI/hqdefault.jpg' }
+        ],
+        videoSubtitle: 'Watch these fun videos to learn about early humans and how they lived!',
+        quiz: [
+            {
+                question: 'Early humans lived in:',
+                options: ['Caves', 'Apartments', 'Buildings'],
+                correct: 0
+            },
+            {
+                question: 'Early humans got food by:',
+                options: ['Hunting and gathering', 'Shopping', 'Cooking only'],
+                correct: 0
+            },
+            {
+                question: 'Which discovery helped early humans cook food?',
+                options: ['Fire', 'Stone', 'Water'],
+                correct: 0
+            },
+            {
+                question: 'Early humans made tools from:',
+                options: ['Stone', 'Plastic', 'Glass'],
+                correct: 0
+            },
+            {
+                question: 'Early humans lived in groups called:',
+                options: ['Tribes', 'Cities', 'Countries'],
+                correct: 0
+            },
+            {
+                question: 'Fire helped early humans:',
+                options: ['Stay warm', 'Fly', 'Drive'],
+                correct: 0
+            },
+            {
+                question: 'Early humans used tools to:',
+                options: ['Hunt animals', 'Drive cars', 'Use computers'],
+                correct: 0
+            },
+            {
+                question: 'Early humans moved from place to place to:',
+                options: ['Find food', 'Watch movies', 'Buy clothes'],
+                correct: 0
+            },
+            {
+                question: 'Stone Age tools were made from:',
+                options: ['Stone and bone', 'Plastic', 'Steel'],
+                correct: 0
+            },
+            {
+                question: 'Early human discoveries helped:',
+                options: ['Human development', 'Destroy nature', 'Stop learning'],
+                correct: 0
+            }
+        ],
+        summary: [
+            'Early humans were the first people on Earth',
+            'They lived in caves and forests',
+            'They hunted animals and gathered food',
+            'Fire helped them cook and stay safe',
+            'Tools made their work easier'
+        ],
+        summaryEnd: 'Great job! You are learning about early human history!',
+        nextLesson: { id: 'maps-and-directions', title: 'Maps and Directions' }
+    },
+
+    // CLASS 4 – SOCIAL STUDIES – MAPS AND DIRECTIONS
+    '4-maps-and-directions': {
+        title: 'Maps and Directions',
+        subtitle: 'Understand how to read maps, use directions, and find locations.',
+        pdfUrl: '',
+        videos: [
+            { src: 'https://www.youtube.com/embed/mtsx8V3mE8o?si=PENA33REARmdUuXf', title: 'What is a Map', thumb: 'https://img.youtube.com/vi/mtsx8V3mE8o/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/GOAOomb9ieA?si=rIRyVPPNWq2FSitA', title: 'Cardinal Directions', thumb: 'https://img.youtube.com/vi/GOAOomb9ieA/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/HnlJzWhsNnw?si=ZJpEs-aedi6WDlCh', title: 'How to Read Maps', thumb: 'https://img.youtube.com/vi/HnlJzWhsNnw/hqdefault.jpg' }
+        ],
+        videoSubtitle: 'Watch these fun videos to learn about maps and directions!',
+        quiz: [
+            {
+                question: 'A map shows:',
+                options: ['Location of places', 'Only animals', 'Only numbers'],
+                correct: 0
+            },
+            {
+                question: 'Which map shows mountains and rivers?',
+                options: ['Physical map', 'Political map', 'Road map'],
+                correct: 0
+            },
+            {
+                question: 'Which map shows countries and states?',
+                options: ['Political map', 'Physical map', 'Weather map'],
+                correct: 0
+            },
+            {
+                question: 'How many main directions are there?',
+                options: ['4', '2', '6'],
+                correct: 0
+            },
+            {
+                question: 'The direction of the rising sun is:',
+                options: ['East', 'West', 'North'],
+                correct: 0
+            },
+            {
+                question: 'The compass needle points toward:',
+                options: ['North', 'South', 'East'],
+                correct: 0
+            },
+            {
+                question: 'Symbols on a map represent:',
+                options: ['Real places', 'Stories', 'Games'],
+                correct: 0
+            },
+            {
+                question: 'Blue lines on maps usually represent:',
+                options: ['Rivers', 'Mountains', 'Roads'],
+                correct: 0
+            },
+            {
+                question: 'A map legend explains:',
+                options: ['Map symbols', 'Stories', 'Weather'],
+                correct: 0
+            },
+            {
+                question: 'Maps help people:',
+                options: ['Find locations', 'Sleep better', 'Cook food'],
+                correct: 0
+            }
+        ],
+        summary: [
+            'A map shows the location of places',
+            'There are different types of maps',
+            'Directions help us find locations',
+            'The main directions are North, South, East, and West',
+            'Map symbols represent real places'
+        ],
+        summaryEnd: 'Great job! You are learning how to read maps and directions!',
+        nextLesson: { id: 'physical-features-of-earth', title: 'Physical Features of the Earth' }
+    },
+
+    // CLASS 4 – SOCIAL STUDIES – PHYSICAL FEATURES OF THE EARTH
+    '4-physical-features-of-earth': {
+        title: 'Physical Features of the Earth',
+        subtitle: 'Explore mountains, rivers, plains, deserts, and other landforms.',
+        pdfUrl: '',
+        videos: [
+            { src: 'https://www.youtube.com/embed/wQnCyCAF_BY?si=Xv8C-BwkCq0xrooY', title: 'Landforms of Earth', thumb: 'https://img.youtube.com/vi/wQnCyCAF_BY/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/SPtexljvx7A?si=z3pWNd0lm6d6YLjU', title: 'Mountains Plains Plateaus', thumb: 'https://img.youtube.com/vi/SPtexljvx7A/hqdefault.jpg' }
+        ],
+        videoSubtitle: 'Watch these fun videos to learn about landforms of the Earth!',
+        quiz: [
+            {
+                question: 'Landforms are:',
+                options: ['Natural features of Earth', 'Buildings', 'Roads'],
+                correct: 0
+            },
+            {
+                question: 'Which is a very high landform?',
+                options: ['Mountain', 'River', 'Plain'],
+                correct: 0
+            },
+            {
+                question: 'Which landform is flat and good for farming?',
+                options: ['Plain', 'Mountain', 'Desert'],
+                correct: 0
+            },
+            {
+                question: 'Which landform is called tableland?',
+                options: ['Plateau', 'Mountain', 'River'],
+                correct: 0
+            },
+            {
+                question: 'Which landform has very little rainfall?',
+                options: ['Desert', 'Plain', 'River'],
+                correct: 0
+            },
+            {
+                question: 'Which river flows in India?',
+                options: ['Ganga', 'Amazon', 'Nile'],
+                correct: 0
+            },
+            {
+                question: 'Mount Everest is a:',
+                options: ['Mountain', 'Plain', 'Plateau'],
+                correct: 0
+            },
+            {
+                question: 'Plateaus are rich in:',
+                options: ['Minerals', 'Water only', 'Snow'],
+                correct: 0
+            },
+            {
+                question: 'Rivers are important because they provide:',
+                options: ['Water', 'Gold', 'Plastic'],
+                correct: 0
+            },
+            {
+                question: 'Which landform is very dry?',
+                options: ['Desert', 'River', 'Forest'],
+                correct: 0
+            }
+        ],
+        summary: [
+            'Landforms are natural features of the Earth',
+            'Mountains are high landforms',
+            'Plains are flat and fertile lands',
+            'Plateaus are raised flat lands',
+            'Deserts are dry areas with little rainfall',
+            'Rivers provide water and support life'
+        ],
+        summaryEnd: 'Great job! You are learning about the physical features of the Earth!',
+        nextLesson: { id: 'our-country-india', title: 'Our Country India' }
+    },
+
+    // CLASS 4 – SOCIAL STUDIES – OUR COUNTRY INDIA
+    '4-our-country-india': {
+        title: 'Our Country India',
+        subtitle: 'Learn about India\'s states, capitals, national symbols, and heritage.',
+        pdfUrl: '',
+        videos: [
+            { src: 'https://www.youtube.com/embed/huTb3m83Dwg?si=J_6KSfZOX5b1GBzX', title: 'India Geography', thumb: 'https://img.youtube.com/vi/huTb3m83Dwg/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/t-R6pAHgP5k?si=PD0HJb-V5IXlvaf7', title: 'National Symbols', thumb: 'https://img.youtube.com/vi/t-R6pAHgP5k/hqdefault.jpg' }
+        ],
+        videoSubtitle: 'Watch these fun videos to learn about our beautiful country India!',
+        quiz: [
+            {
+                question: 'India is located in:',
+                options: ['South Asia', 'Europe', 'Africa'],
+                correct: 0
+            },
+            {
+                question: 'The capital of India is:',
+                options: ['New Delhi', 'Mumbai', 'Chennai'],
+                correct: 0
+            },
+            {
+                question: 'The national animal of India is:',
+                options: ['Tiger', 'Lion', 'Elephant'],
+                correct: 0
+            },
+            {
+                question: 'The national bird of India is:',
+                options: ['Peacock', 'Sparrow', 'Eagle'],
+                correct: 0
+            },
+            {
+                question: 'The national flower of India is:',
+                options: ['Lotus', 'Rose', 'Sunflower'],
+                correct: 0
+            },
+            {
+                question: 'Which festival is celebrated in India?',
+                options: ['Diwali', 'Halloween', 'Thanksgiving'],
+                correct: 0
+            },
+            {
+                question: 'The Taj Mahal is a famous:',
+                options: ['Monument', 'River', 'Mountain'],
+                correct: 0
+            },
+            {
+                question: 'India is known for:',
+                options: ['Unity in diversity', 'Only one culture', 'One language'],
+                correct: 0
+            },
+            {
+                question: 'Tamil Nadu\'s capital is:',
+                options: ['Chennai', 'Madurai', 'Coimbatore'],
+                correct: 0
+            },
+            {
+                question: 'India has many:',
+                options: ['Languages and cultures', 'Only one language', 'No culture'],
+                correct: 0
+            }
+        ],
+        summary: [
+            'India is a large and diverse country',
+            'India has many states and capitals',
+            'National symbols represent the country',
+            'India celebrates many festivals',
+            'India has rich history and heritage'
+        ],
+        summaryEnd: 'Great job! You are learning about our beautiful country India!',
+        nextLesson: { id: 'cities-towns-villages', title: 'Cities, Towns, and Villages' }
+    },
+
+    // CLASS 4 – SOCIAL STUDIES – CITIES, TOWNS, AND VILLAGES
+    '4-cities-towns-villages': {
+        title: 'Cities, Towns, and Villages',
+        subtitle: 'Understand the differences between urban and rural areas.',
+        pdfUrl: '',
+        videos: [
+            { src: 'https://www.youtube.com/embed/JAlPmtJm6eA?si=35h8jI7kO-B9Aa_l', title: 'Life in Villages', thumb: 'https://img.youtube.com/vi/JAlPmtJm6eA/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/T7H6t6NJVUc?si=6RvLIgbXcT8w8qav', title: 'Life in Towns', thumb: 'https://img.youtube.com/vi/T7H6t6NJVUc/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/NR7z9FbUf5k?si=hyiWJL7Zud6o7Oej', title: 'Life in Cities', thumb: 'https://img.youtube.com/vi/NR7z9FbUf5k/hqdefault.jpg' }
+        ],
+        videoSubtitle: 'Watch these fun videos to learn about villages, towns, and cities!',
+        quiz: [
+            {
+                question: 'Places where people live are called:',
+                options: ['Settlements', 'Rivers', 'Mountains'],
+                correct: 0
+            },
+            {
+                question: 'Villages are usually found in:',
+                options: ['Rural areas', 'Cities', 'Oceans'],
+                correct: 0
+            },
+            {
+                question: 'People in villages mainly work in:',
+                options: ['Farming', 'Air travel', 'Software'],
+                correct: 0
+            },
+            {
+                question: 'Towns are:',
+                options: ['Between villages and cities', 'Smaller than villages', 'Larger than countries'],
+                correct: 0
+            },
+            {
+                question: 'Cities usually have:',
+                options: ['Large population', 'Small population', 'No buildings'],
+                correct: 0
+            },
+            {
+                question: 'Urban areas include:',
+                options: ['Cities and towns', 'Villages only', 'Farms only'],
+                correct: 0
+            },
+            {
+                question: 'Rural areas mostly include:',
+                options: ['Villages', 'Airports', 'Factories'],
+                correct: 0
+            },
+            {
+                question: 'Cities have many:',
+                options: ['Industries and offices', 'Only farms', 'Only forests'],
+                correct: 0
+            },
+            {
+                question: 'Towns usually have:',
+                options: ['Markets and schools', 'Only farms', 'Only forests'],
+                correct: 0
+            },
+            {
+                question: 'Villages help provide:',
+                options: ['Food through farming', 'Cars', 'Airplanes'],
+                correct: 0
+            }
+        ],
+        summary: [
+            'Settlements are places where people live',
+            'Villages are small rural settlements',
+            'Towns are medium-sized settlements',
+            'Cities are large urban areas',
+            'Rural and urban areas have different lifestyles'
+        ],
+        summaryEnd: 'Great job! You are learning about cities, towns, and villages!',
+        nextLesson: { id: 'community-and-occupations', title: 'Community and Occupations' }
+    },
+
+    // CLASS 4 – SOCIAL STUDIES – COMMUNITY AND OCCUPATIONS
+    '4-community-and-occupations': {
+        title: 'Community and Occupations',
+        subtitle: 'Learn about different jobs, workers, and how communities function.',
+        pdfUrl: '',
+        videos: [
+            { src: 'https://www.youtube.com/embed/04lO0ISBT40?si=8EmUlqqgqUedf02V', title: 'Community Workers', thumb: 'https://img.youtube.com/vi/04lO0ISBT40/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/jt2q1cHsH6E?si=GKZwyDL2W-0Q-vAX', title: 'Different Occupations', thumb: 'https://img.youtube.com/vi/jt2q1cHsH6E/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/lGC0zxgRNJQ?si=D4EOoUuliUqLGVdU', title: 'Importance of Jobs', thumb: 'https://img.youtube.com/vi/lGC0zxgRNJQ/hqdefault.jpg' }
+        ],
+        videoSubtitle: 'Watch these fun videos to learn about communities and occupations!',
+        quiz: [
+            {
+                question: 'A community is:',
+                options: ['Group of people living together', 'Only animals', 'Only buildings'],
+                correct: 0
+            },
+            {
+                question: 'An occupation means:',
+                options: ['A job', 'A house', 'A city'],
+                correct: 0
+            },
+            {
+                question: 'Which occupation helps teach students?',
+                options: ['Teacher', 'Farmer', 'Driver'],
+                correct: 0
+            },
+            {
+                question: 'Which worker helps sick people?',
+                options: ['Doctor', 'Engineer', 'Driver'],
+                correct: 0
+            },
+            {
+                question: 'Which worker protects people and maintains law?',
+                options: ['Police officer', 'Farmer', 'Shopkeeper'],
+                correct: 0
+            },
+            {
+                question: 'Farmers mainly work in:',
+                options: ['Villages', 'Cities', 'Airports'],
+                correct: 0
+            },
+            {
+                question: 'Which worker builds houses?',
+                options: ['Construction worker', 'Teacher', 'Doctor'],
+                correct: 0
+            },
+            {
+                question: 'Sanitation workers help keep cities:',
+                options: ['Clean', 'Dark', 'Empty'],
+                correct: 0
+            },
+            {
+                question: 'Different jobs help communities:',
+                options: ['Function properly', 'Stop working', 'Become empty'],
+                correct: 0
+            },
+            {
+                question: 'Every occupation deserves:',
+                options: ['Respect', 'Disrespect', 'Ignore'],
+                correct: 0
+            }
+        ],
+        summary: [
+            'A community is a group of people living together',
+            'Occupations are jobs people do',
+            'Different workers help communities function',
+            'Rural and urban areas have different occupations',
+            'Every job deserves respect'
+        ],
+        summaryEnd: 'Great job! You are learning about communities and occupations!',
+		nextLesson: { id: 'local-government', title: 'Local Government' }
+    },
+
+    // CLASS 4 – SOCIAL STUDIES – LOCAL GOVERNMENT
+    '4-local-government': {
+        title: 'Local Government',
+        subtitle: 'Discover how local governments work and serve the community.',
+        pdfUrl: '',
+        videos: [
+            { src: 'https://www.youtube.com/embed/FVQhFIF2-tI?si=hULVOa7Ry8tzhEdG', title: 'Village Panchayat', thumb: 'https://img.youtube.com/vi/FVQhFIF2-tI/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/ydjV_EFqYQU?si=newQoCZQ9W7iq7mv', title: 'Municipal Government', thumb: 'https://img.youtube.com/vi/ydjV_EFqYQU/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/xGXAUKH0ay8?si=Qa8WtuxK2omaIQrE', title: 'Local Government Services', thumb: 'https://img.youtube.com/vi/xGXAUKH0ay8/hqdefault.jpg' }
+        ],
+        videoSubtitle: 'Watch these videos to learn about local government, panchayats, and municipal services!',
+        quiz: [
+            {
+                question: 'Local government manages:',
+                options: ['Local areas', 'Whole world', 'Only schools'],
+                correct: 0
+            },
+            {
+                question: 'Village local government is called:',
+                options: ['Panchayat', 'Parliament', 'Court'],
+                correct: 0
+            },
+            {
+                question: 'The leader of a village Panchayat is called:',
+                options: ['Sarpanch', 'President', 'Mayor'],
+                correct: 0
+            },
+            {
+                question: 'Municipalities manage:',
+                options: ['Towns', 'Oceans', 'Mountains'],
+                correct: 0
+            },
+            {
+                question: 'Municipal corporations manage:',
+                options: ['Cities', 'Villages', 'Forests'],
+                correct: 0
+            },
+            {
+                question: 'Local government helps maintain:',
+                options: ['Roads', 'Planets', 'Stars'],
+                correct: 0
+            },
+            {
+                question: 'Which service is provided by local government?',
+                options: ['Garbage collection', 'Flying airplanes', 'Space travel'],
+                correct: 0
+            },
+            {
+                question: 'Local government provides:',
+                options: ['Water supply', 'Mountains', 'Clouds'],
+                correct: 0
+            },
+            {
+                question: 'Citizens can help local government by:',
+                options: ['Keeping surroundings clean', 'Breaking rules', 'Ignoring laws'],
+                correct: 0
+            },
+            {
+                question: 'Local government helps:',
+                options: ['Develop communities', 'Stop development', 'Destroy towns'],
+                correct: 0
+            }
+        ],
+        summary: [
+            'Local government manages villages, towns, and cities',
+            'Panchayats manage villages',
+            'Municipalities and corporations manage towns and cities',
+            'Local governments provide important public services',
+            'Citizens help local governments improve communities'
+        ],
+        summaryEnd: 'Great job! You are learning how local government helps our communities!',
+		nextLesson: { id: 'culture-and-festivals', title: 'Culture and Festivals' }
+    },
+
+    // CLASS 4 – SOCIAL STUDIES – CULTURE AND FESTIVALS
+    '4-culture-and-festivals': {
+        title: 'Culture and Festivals',
+        subtitle: 'Explore the diverse cultures, traditions, and festivals of India.',
+        pdfUrl: '',
+        videos: [
+            { src: 'https://www.youtube.com/embed/49hFcIRXYx0?si=eg3RdH459e_KIMRP', title: 'Indian Culture', thumb: 'https://img.youtube.com/vi/49hFcIRXYx0/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/1z7Xz8dnCq4?si=vBvco1Z705cweY50', title: 'Festivals of India', thumb: 'https://img.youtube.com/vi/1z7Xz8dnCq4/hqdefault.jpg' }
+        ],
+        videoSubtitle: 'Watch these videos to learn about Indian culture, traditions, and festivals!',
+        quiz: [
+            {
+                question: 'Culture includes:',
+                options: ['Language, food, and traditions', 'Only buildings', 'Only clothes'],
+                correct: 0
+            },
+            {
+                question: 'India is famous for:',
+                options: ['Unity in diversity', 'Only one culture', 'One language only'],
+                correct: 0
+            },
+            {
+                question: 'Diwali is known as the festival of:',
+                options: ['Lights', 'Water', 'Music'],
+                correct: 0
+            },
+            {
+                question: 'Holi is the festival of:',
+                options: ['Colors', 'Lights', 'Flowers'],
+                correct: 0
+            },
+            {
+                question: 'Pongal is a:',
+                options: ['Harvest festival', 'Winter festival', 'Water festival'],
+                correct: 0
+            },
+            {
+                question: 'Christmas is celebrated by:',
+                options: ['Christians', 'Hindus', 'Buddhists'],
+                correct: 0
+            },
+            {
+                question: 'Traditions are customs followed for:',
+                options: ['Many years', 'One day', 'One hour'],
+                correct: 0
+            },
+            {
+                question: 'Festivals help people:',
+                options: ['Celebrate together', 'Fight', 'Stay alone'],
+                correct: 0
+            },
+            {
+                question: 'Respecting different cultures helps create:',
+                options: ['Harmony', 'Conflict', 'Silence'],
+                correct: 0
+            },
+            {
+                question: 'India has many:',
+                options: ['Languages and traditions', 'Only one language', 'No traditions'],
+                correct: 0
+            }
+        ],
+        summary: [
+            'Culture includes language, food, traditions, and customs',
+            'India is known for unity in diversity',
+            'Festivals are important celebrations',
+            'Traditions connect people to their culture',
+            'Respecting different cultures promotes harmony'
+        ],
+        summaryEnd: "Great job! You are learning about India's culture and festivals!",
+        nextLesson: null
     }
 };
 
@@ -21588,6 +22181,1319 @@ const LessonPage = () => {
                             <div style={{ background: 'linear-gradient(135deg, #4CAF50 0%, #388E3C 100%)', borderRadius: '16px', padding: '20px', textAlign: 'center', marginTop: '20px' }}>
                                 <p style={{ fontSize: '17px', color: '#FFFFFF', fontWeight: 600, margin: 0 }}>
                                     🌍 Together, we can protect our planet for future generations!
+                                </p>
+                            </div>
+                        </Section>
+                    </>
+                )}
+
+                {/* ─────────────────────────────────────────────────────────────────────────
+                    CLASS 4 – SOCIAL STUDIES – EARLY HUMAN LIFE
+                ─────────────────────────────────────────────────────────────────────────── */}
+                {classId === '4' && chapterId === 'early-human-life' && (
+                    <>
+                        {/* Section 1: Who Were Early Humans? */}
+                        <Section>
+                            <SectionTitle emoji="🦴">Who Were Early Humans?</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                <strong>Early humans</strong> were the first people who lived on Earth thousands of years ago. They did not have houses, machines, or modern tools like we have today.
+                            </p>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8, marginTop: '12px' }}>
+                                Early humans lived in:
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '14px', marginTop: '16px' }}>
+                                <div style={{ background: 'linear-gradient(135deg, #D7CCC8 0%, #BCAAA4 100%)', borderRadius: '14px', padding: '18px', border: '2px solid #A1887F', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '36px', marginBottom: '8px' }}>🏔️</div>
+                                    <p style={{ fontSize: '14px', color: '#5D4037', fontWeight: 600, margin: 0 }}>Caves</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #C8E6C9 0%, #A5D6A7 100%)', borderRadius: '14px', padding: '18px', border: '2px solid #66BB6A', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '36px', marginBottom: '8px' }}>🌲</div>
+                                    <p style={{ fontSize: '14px', color: '#2E7D32', fontWeight: 600, margin: 0 }}>Forests</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #B3E5FC 0%, #81D4FA 100%)', borderRadius: '14px', padding: '18px', border: '2px solid #4FC3F7', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '36px', marginBottom: '8px' }}>🏞️</div>
+                                    <p style={{ fontSize: '14px', color: '#01579B', fontWeight: 600, margin: 0 }}>Near Rivers</p>
+                                </div>
+                            </div>
+                            <div style={{ background: '#FFF8E1', borderRadius: '12px', padding: '16px', marginTop: '16px', border: '1px solid #FFE082' }}>
+                                <p style={{ fontSize: '15px', color: '#F57F17', margin: 0 }}>
+                                    🌍 <strong>Did you know?</strong> Early humans moved from place to place to find food and water. They depended on nature to survive!
+                                </p>
+                            </div>
+                        </Section>
+
+                        {/* Section 2: How Early Humans Got Food */}
+                        <Section>
+                            <SectionTitle emoji="🍖">How Early Humans Got Food</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                Early humans did not grow crops. They survived by <strong>hunting and gathering</strong> food from nature.
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '16px', marginTop: '20px' }}>
+                                <div style={{ background: 'linear-gradient(135deg, #FFCCBC 0%, #FFAB91 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #FF8A65', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🏹</div>
+                                    <p style={{ fontSize: '15px', color: '#BF360C', fontWeight: 700, margin: 0 }}>Hunting Animals</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #B3E5FC 0%, #81D4FA 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #4FC3F7', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🎣</div>
+                                    <p style={{ fontSize: '15px', color: '#01579B', fontWeight: 700, margin: 0 }}>Fishing</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #FFECB3 0%, #FFE082 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #FFD54F', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🍎</div>
+                                    <p style={{ fontSize: '15px', color: '#F57F17', fontWeight: 700, margin: 0 }}>Collecting Fruits</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #C8E6C9 0%, #A5D6A7 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #66BB6A', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🥜</div>
+                                    <p style={{ fontSize: '15px', color: '#2E7D32', fontWeight: 700, margin: 0 }}>Gathering Nuts</p>
+                                </div>
+                            </div>
+                            <div style={{ background: 'linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%)', borderRadius: '16px', padding: '20px', marginTop: '20px', border: '2px solid #81C784' }}>
+                                <p style={{ fontSize: '15px', color: '#2E7D32', margin: 0 }}>
+                                    🪨 <strong>Tools:</strong> Early humans used simple tools made from stone and wood to hunt animals.
+                                </p>
+                            </div>
+                        </Section>
+
+                        {/* Section 3: Discovery of Fire */}
+                        <Section>
+                            <SectionTitle emoji="🔥">Discovery of Fire</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                One of the most important discoveries made by early humans was <strong>fire</strong>. This discovery changed the way humans lived!
+                            </p>
+                            <div style={{ background: 'linear-gradient(135deg, #FFECB3 0%, #FFE082 100%)', borderRadius: '16px', padding: '24px', marginTop: '20px', border: '2px solid #FFD54F' }}>
+                                <h4 style={{ fontSize: '16px', color: '#E65100', fontWeight: 700, margin: '0 0 16px 0' }}>🔥 Fire Helped Early Humans:</h4>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '14px', border: '1px solid #FFCC80', display: 'flex', alignItems: 'center', gap: '14px' }}>
+                                        <span style={{ fontSize: '28px' }}>🍳</span>
+                                        <p style={{ fontSize: '15px', color: '#E65100', margin: 0 }}><strong>Cook food</strong> to make it safer to eat</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '14px', border: '1px solid #FFCC80', display: 'flex', alignItems: 'center', gap: '14px' }}>
+                                        <span style={{ fontSize: '28px' }}>🧥</span>
+                                        <p style={{ fontSize: '15px', color: '#E65100', margin: 0 }}><strong>Stay warm</strong> during cold nights</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '14px', border: '1px solid #FFCC80', display: 'flex', alignItems: 'center', gap: '14px' }}>
+                                        <span style={{ fontSize: '28px' }}>🦁</span>
+                                        <p style={{ fontSize: '15px', color: '#E65100', margin: 0 }}><strong>Protect themselves</strong> from wild animals</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '14px', border: '1px solid #FFCC80', display: 'flex', alignItems: 'center', gap: '14px' }}>
+                                        <span style={{ fontSize: '28px' }}>🌙</span>
+                                        <p style={{ fontSize: '15px', color: '#E65100', margin: 0 }}><strong>See at night</strong> with light from fire</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </Section>
+
+                        {/* Section 4: Tools Used by Early Humans */}
+                        <Section>
+                            <SectionTitle emoji="🪓">Tools Used by Early Humans</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                Early humans made tools from <strong>stones, bones, and wood</strong>. These tools helped them survive.
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '16px', marginTop: '20px' }}>
+                                <div style={{ background: 'linear-gradient(135deg, #CFD8DC 0%, #B0BEC5 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #90A4AE', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🔪</div>
+                                    <p style={{ fontSize: '15px', color: '#455A64', fontWeight: 700, margin: '0 0 6px 0' }}>Stone Knives</p>
+                                    <p style={{ fontSize: '13px', color: '#607D8B', margin: 0 }}>For cutting food</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #D7CCC8 0%, #BCAAA4 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #A1887F', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🗡️</div>
+                                    <p style={{ fontSize: '15px', color: '#5D4037', fontWeight: 700, margin: '0 0 6px 0' }}>Spears</p>
+                                    <p style={{ fontSize: '13px', color: '#795548', margin: 0 }}>For hunting animals</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #FFECB3 0%, #FFE082 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #FFD54F', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🪓</div>
+                                    <p style={{ fontSize: '15px', color: '#F57F17', fontWeight: 700, margin: '0 0 6px 0' }}>Axes</p>
+                                    <p style={{ fontSize: '13px', color: '#FF8F00', margin: 0 }}>For building shelters</p>
+                                </div>
+                            </div>
+                            <div style={{ background: '#E3F2FD', borderRadius: '12px', padding: '16px', marginTop: '16px', border: '1px solid #90CAF9' }}>
+                                <p style={{ fontSize: '15px', color: '#1565C0', margin: 0 }}>
+                                    💡 <strong>Important:</strong> Tools made work easier for early humans. They could hunt, cut food, and build shelters more efficiently!
+                                </p>
+                            </div>
+                        </Section>
+
+                        {/* Section 5: Daily Life of Early Humans */}
+                        <Section>
+                            <SectionTitle emoji="👨‍👩‍👧‍👦">Daily Life of Early Humans</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                Early humans lived in groups called <strong>tribes</strong>. They worked together to survive.
+                            </p>
+                            <div style={{ background: 'linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%)', borderRadius: '16px', padding: '24px', marginTop: '20px', border: '2px solid #81C784' }}>
+                                <h4 style={{ fontSize: '16px', color: '#2E7D32', fontWeight: 700, margin: '0 0 16px 0' }}>👥 Tribes Worked Together To:</h4>
+                                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '12px' }}>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '16px', border: '1px solid #A5D6A7', display: 'flex', alignItems: 'center', gap: '12px' }}>
+                                        <span style={{ fontSize: '28px' }}>🔍</span>
+                                        <p style={{ fontSize: '14px', color: '#2E7D32', margin: 0, fontWeight: 600 }}>Find food together</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '16px', border: '1px solid #A5D6A7', display: 'flex', alignItems: 'center', gap: '12px' }}>
+                                        <span style={{ fontSize: '28px' }}>🏠</span>
+                                        <p style={{ fontSize: '14px', color: '#2E7D32', margin: 0, fontWeight: 600 }}>Build shelters</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '16px', border: '1px solid #A5D6A7', display: 'flex', alignItems: 'center', gap: '12px' }}>
+                                        <span style={{ fontSize: '28px' }}>🛡️</span>
+                                        <p style={{ fontSize: '14px', color: '#2E7D32', margin: 0, fontWeight: 600 }}>Protect each other</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style={{ background: '#F3E5F5', borderRadius: '12px', padding: '16px', marginTop: '16px', border: '1px solid #CE93D8' }}>
+                                <p style={{ fontSize: '15px', color: '#7B1FA2', margin: 0 }}>
+                                    📚 <strong>Learning:</strong> Early humans slowly learned new skills that helped humans develop over time. Their simple life was important for human history!
+                                </p>
+                            </div>
+                        </Section>
+
+                        {/* Section 6: Why Early Human Discoveries Were Important */}
+                        <Section>
+                            <SectionTitle emoji="⭐">Why Early Human Discoveries Were Important</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                Discoveries like <strong>fire and tools</strong> helped humans survive and improve their lives. These discoveries were the beginning of human civilization!
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px', marginTop: '20px' }}>
+                                <div style={{ background: 'linear-gradient(135deg, #FFCCBC 0%, #FFAB91 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #FF8A65', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🔥</div>
+                                    <p style={{ fontSize: '15px', color: '#BF360C', fontWeight: 700, margin: '0 0 6px 0' }}>Fire</p>
+                                    <p style={{ fontSize: '13px', color: '#D84315', margin: 0 }}>Helped cook food safely</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #CFD8DC 0%, #B0BEC5 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #90A4AE', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🪨</div>
+                                    <p style={{ fontSize: '15px', color: '#455A64', fontWeight: 700, margin: '0 0 6px 0' }}>Stone Tools</p>
+                                    <p style={{ fontSize: '13px', color: '#607D8B', margin: 0 }}>Made work easier</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #B2EBF2 0%, #80DEEA 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #4DD0E1', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🛡️</div>
+                                    <p style={{ fontSize: '15px', color: '#006064', fontWeight: 700, margin: '0 0 6px 0' }}>Safety</p>
+                                    <p style={{ fontSize: '13px', color: '#00838F', margin: 0 }}>Protected from danger</p>
+                                </div>
+                            </div>
+                            <div style={{ background: 'linear-gradient(135deg, #3F51B5 0%, #303F9F 100%)', borderRadius: '16px', padding: '20px', textAlign: 'center', marginTop: '20px' }}>
+                                <p style={{ fontSize: '17px', color: '#FFFFFF', fontWeight: 600, margin: 0 }}>
+                                    🌟 Early human innovations were the beginning of human civilization!
+                                </p>
+                            </div>
+                        </Section>
+                    </>
+                )}
+
+                {/* ─────────────────────────────────────────────────────────────────────────
+                    CLASS 4 – SOCIAL STUDIES – MAPS AND DIRECTIONS
+                ─────────────────────────────────────────────────────────────────────────── */}
+                {classId === '4' && chapterId === 'maps-and-directions' && (
+                    <>
+                        {/* Section 1: What is a Map? */}
+                        <Section>
+                            <SectionTitle emoji="🗺️">What is a Map?</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                A <strong>map</strong> is a drawing that shows the location of places. Maps help us understand where things are located.
+                            </p>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8, marginTop: '12px' }}>
+                                Maps can show:
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(120px, 1fr))', gap: '14px', marginTop: '16px' }}>
+                                <div style={{ background: 'linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%)', borderRadius: '14px', padding: '18px', border: '2px solid #64B5F6', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '36px', marginBottom: '8px' }}>🌍</div>
+                                    <p style={{ fontSize: '14px', color: '#1565C0', fontWeight: 600, margin: 0 }}>Countries</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%)', borderRadius: '14px', padding: '18px', border: '2px solid #FFB74D', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '36px', marginBottom: '8px' }}>🏙️</div>
+                                    <p style={{ fontSize: '14px', color: '#E65100', fontWeight: 600, margin: 0 }}>Cities</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #E0F7FA 0%, #B2EBF2 100%)', borderRadius: '14px', padding: '18px', border: '2px solid #4DD0E1', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '36px', marginBottom: '8px' }}>🏞️</div>
+                                    <p style={{ fontSize: '14px', color: '#00838F', fontWeight: 600, margin: 0 }}>Rivers</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #D7CCC8 0%, #BCAAA4 100%)', borderRadius: '14px', padding: '18px', border: '2px solid #A1887F', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '36px', marginBottom: '8px' }}>⛰️</div>
+                                    <p style={{ fontSize: '14px', color: '#5D4037', fontWeight: 600, margin: 0 }}>Mountains</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 100%)', borderRadius: '14px', padding: '18px', border: '2px solid #BA68C8', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '36px', marginBottom: '8px' }}>🛤️</div>
+                                    <p style={{ fontSize: '14px', color: '#7B1FA2', fontWeight: 600, margin: 0 }}>Roads</p>
+                                </div>
+                            </div>
+                            <div style={{ background: '#FFF8E1', borderRadius: '12px', padding: '16px', marginTop: '16px', border: '1px solid #FFE082' }}>
+                                <p style={{ fontSize: '15px', color: '#F57F17', margin: 0 }}>
+                                    🚗 <strong>Did you know?</strong> Maps help people travel and find places easily!
+                                </p>
+                            </div>
+                        </Section>
+
+                        {/* Section 2: Types of Maps */}
+                        <Section>
+                            <SectionTitle emoji="📍">Different Types of Maps</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                There are different types of maps. Each type shows different information.
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '16px', marginTop: '20px' }}>
+                                <div style={{ background: 'linear-gradient(135deg, #C8E6C9 0%, #A5D6A7 100%)', borderRadius: '16px', padding: '24px', border: '2px solid #66BB6A', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '48px', marginBottom: '12px' }}>🗳️</div>
+                                    <h4 style={{ fontSize: '16px', color: '#2E7D32', margin: '0 0 8px 0', fontWeight: 700 }}>Political Map</h4>
+                                    <p style={{ fontSize: '14px', color: '#388E3C', margin: 0 }}>Shows countries, states, and cities</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #BBDEFB 0%, #90CAF9 100%)', borderRadius: '16px', padding: '24px', border: '2px solid #42A5F5', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '48px', marginBottom: '12px' }}>🏔️</div>
+                                    <h4 style={{ fontSize: '16px', color: '#1565C0', margin: '0 0 8px 0', fontWeight: 700 }}>Physical Map</h4>
+                                    <p style={{ fontSize: '14px', color: '#1976D2', margin: 0 }}>Shows mountains, rivers, and landforms</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #FFE0B2 0%, #FFCC80 100%)', borderRadius: '16px', padding: '24px', border: '2px solid #FFA726', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '48px', marginBottom: '12px' }}>🛣️</div>
+                                    <h4 style={{ fontSize: '16px', color: '#E65100', margin: '0 0 8px 0', fontWeight: 700 }}>Road Map</h4>
+                                    <p style={{ fontSize: '14px', color: '#F57C00', margin: 0 }}>Shows roads and highways</p>
+                                </div>
+                            </div>
+                        </Section>
+
+                        {/* Section 3: Cardinal Directions */}
+                        <Section>
+                            <SectionTitle emoji="🧭">Cardinal Directions</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                <strong>Directions</strong> help us find the location of places. The four main directions are called <strong>cardinal directions</strong>.
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '16px', marginTop: '20px', maxWidth: '400px', margin: '20px auto 0' }}>
+                                <div style={{ background: 'linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #64B5F6', textAlign: 'center', gridColumn: '1 / -1' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '8px' }}>⬆️</div>
+                                    <p style={{ fontSize: '18px', color: '#1565C0', fontWeight: 700, margin: 0 }}>NORTH</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #FFB74D', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '8px' }}>⬅️</div>
+                                    <p style={{ fontSize: '18px', color: '#E65100', fontWeight: 700, margin: 0 }}>WEST</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #FFECB3 0%, #FFE082 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #FFD54F', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '8px' }}>➡️</div>
+                                    <p style={{ fontSize: '18px', color: '#F57F17', fontWeight: 700, margin: 0 }}>EAST</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #C8E6C9 0%, #A5D6A7 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #66BB6A', textAlign: 'center', gridColumn: '1 / -1' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '8px' }}>⬇️</div>
+                                    <p style={{ fontSize: '18px', color: '#2E7D32', fontWeight: 700, margin: 0 }}>SOUTH</p>
+                                </div>
+                            </div>
+                            <div style={{ background: '#E8F5E9', borderRadius: '12px', padding: '16px', marginTop: '20px', border: '1px solid #A5D6A7' }}>
+                                <p style={{ fontSize: '15px', color: '#2E7D32', margin: 0 }}>
+                                    🌅 <strong>Example:</strong> If you move toward the rising sun, you are going <strong>East</strong>!
+                                </p>
+                            </div>
+                        </Section>
+
+                        {/* Section 4: Using a Compass */}
+                        <Section>
+                            <SectionTitle emoji="🧭">Using a Compass</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                A <strong>compass</strong> is a tool that shows directions. The compass needle usually points toward <strong>North</strong>.
+                            </p>
+                            <div style={{ background: 'linear-gradient(135deg, #E8EAF6 0%, #C5CAE9 100%)', borderRadius: '16px', padding: '24px', marginTop: '20px', border: '2px solid #7986CB', textAlign: 'center' }}>
+                                <div style={{ fontSize: '80px', marginBottom: '16px' }}>🧭</div>
+                                <h4 style={{ fontSize: '18px', color: '#303F9F', margin: '0 0 12px 0', fontWeight: 700 }}>The Compass</h4>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', maxWidth: '300px', margin: '0 auto' }}>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #9FA8DA' }}>
+                                        <p style={{ fontSize: '14px', color: '#3F51B5', margin: 0 }}>🔴 The needle points to <strong>North</strong></p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #9FA8DA' }}>
+                                        <p style={{ fontSize: '14px', color: '#3F51B5', margin: 0 }}>🧑‍✈️ Travelers use compasses</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #9FA8DA' }}>
+                                        <p style={{ fontSize: '14px', color: '#3F51B5', margin: 0 }}>🗺️ Helps navigate new places</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </Section>
+
+                        {/* Section 5: Map Symbols and Legend */}
+                        <Section>
+                            <SectionTitle emoji="📊">Map Symbols and Legend</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                Maps use <strong>symbols</strong> to represent real-world places. A <strong>map legend</strong> explains what the symbols mean.
+                            </p>
+                            <div style={{ background: 'linear-gradient(135deg, #FFF8E1 0%, #FFECB3 100%)', borderRadius: '16px', padding: '24px', marginTop: '20px', border: '2px solid #FFD54F' }}>
+                                <h4 style={{ fontSize: '16px', color: '#F57F17', fontWeight: 700, margin: '0 0 16px 0' }}>📋 Common Map Symbols:</h4>
+                                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '12px' }}>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '16px', border: '1px solid #FFE082', display: 'flex', alignItems: 'center', gap: '14px' }}>
+                                        <div style={{ width: '40px', height: '4px', background: '#2196F3', borderRadius: '2px' }}></div>
+                                        <p style={{ fontSize: '14px', color: '#1565C0', margin: 0, fontWeight: 600 }}>Blue lines = Rivers</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '16px', border: '1px solid #FFE082', display: 'flex', alignItems: 'center', gap: '14px' }}>
+                                        <div style={{ fontSize: '24px' }}>🔺</div>
+                                        <p style={{ fontSize: '14px', color: '#5D4037', margin: 0, fontWeight: 600 }}>Triangles = Mountains</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '16px', border: '1px solid #FFE082', display: 'flex', alignItems: 'center', gap: '14px' }}>
+                                        <div style={{ width: '12px', height: '12px', background: '#E53935', borderRadius: '50%' }}></div>
+                                        <p style={{ fontSize: '14px', color: '#C62828', margin: 0, fontWeight: 600 }}>Dots = Cities</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '16px', border: '1px solid #FFE082', display: 'flex', alignItems: 'center', gap: '14px' }}>
+                                        <div style={{ width: '40px', height: '4px', background: '#424242', borderRadius: '2px' }}></div>
+                                        <p style={{ fontSize: '14px', color: '#424242', margin: 0, fontWeight: 600 }}>Black lines = Roads</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style={{ background: '#E3F2FD', borderRadius: '12px', padding: '16px', marginTop: '16px', border: '1px solid #90CAF9' }}>
+                                <p style={{ fontSize: '15px', color: '#1565C0', margin: 0 }}>
+                                    💡 <strong>Tip:</strong> Symbols make maps simple and easy to understand!
+                                </p>
+                            </div>
+                        </Section>
+
+                        {/* Section 6: Why Maps Are Useful */}
+                        <Section>
+                            <SectionTitle emoji="✨">Why Maps Are Useful</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                Maps are important tools used by travelers, pilots, and scientists. They help us in many ways!
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px', marginTop: '20px' }}>
+                                <div style={{ background: 'linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #81C784', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>📍</div>
+                                    <p style={{ fontSize: '15px', color: '#2E7D32', fontWeight: 700, margin: '0 0 6px 0' }}>Find Locations</p>
+                                    <p style={{ fontSize: '13px', color: '#388E3C', margin: 0 }}>Know where places are</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #64B5F6', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🚗</div>
+                                    <p style={{ fontSize: '15px', color: '#1565C0', fontWeight: 700, margin: '0 0 6px 0' }}>Plan Travel Routes</p>
+                                    <p style={{ fontSize: '13px', color: '#1976D2', margin: 0 }}>Choose the best path</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #FFB74D', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🌍</div>
+                                    <p style={{ fontSize: '15px', color: '#E65100', fontWeight: 700, margin: '0 0 6px 0' }}>Understand Geography</p>
+                                    <p style={{ fontSize: '13px', color: '#F57C00', margin: 0 }}>Learn about Earth</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #BA68C8', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>📚</div>
+                                    <p style={{ fontSize: '15px', color: '#7B1FA2', fontWeight: 700, margin: '0 0 6px 0' }}>Learn About Places</p>
+                                    <p style={{ fontSize: '13px', color: '#8E24AA', margin: 0 }}>Discover new regions</p>
+                                </div>
+                            </div>
+                            <div style={{ background: 'linear-gradient(135deg, #1976D2 0%, #1565C0 100%)', borderRadius: '16px', padding: '20px', textAlign: 'center', marginTop: '20px' }}>
+                                <p style={{ fontSize: '17px', color: '#FFFFFF', fontWeight: 600, margin: 0 }}>
+                                    🗺️ Maps help us explore and understand our world!
+                                </p>
+                            </div>
+                        </Section>
+                    </>
+                )}
+
+                {/* ─────────────────────────────────────────────────────────────────────────
+                    CLASS 4 – SOCIAL STUDIES – PHYSICAL FEATURES OF THE EARTH
+                ─────────────────────────────────────────────────────────────────────────── */}
+                {classId === '4' && chapterId === 'physical-features-of-earth' && (
+                    <>
+                        {/* Section 1: What are Landforms? */}
+                        <Section>
+                            <SectionTitle emoji="🌍">What are Landforms?</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                <strong>Landforms</strong> are the natural physical features of the Earth's surface. They shape the way our planet looks!
+                            </p>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8, marginTop: '12px' }}>
+                                Examples of landforms include:
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '14px', marginTop: '16px' }}>
+                                <div style={{ background: 'linear-gradient(135deg, #D7CCC8 0%, #BCAAA4 100%)', borderRadius: '14px', padding: '18px', border: '2px solid #A1887F', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '36px', marginBottom: '8px' }}>⛰️</div>
+                                    <p style={{ fontSize: '14px', color: '#5D4037', fontWeight: 600, margin: 0 }}>Mountains</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #B3E5FC 0%, #81D4FA 100%)', borderRadius: '14px', padding: '18px', border: '2px solid #4FC3F7', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '36px', marginBottom: '8px' }}>🏞️</div>
+                                    <p style={{ fontSize: '14px', color: '#01579B', fontWeight: 600, margin: 0 }}>Rivers</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #C8E6C9 0%, #A5D6A7 100%)', borderRadius: '14px', padding: '18px', border: '2px solid #66BB6A', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '36px', marginBottom: '8px' }}>🌾</div>
+                                    <p style={{ fontSize: '14px', color: '#2E7D32', fontWeight: 600, margin: 0 }}>Plains</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #FFECB3 0%, #FFE082 100%)', borderRadius: '14px', padding: '18px', border: '2px solid #FFD54F', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '36px', marginBottom: '8px' }}>🏜️</div>
+                                    <p style={{ fontSize: '14px', color: '#F57F17', fontWeight: 600, margin: 0 }}>Deserts</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #E1BEE7 0%, #CE93D8 100%)', borderRadius: '14px', padding: '18px', border: '2px solid #AB47BC', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '36px', marginBottom: '8px' }}>🗻</div>
+                                    <p style={{ fontSize: '14px', color: '#7B1FA2', fontWeight: 600, margin: 0 }}>Plateaus</p>
+                                </div>
+                            </div>
+                        </Section>
+
+                        {/* Section 2: Mountains */}
+                        <Section>
+                            <SectionTitle emoji="⛰️">Mountains</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                Mountains are very <strong>high landforms with steep sides and peaks</strong>. They are often covered with snow at the top!
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px', marginTop: '20px' }}>
+                                <div style={{ background: 'linear-gradient(135deg, #ECEFF1 0%, #CFD8DC 100%)', borderRadius: '16px', padding: '24px', border: '2px solid #90A4AE' }}>
+                                    <h4 style={{ fontSize: '16px', color: '#455A64', fontWeight: 700, margin: '0 0 12px 0' }}>🏔️ Famous Mountains</h4>
+                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #B0BEC5' }}>
+                                            <p style={{ fontSize: '14px', color: '#37474F', margin: 0 }}><strong>Himalayas</strong> - Highest mountain range</p>
+                                        </div>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #B0BEC5' }}>
+                                            <p style={{ fontSize: '14px', color: '#37474F', margin: 0 }}><strong>Mount Everest</strong> - Tallest peak on Earth</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%)', borderRadius: '16px', padding: '24px', border: '2px solid #64B5F6' }}>
+                                    <h4 style={{ fontSize: '16px', color: '#1565C0', fontWeight: 700, margin: '0 0 12px 0' }}>❄️ Characteristics</h4>
+                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #90CAF9' }}>
+                                            <p style={{ fontSize: '14px', color: '#1976D2', margin: 0 }}>Very tall and steep</p>
+                                        </div>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #90CAF9' }}>
+                                            <p style={{ fontSize: '14px', color: '#1976D2', margin: 0 }}>Cold climate at peaks</p>
+                                        </div>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #90CAF9' }}>
+                                            <p style={{ fontSize: '14px', color: '#1976D2', margin: 0 }}>Often covered with snow</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style={{ background: '#E8F5E9', borderRadius: '12px', padding: '16px', marginTop: '16px', border: '1px solid #A5D6A7' }}>
+                                <p style={{ fontSize: '15px', color: '#2E7D32', margin: 0 }}>
+                                    💧 <strong>Did you know?</strong> Mountains are important sources of rivers!
+                                </p>
+                            </div>
+                        </Section>
+
+                        {/* Section 3: Plains */}
+                        <Section>
+                            <SectionTitle emoji="🌾">Plains</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                Plains are <strong>large flat areas of land</strong>. They are good for farming and building cities.
+                            </p>
+                            <div style={{ background: 'linear-gradient(135deg, #C8E6C9 0%, #A5D6A7 100%)', borderRadius: '16px', padding: '24px', marginTop: '20px', border: '2px solid #66BB6A' }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
+                                    <div style={{ fontSize: '48px' }}>🌾</div>
+                                    <div>
+                                        <h4 style={{ fontSize: '18px', color: '#2E7D32', margin: '0 0 4px 0', fontWeight: 700 }}>Indo-Gangetic Plains</h4>
+                                        <p style={{ fontSize: '14px', color: '#388E3C', margin: 0 }}>One of the largest plains in India</p>
+                                    </div>
+                                </div>
+                                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '12px' }}>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '14px', border: '1px solid #81C784', textAlign: 'center' }}>
+                                        <div style={{ fontSize: '28px', marginBottom: '6px' }}>🌱</div>
+                                        <p style={{ fontSize: '13px', color: '#2E7D32', margin: 0, fontWeight: 600 }}>Fertile soil</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '14px', border: '1px solid #81C784', textAlign: 'center' }}>
+                                        <div style={{ fontSize: '28px', marginBottom: '6px' }}>👨‍🌾</div>
+                                        <p style={{ fontSize: '13px', color: '#2E7D32', margin: 0, fontWeight: 600 }}>Good for farming</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '14px', border: '1px solid #81C784', textAlign: 'center' }}>
+                                        <div style={{ fontSize: '28px', marginBottom: '6px' }}>🏘️</div>
+                                        <p style={{ fontSize: '13px', color: '#2E7D32', margin: 0, fontWeight: 600 }}>Supports cities</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </Section>
+
+                        {/* Section 4: Plateaus */}
+                        <Section>
+                            <SectionTitle emoji="🗻">Plateaus</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                A plateau is a <strong>flat land that is higher than the surrounding land</strong>. Plateaus are sometimes called "tablelands".
+                            </p>
+                            <div style={{ background: 'linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 100%)', borderRadius: '16px', padding: '24px', marginTop: '20px', border: '2px solid #BA68C8' }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
+                                    <div style={{ fontSize: '48px' }}>🗻</div>
+                                    <div>
+                                        <h4 style={{ fontSize: '18px', color: '#7B1FA2', margin: '0 0 4px 0', fontWeight: 700 }}>Deccan Plateau</h4>
+                                        <p style={{ fontSize: '14px', color: '#8E24AA', margin: 0 }}>Large plateau in southern India</p>
+                                    </div>
+                                </div>
+                                <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '16px', border: '1px solid #CE93D8' }}>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                                        <span style={{ fontSize: '28px' }}>💎</span>
+                                        <p style={{ fontSize: '15px', color: '#7B1FA2', margin: 0 }}><strong>Rich in minerals:</strong> Plateaus often contain valuable minerals like iron and coal</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </Section>
+
+                        {/* Section 5: Deserts */}
+                        <Section>
+                            <SectionTitle emoji="🏜️">Deserts</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                Deserts are <strong>very dry areas with little rainfall</strong>. Animals and plants adapt to survive in desert conditions.
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px', marginTop: '20px' }}>
+                                <div style={{ background: 'linear-gradient(135deg, #FFF8E1 0%, #FFECB3 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #FFD54F' }}>
+                                    <h4 style={{ fontSize: '16px', color: '#F57F17', fontWeight: 700, margin: '0 0 12px 0' }}>🏜️ Famous Deserts</h4>
+                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #FFE082' }}>
+                                            <p style={{ fontSize: '14px', color: '#E65100', margin: 0 }}><strong>Thar Desert</strong> - India</p>
+                                        </div>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #FFE082' }}>
+                                            <p style={{ fontSize: '14px', color: '#E65100', margin: 0 }}><strong>Sahara Desert</strong> - Africa</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #FFCCBC 0%, #FFAB91 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #FF8A65' }}>
+                                    <h4 style={{ fontSize: '16px', color: '#BF360C', fontWeight: 700, margin: '0 0 12px 0' }}>☀️ Characteristics</h4>
+                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #FFAB91' }}>
+                                            <p style={{ fontSize: '14px', color: '#D84315', margin: 0 }}>🌡️ Hot days, cold nights</p>
+                                        </div>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #FFAB91' }}>
+                                            <p style={{ fontSize: '14px', color: '#D84315', margin: 0 }}>🌵 Very little vegetation</p>
+                                        </div>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #FFAB91' }}>
+                                            <p style={{ fontSize: '14px', color: '#D84315', margin: 0 }}>💧 Little rainfall</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </Section>
+
+                        {/* Section 6: Rivers */}
+                        <Section>
+                            <SectionTitle emoji="🏞️">Rivers</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                Rivers are <strong>large natural streams of flowing water</strong>. They are important for life and agriculture.
+                            </p>
+                            <div style={{ background: 'linear-gradient(135deg, #E0F7FA 0%, #B2EBF2 100%)', borderRadius: '16px', padding: '24px', marginTop: '20px', border: '2px solid #4DD0E1' }}>
+                                <h4 style={{ fontSize: '16px', color: '#006064', fontWeight: 700, margin: '0 0 16px 0' }}>🌊 Famous Rivers</h4>
+                                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '12px', marginBottom: '16px' }}>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '14px', border: '1px solid #80DEEA', textAlign: 'center' }}>
+                                        <div style={{ fontSize: '28px', marginBottom: '6px' }}>🌊</div>
+                                        <p style={{ fontSize: '14px', color: '#00838F', margin: 0, fontWeight: 600 }}>Ganga River</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '14px', border: '1px solid #80DEEA', textAlign: 'center' }}>
+                                        <div style={{ fontSize: '28px', marginBottom: '6px' }}>🌿</div>
+                                        <p style={{ fontSize: '14px', color: '#00838F', margin: 0, fontWeight: 600 }}>Amazon River</p>
+                                    </div>
+                                </div>
+                                <h4 style={{ fontSize: '16px', color: '#006064', fontWeight: 700, margin: '0 0 12px 0' }}>💧 Rivers Provide:</h4>
+                                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '10px' }}>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #80DEEA', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                        <span style={{ fontSize: '20px' }}>💧</span>
+                                        <p style={{ fontSize: '13px', color: '#00838F', margin: 0, fontWeight: 600 }}>Drinking water</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #80DEEA', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                        <span style={{ fontSize: '20px' }}>🌱</span>
+                                        <p style={{ fontSize: '13px', color: '#00838F', margin: 0, fontWeight: 600 }}>Farming water</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #80DEEA', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                        <span style={{ fontSize: '20px' }}>🚢</span>
+                                        <p style={{ fontSize: '13px', color: '#00838F', margin: 0, fontWeight: 600 }}>Transportation</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </Section>
+
+                        {/* Section 7: Importance of Landforms */}
+                        <Section>
+                            <SectionTitle emoji="⭐">Why Landforms are Important</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                Landforms affect how people live and work. Different landforms influence many aspects of life!
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px', marginTop: '20px' }}>
+                                <div style={{ background: 'linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #64B5F6', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>☀️</div>
+                                    <p style={{ fontSize: '15px', color: '#1565C0', fontWeight: 700, margin: '0 0 6px 0' }}>Climate</p>
+                                    <p style={{ fontSize: '13px', color: '#1976D2', margin: 0 }}>Affect weather patterns</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #C8E6C9 0%, #A5D6A7 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #66BB6A', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🌾</div>
+                                    <p style={{ fontSize: '15px', color: '#2E7D32', fontWeight: 700, margin: '0 0 6px 0' }}>Farming</p>
+                                    <p style={{ fontSize: '13px', color: '#388E3C', margin: 0 }}>Decide what crops grow</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #FFB74D', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🚗</div>
+                                    <p style={{ fontSize: '15px', color: '#E65100', fontWeight: 700, margin: '0 0 6px 0' }}>Transportation</p>
+                                    <p style={{ fontSize: '13px', color: '#F57C00', margin: 0 }}>Influence travel routes</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #BA68C8', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🏠</div>
+                                    <p style={{ fontSize: '15px', color: '#7B1FA2', fontWeight: 700, margin: '0 0 6px 0' }}>Settlements</p>
+                                    <p style={{ fontSize: '13px', color: '#8E24AA', margin: 0 }}>Where people live</p>
+                                </div>
+                            </div>
+                            <div style={{ background: 'linear-gradient(135deg, #2E7D32 0%, #1B5E20 100%)', borderRadius: '16px', padding: '20px', textAlign: 'center', marginTop: '20px' }}>
+                                <p style={{ fontSize: '17px', color: '#FFFFFF', fontWeight: 600, margin: 0 }}>
+                                    🌍 Landforms shape our Earth and influence how we live!
+                                </p>
+                            </div>
+                        </Section>
+                    </>
+                )}
+
+                {/* ─────────────────────────────────────────────────────────────────────────
+                    CLASS 4 – SOCIAL STUDIES – OUR COUNTRY INDIA
+                ─────────────────────────────────────────────────────────────────────────── */}
+                {classId === '4' && chapterId === 'our-country-india' && (
+                    <>
+                        {/* Section 1: Introduction to India */}
+                        <Section>
+                            <SectionTitle emoji="🇮🇳">Introduction to India</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                <strong>India</strong> is a large and diverse country located in South Asia. It is known for its rich history, culture, and traditions.
+                            </p>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8, marginTop: '12px' }}>
+                                India is one of the oldest civilizations in the world. It has:
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '14px', marginTop: '16px' }}>
+                                <div style={{ background: 'linear-gradient(135deg, #FF9933 0%, #FF8000 100%)', borderRadius: '14px', padding: '18px', border: '2px solid #E65100', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '36px', marginBottom: '8px' }}>🗣️</div>
+                                    <p style={{ fontSize: '14px', color: '#FFFFFF', fontWeight: 600, margin: 0 }}>Many Languages</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #FFFFFF 0%, #F5F5F5 100%)', borderRadius: '14px', padding: '18px', border: '2px solid #E0E0E0', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '36px', marginBottom: '8px' }}>🎭</div>
+                                    <p style={{ fontSize: '14px', color: '#424242', fontWeight: 600, margin: 0 }}>Different Cultures</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #138808 0%, #0D6B06 100%)', borderRadius: '14px', padding: '18px', border: '2px solid #0B5205', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '36px', marginBottom: '8px' }}>🌄</div>
+                                    <p style={{ fontSize: '14px', color: '#FFFFFF', fontWeight: 600, margin: 0 }}>Beautiful Landscapes</p>
+                                </div>
+                            </div>
+                        </Section>
+
+                        {/* Section 2: States and Capitals */}
+                        <Section>
+                            <SectionTitle emoji="🏙️">States and Capitals of India</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                India is divided into <strong>states and union territories</strong> to make administration easier. Each state has a <strong>capital city</strong>.
+                            </p>
+                            <div style={{ background: 'linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%)', borderRadius: '16px', padding: '24px', marginTop: '20px', border: '2px solid #64B5F6' }}>
+                                <h4 style={{ fontSize: '16px', color: '#1565C0', fontWeight: 700, margin: '0 0 16px 0' }}>🏢 Some States and Their Capitals:</h4>
+                                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '12px' }}>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '16px', border: '1px solid #90CAF9', display: 'flex', alignItems: 'center', gap: '12px' }}>
+                                        <span style={{ fontSize: '24px' }}>🏠</span>
+                                        <div>
+                                            <p style={{ fontSize: '14px', color: '#1565C0', margin: 0, fontWeight: 700 }}>Tamil Nadu</p>
+                                            <p style={{ fontSize: '13px', color: '#1976D2', margin: 0 }}>Chennai</p>
+                                        </div>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '16px', border: '1px solid #90CAF9', display: 'flex', alignItems: 'center', gap: '12px' }}>
+                                        <span style={{ fontSize: '24px' }}>🏠</span>
+                                        <div>
+                                            <p style={{ fontSize: '14px', color: '#1565C0', margin: 0, fontWeight: 700 }}>Karnataka</p>
+                                            <p style={{ fontSize: '13px', color: '#1976D2', margin: 0 }}>Bengaluru</p>
+                                        </div>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '16px', border: '1px solid #90CAF9', display: 'flex', alignItems: 'center', gap: '12px' }}>
+                                        <span style={{ fontSize: '24px' }}>🏠</span>
+                                        <div>
+                                            <p style={{ fontSize: '14px', color: '#1565C0', margin: 0, fontWeight: 700 }}>Maharashtra</p>
+                                            <p style={{ fontSize: '13px', color: '#1976D2', margin: 0 }}>Mumbai</p>
+                                        </div>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '16px', border: '1px solid #90CAF9', display: 'flex', alignItems: 'center', gap: '12px' }}>
+                                        <span style={{ fontSize: '24px' }}>⭐</span>
+                                        <div>
+                                            <p style={{ fontSize: '14px', color: '#1565C0', margin: 0, fontWeight: 700 }}>India's Capital</p>
+                                            <p style={{ fontSize: '13px', color: '#1976D2', margin: 0 }}>New Delhi</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style={{ background: '#FFF8E1', borderRadius: '12px', padding: '16px', marginTop: '16px', border: '1px solid #FFE082' }}>
+                                <p style={{ fontSize: '15px', color: '#F57F17', margin: 0 }}>
+                                    🏢 <strong>Did you know?</strong> Capitals are important centers of government and administration!
+                                </p>
+                            </div>
+                        </Section>
+
+                        {/* Section 3: National Symbols */}
+                        <Section>
+                            <SectionTitle emoji="🇲">National Symbols of India</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                <strong>National symbols</strong> represent the identity of the country. They show the pride and unity of India.
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '16px', marginTop: '20px' }}>
+                                <div style={{ background: 'linear-gradient(135deg, #FF9933 0%, #FFFFFF 50%, #138808 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #E65100', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🇮🇳</div>
+                                    <p style={{ fontSize: '14px', color: '#424242', fontWeight: 700, margin: '0 0 4px 0' }}>National Flag</p>
+                                    <p style={{ fontSize: '12px', color: '#666', margin: 0 }}>Tiranga</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #FFECB3 0%, #FFE082 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #FFD54F', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🐅</div>
+                                    <p style={{ fontSize: '14px', color: '#F57F17', fontWeight: 700, margin: '0 0 4px 0' }}>National Animal</p>
+                                    <p style={{ fontSize: '12px', color: '#FF8F00', margin: 0 }}>Tiger</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #64B5F6', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🦚</div>
+                                    <p style={{ fontSize: '14px', color: '#1565C0', fontWeight: 700, margin: '0 0 4px 0' }}>National Bird</p>
+                                    <p style={{ fontSize: '12px', color: '#1976D2', margin: 0 }}>Peacock</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #FCE4EC 0%, #F8BBD0 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #F06292', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🪻</div>
+                                    <p style={{ fontSize: '14px', color: '#C2185B', fontWeight: 700, margin: '0 0 4px 0' }}>National Flower</p>
+                                    <p style={{ fontSize: '12px', color: '#D81B60', margin: 0 }}>Lotus</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #C8E6C9 0%, #A5D6A7 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #66BB6A', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🌳</div>
+                                    <p style={{ fontSize: '14px', color: '#2E7D32', fontWeight: 700, margin: '0 0 4px 0' }}>National Tree</p>
+                                    <p style={{ fontSize: '12px', color: '#388E3C', margin: 0 }}>Banyan Tree</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #E1BEE7 0%, #CE93D8 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #AB47BC', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🎵</div>
+                                    <p style={{ fontSize: '14px', color: '#7B1FA2', fontWeight: 700, margin: '0 0 4px 0' }}>National Anthem</p>
+                                    <p style={{ fontSize: '12px', color: '#8E24AA', margin: 0 }}>Jana Gana Mana</p>
+                                </div>
+                            </div>
+                        </Section>
+
+                        {/* Section 4: Unity in Diversity */}
+                        <Section>
+                            <SectionTitle emoji="🤝">Unity in Diversity</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                India is famous for its <strong>unity in diversity</strong>. People celebrate many festivals and follow different traditions, but they live together peacefully.
+                            </p>
+                            <div style={{ background: 'linear-gradient(135deg, #FFF8E1 0%, #FFECB3 100%)', borderRadius: '16px', padding: '24px', marginTop: '20px', border: '2px solid #FFD54F' }}>
+                                <h4 style={{ fontSize: '16px', color: '#F57F17', fontWeight: 700, margin: '0 0 16px 0' }}>🎉 Festivals of India:</h4>
+                                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(120px, 1fr))', gap: '12px' }}>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '14px', border: '1px solid #FFE082', textAlign: 'center' }}>
+                                        <div style={{ fontSize: '32px', marginBottom: '6px' }}>🪩</div>
+                                        <p style={{ fontSize: '13px', color: '#E65100', margin: 0, fontWeight: 600 }}>Diwali</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '14px', border: '1px solid #FFE082', textAlign: 'center' }}>
+                                        <div style={{ fontSize: '32px', marginBottom: '6px' }}>🌈</div>
+                                        <p style={{ fontSize: '13px', color: '#E65100', margin: 0, fontWeight: 600 }}>Holi</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '14px', border: '1px solid #FFE082', textAlign: 'center' }}>
+                                        <div style={{ fontSize: '32px', marginBottom: '6px' }}>🌾</div>
+                                        <p style={{ fontSize: '13px', color: '#E65100', margin: 0, fontWeight: 600 }}>Pongal</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '14px', border: '1px solid #FFE082', textAlign: 'center' }}>
+                                        <div style={{ fontSize: '32px', marginBottom: '6px' }}>🌙</div>
+                                        <p style={{ fontSize: '13px', color: '#E65100', margin: 0, fontWeight: 600 }}>Eid</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '14px', border: '1px solid #FFE082', textAlign: 'center' }}>
+                                        <div style={{ fontSize: '32px', marginBottom: '6px' }}>🎄</div>
+                                        <p style={{ fontSize: '13px', color: '#E65100', margin: 0, fontWeight: 600 }}>Christmas</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </Section>
+
+                        {/* Section 5: Indian Heritage */}
+                        <Section>
+                            <SectionTitle emoji="🏛️">Indian Heritage</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                India has many historical monuments and heritage sites that show India's <strong>rich history and architecture</strong>.
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px', marginTop: '20px' }}>
+                                <div style={{ background: 'linear-gradient(135deg, #ECEFF1 0%, #CFD8DC 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #90A4AE', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '48px', marginBottom: '10px' }}>🕌</div>
+                                    <p style={{ fontSize: '15px', color: '#455A64', fontWeight: 700, margin: '0 0 4px 0' }}>Taj Mahal</p>
+                                    <p style={{ fontSize: '12px', color: '#607D8B', margin: 0 }}>Agra, Uttar Pradesh</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #FFCCBC 0%, #FFAB91 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #FF8A65', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '48px', marginBottom: '10px' }}>🗼</div>
+                                    <p style={{ fontSize: '15px', color: '#BF360C', fontWeight: 700, margin: '0 0 4px 0' }}>Qutub Minar</p>
+                                    <p style={{ fontSize: '12px', color: '#D84315', margin: 0 }}>New Delhi</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #FFCDD2 0%, #EF9A9A 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #EF5350', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '48px', marginBottom: '10px' }}>🏰</div>
+                                    <p style={{ fontSize: '15px', color: '#C62828', fontWeight: 700, margin: '0 0 4px 0' }}>Red Fort</p>
+                                    <p style={{ fontSize: '12px', color: '#D32F2F', margin: 0 }}>New Delhi</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #D7CCC8 0%, #BCAAA4 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #A1887F', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '48px', marginBottom: '10px' }}>🗻</div>
+                                    <p style={{ fontSize: '15px', color: '#5D4037', fontWeight: 700, margin: '0 0 4px 0' }}>Hampi</p>
+                                    <p style={{ fontSize: '12px', color: '#6D4C41', margin: 0 }}>Karnataka</p>
+                                </div>
+                            </div>
+                        </Section>
+
+                        {/* Section 6: Why India is Special */}
+                        <Section>
+                            <SectionTitle emoji="✨">Why India is Special</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                India is one of the largest and most diverse countries in the world. It is known for many great things!
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px', marginTop: '20px' }}>
+                                <div style={{ background: 'linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #FFB74D', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🏛️</div>
+                                    <p style={{ fontSize: '15px', color: '#E65100', fontWeight: 700, margin: '0 0 6px 0' }}>Ancient Civilization</p>
+                                    <p style={{ fontSize: '13px', color: '#F57C00', margin: 0 }}>One of the oldest in the world</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #81C784', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🔬</div>
+                                    <p style={{ fontSize: '15px', color: '#2E7D32', fontWeight: 700, margin: '0 0 6px 0' }}>Scientific Achievements</p>
+                                    <p style={{ fontSize: '13px', color: '#388E3C', margin: 0 }}>Math, medicine, space</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #BA68C8', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🎭</div>
+                                    <p style={{ fontSize: '15px', color: '#7B1FA2', fontWeight: 700, margin: '0 0 6px 0' }}>Cultural Traditions</p>
+                                    <p style={{ fontSize: '13px', color: '#8E24AA', margin: 0 }}>Dance, music, art</p>
+                                </div>
+                            </div>
+                            <div style={{ background: 'linear-gradient(135deg, #FF9933 0%, #138808 100%)', borderRadius: '16px', padding: '20px', textAlign: 'center', marginTop: '20px' }}>
+                                <p style={{ fontSize: '17px', color: '#FFFFFF', fontWeight: 600, margin: 0 }}>
+                                    🇮🇳 India is our beautiful and diverse motherland!
+                                </p>
+                            </div>
+                        </Section>
+                    </>
+                )}
+
+                {/* ─────────────────────────────────────────────────────────────────────────
+                    CLASS 4 – SOCIAL STUDIES – CITIES, TOWNS, AND VILLAGES
+                ─────────────────────────────────────────────────────────────────────────── */}
+                {classId === '4' && chapterId === 'cities-towns-villages' && (
+                    <>
+                        {/* Section 1: Human Settlements */}
+                        <Section>
+                            <SectionTitle emoji="🏠">Human Settlements</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                Places where people live are called <strong>settlements</strong>. There are three main types of settlements, each with different features and lifestyles.
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '16px', marginTop: '20px' }}>
+                                <div style={{ background: 'linear-gradient(135deg, #C8E6C9 0%, #A5D6A7 100%)', borderRadius: '16px', padding: '24px', border: '2px solid #66BB6A', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '48px', marginBottom: '12px' }}>🏡</div>
+                                    <h4 style={{ fontSize: '18px', color: '#2E7D32', margin: '0 0 8px 0', fontWeight: 700 }}>Villages</h4>
+                                    <p style={{ fontSize: '14px', color: '#388E3C', margin: 0 }}>Small settlements</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #FFECB3 0%, #FFE082 100%)', borderRadius: '16px', padding: '24px', border: '2px solid #FFD54F', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '48px', marginBottom: '12px' }}>🏘️</div>
+                                    <h4 style={{ fontSize: '18px', color: '#F57F17', margin: '0 0 8px 0', fontWeight: 700 }}>Towns</h4>
+                                    <p style={{ fontSize: '14px', color: '#FF8F00', margin: 0 }}>Medium settlements</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #BBDEFB 0%, #90CAF9 100%)', borderRadius: '16px', padding: '24px', border: '2px solid #42A5F5', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '48px', marginBottom: '12px' }}>🏙️</div>
+                                    <h4 style={{ fontSize: '18px', color: '#1565C0', margin: '0 0 8px 0', fontWeight: 700 }}>Cities</h4>
+                                    <p style={{ fontSize: '14px', color: '#1976D2', margin: 0 }}>Large settlements</p>
+                                </div>
+                            </div>
+                            <div style={{ background: '#FFF8E1', borderRadius: '12px', padding: '16px', marginTop: '16px', border: '1px solid #FFE082' }}>
+                                <p style={{ fontSize: '15px', color: '#F57F17', margin: 0 }}>
+                                    📈 <strong>Did you know?</strong> Settlements grow as population increases!
+                                </p>
+                            </div>
+                        </Section>
+
+                        {/* Section 2: Life in Villages */}
+                        <Section>
+                            <SectionTitle emoji="🏡">Life in Villages</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                Villages are <strong>small settlements usually found in rural areas</strong>. They have open land and farms, and people mostly work in agriculture.
+                            </p>
+                            <div style={{ background: 'linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%)', borderRadius: '16px', padding: '24px', marginTop: '20px', border: '2px solid #81C784' }}>
+                                <h4 style={{ fontSize: '16px', color: '#2E7D32', fontWeight: 700, margin: '0 0 16px 0' }}>🌾 Village Activities:</h4>
+                                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '12px' }}>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '16px', border: '1px solid #A5D6A7', textAlign: 'center' }}>
+                                        <div style={{ fontSize: '32px', marginBottom: '8px' }}>👨‍🌾</div>
+                                        <p style={{ fontSize: '14px', color: '#2E7D32', margin: 0, fontWeight: 600 }}>Farming</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '16px', border: '1px solid #A5D6A7', textAlign: 'center' }}>
+                                        <div style={{ fontSize: '32px', marginBottom: '8px' }}>🐄</div>
+                                        <p style={{ fontSize: '14px', color: '#2E7D32', margin: 0, fontWeight: 600 }}>Animal Rearing</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '16px', border: '1px solid #A5D6A7', textAlign: 'center' }}>
+                                        <div style={{ fontSize: '32px', marginBottom: '8px' }}>🎣</div>
+                                        <p style={{ fontSize: '14px', color: '#2E7D32', margin: 0, fontWeight: 600 }}>Fishing</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style={{ background: '#E8F5E9', borderRadius: '12px', padding: '16px', marginTop: '16px', border: '1px solid #A5D6A7' }}>
+                                <p style={{ fontSize: '15px', color: '#2E7D32', margin: 0 }}>
+                                    🌿 <strong>Important:</strong> Villages provide food through agriculture!
+                                </p>
+                            </div>
+                        </Section>
+
+                        {/* Section 3: Life in Towns */}
+                        <Section>
+                            <SectionTitle emoji="🏘️">Life in Towns</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                Towns are <strong>larger than villages but smaller than cities</strong>. They have moderate population, more schools, hospitals, and businesses.
+                            </p>
+                            <div style={{ background: 'linear-gradient(135deg, #FFF8E1 0%, #FFECB3 100%)', borderRadius: '16px', padding: '24px', marginTop: '20px', border: '2px solid #FFD54F' }}>
+                                <h4 style={{ fontSize: '16px', color: '#F57F17', fontWeight: 700, margin: '0 0 16px 0' }}>🏪 People in Towns Work In:</h4>
+                                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '12px' }}>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '16px', border: '1px solid #FFE082', textAlign: 'center' }}>
+                                        <div style={{ fontSize: '32px', marginBottom: '8px' }}>🛍️</div>
+                                        <p style={{ fontSize: '14px', color: '#E65100', margin: 0, fontWeight: 600 }}>Shops</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '16px', border: '1px solid #FFE082', textAlign: 'center' }}>
+                                        <div style={{ fontSize: '32px', marginBottom: '8px' }}>🏢</div>
+                                        <p style={{ fontSize: '14px', color: '#E65100', margin: 0, fontWeight: 600 }}>Small Businesses</p>
+                                    </div>
+                                    <div style={{ background: '#FFFFFF', borderRadius: '12px', padding: '16px', border: '1px solid #FFE082', textAlign: 'center' }}>
+                                        <div style={{ fontSize: '32px', marginBottom: '8px' }}>💼</div>
+                                        <p style={{ fontSize: '14px', color: '#E65100', margin: 0, fontWeight: 600 }}>Offices</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style={{ background: '#FFF3E0', borderRadius: '12px', padding: '16px', marginTop: '16px', border: '1px solid #FFB74D' }}>
+                                <p style={{ fontSize: '15px', color: '#E65100', margin: 0 }}>
+                                    🔗 <strong>Connection:</strong> Towns connect villages and cities!
+                                </p>
+                            </div>
+                        </Section>
+
+                        {/* Section 4: Life in Cities */}
+                        <Section>
+                            <SectionTitle emoji="🏙️">Life in Cities</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                Cities are <strong>large and highly developed settlements</strong> with tall buildings, modern transportation, and many facilities.
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px', marginTop: '20px' }}>
+                                <div style={{ background: 'linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #64B5F6' }}>
+                                    <h4 style={{ fontSize: '15px', color: '#1565C0', fontWeight: 700, margin: '0 0 12px 0' }}>🏗️ City Features:</h4>
+                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '8px', padding: '10px', border: '1px solid #90CAF9' }}>
+                                            <p style={{ fontSize: '13px', color: '#1976D2', margin: 0 }}>👥 Large population</p>
+                                        </div>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '8px', padding: '10px', border: '1px solid #90CAF9' }}>
+                                            <p style={{ fontSize: '13px', color: '#1976D2', margin: 0 }}>🏢 Tall buildings</p>
+                                        </div>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '8px', padding: '10px', border: '1px solid #90CAF9' }}>
+                                            <p style={{ fontSize: '13px', color: '#1976D2', margin: 0 }}>🚌 Modern transport</p>
+                                        </div>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '8px', padding: '10px', border: '1px solid #90CAF9' }}>
+                                            <p style={{ fontSize: '13px', color: '#1976D2', margin: 0 }}>🏥 Many facilities</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #BA68C8' }}>
+                                    <h4 style={{ fontSize: '15px', color: '#7B1FA2', fontWeight: 700, margin: '0 0 12px 0' }}>👨‍⚕️ City Professions:</h4>
+                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '8px', padding: '10px', border: '1px solid #CE93D8' }}>
+                                            <p style={{ fontSize: '13px', color: '#8E24AA', margin: 0 }}>👨‍⚕️ Doctors</p>
+                                        </div>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '8px', padding: '10px', border: '1px solid #CE93D8' }}>
+                                            <p style={{ fontSize: '13px', color: '#8E24AA', margin: 0 }}>👷 Engineers</p>
+                                        </div>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '8px', padding: '10px', border: '1px solid #CE93D8' }}>
+                                            <p style={{ fontSize: '13px', color: '#8E24AA', margin: 0 }}>👩‍🏫 Teachers</p>
+                                        </div>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '8px', padding: '10px', border: '1px solid #CE93D8' }}>
+                                            <p style={{ fontSize: '13px', color: '#8E24AA', margin: 0 }}>💼 Business owners</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style={{ background: '#E3F2FD', borderRadius: '12px', padding: '16px', marginTop: '16px', border: '1px solid #90CAF9' }}>
+                                <p style={{ fontSize: '15px', color: '#1565C0', margin: 0 }}>
+                                    🌟 <strong>Opportunity:</strong> Cities have more facilities and job opportunities!
+                                </p>
+                            </div>
+                        </Section>
+
+                        {/* Section 5: Urban vs Rural Areas */}
+                        <Section>
+                            <SectionTitle emoji="🌆">Urban vs Rural Areas</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                <strong>Rural areas</strong> include villages and farming communities. <strong>Urban areas</strong> include towns and cities with modern facilities.
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '16px', marginTop: '20px' }}>
+                                <div style={{ background: 'linear-gradient(135deg, #C8E6C9 0%, #A5D6A7 100%)', borderRadius: '16px', padding: '24px', border: '2px solid #66BB6A' }}>
+                                    <h4 style={{ fontSize: '18px', color: '#2E7D32', fontWeight: 700, margin: '0 0 16px 0', textAlign: 'center' }}>🌾 Rural Areas</h4>
+                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #A5D6A7', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                            <span style={{ fontSize: '20px' }}>🌾</span>
+                                            <p style={{ fontSize: '14px', color: '#2E7D32', margin: 0 }}>Farms and fields</p>
+                                        </div>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #A5D6A7', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                            <span style={{ fontSize: '20px' }}>🏡</span>
+                                            <p style={{ fontSize: '14px', color: '#2E7D32', margin: 0 }}>Small houses</p>
+                                        </div>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #A5D6A7', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                            <span style={{ fontSize: '20px' }}>🌳</span>
+                                            <p style={{ fontSize: '14px', color: '#2E7D32', margin: 0 }}>Open spaces</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #BBDEFB 0%, #90CAF9 100%)', borderRadius: '16px', padding: '24px', border: '2px solid #42A5F5' }}>
+                                    <h4 style={{ fontSize: '18px', color: '#1565C0', fontWeight: 700, margin: '0 0 16px 0', textAlign: 'center' }}>🏙️ Urban Areas</h4>
+                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #90CAF9', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                            <span style={{ fontSize: '20px' }}>🏢</span>
+                                            <p style={{ fontSize: '14px', color: '#1565C0', margin: 0 }}>Tall buildings</p>
+                                        </div>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #90CAF9', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                            <span style={{ fontSize: '20px' }}>🛣️</span>
+                                            <p style={{ fontSize: '14px', color: '#1565C0', margin: 0 }}>Paved roads</p>
+                                        </div>
+                                        <div style={{ background: '#FFFFFF', borderRadius: '10px', padding: '12px', border: '1px solid #90CAF9', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                            <span style={{ fontSize: '20px' }}>🏢</span>
+                                            <p style={{ fontSize: '14px', color: '#1565C0', margin: 0 }}>Offices</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style={{ background: '#FFF3E0', borderRadius: '12px', padding: '16px', marginTop: '16px', border: '1px solid #FFB74D' }}>
+                                <p style={{ fontSize: '15px', color: '#E65100', margin: 0 }}>
+                                    ⚖️ <strong>Balance:</strong> Both rural and urban areas are important for a country's development!
+                                </p>
+                            </div>
+                        </Section>
+
+                        {/* Section 6: Why Settlements Are Important */}
+                        <Section>
+                            <SectionTitle emoji="⭐">Why Settlements Are Important</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                Settlements provide homes, jobs, and services that help societies grow and develop.
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px', marginTop: '20px' }}>
+                                <div style={{ background: 'linear-gradient(135deg, #FFCCBC 0%, #FFAB91 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #FF8A65', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🏠</div>
+                                    <p style={{ fontSize: '15px', color: '#BF360C', fontWeight: 700, margin: '0 0 6px 0' }}>Homes</p>
+                                    <p style={{ fontSize: '13px', color: '#D84315', margin: 0 }}>Shelter for people</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #C8E6C9 0%, #A5D6A7 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #66BB6A', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>💼</div>
+                                    <p style={{ fontSize: '15px', color: '#2E7D32', fontWeight: 700, margin: '0 0 6px 0' }}>Jobs</p>
+                                    <p style={{ fontSize: '13px', color: '#388E3C', margin: 0 }}>Work opportunities</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #64B5F6', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🏫</div>
+                                    <p style={{ fontSize: '15px', color: '#1565C0', fontWeight: 700, margin: '0 0 6px 0' }}>Education</p>
+                                    <p style={{ fontSize: '13px', color: '#1976D2', margin: 0 }}>Schools and learning</p>
+                                </div>
+                                <div style={{ background: 'linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 100%)', borderRadius: '16px', padding: '20px', border: '2px solid #BA68C8', textAlign: 'center' }}>
+                                    <div style={{ fontSize: '40px', marginBottom: '10px' }}>🏥</div>
+                                    <p style={{ fontSize: '15px', color: '#7B1FA2', fontWeight: 700, margin: '0 0 6px 0' }}>Healthcare</p>
+                                    <p style={{ fontSize: '13px', color: '#8E24AA', margin: 0 }}>Hospitals and clinics</p>
+                                </div>
+                            </div>
+                            <div style={{ background: 'linear-gradient(135deg, #5C6BC0 0%, #3F51B5 100%)', borderRadius: '16px', padding: '20px', textAlign: 'center', marginTop: '20px' }}>
+                                <p style={{ fontSize: '17px', color: '#FFFFFF', fontWeight: 600, margin: 0 }}>
+                                    🏠 Villages, towns, and cities help societies grow and develop!
+                                </p>
+                            </div>
+                        </Section>
+                    </>
+                )}
+
+                {/* ─────────────────────────────────────────────────────────────────────────
+                    CLASS 4 – SOCIAL STUDIES – COMMUNITY AND OCCUPATIONS
+                ─────────────────────────────────────────────────────────────────────────── */}
+
+                // ─────────────────────────────────────────────────────────────────────────
+                //     CLASS 4 – SOCIAL STUDIES – LOCAL GOVERNMENT
+                // ───────────────────────────────────────────────────────────────────────────
+                {chapterId === 'local-government' && (
+                    <>
+                        {/* 1. Lesson Content Section */}
+                        <Section id="lesson-content">
+                            <SectionTitle emoji="🏛️">What is a Local Government?</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                Just like your school has a principal and teachers to manage things, every village, town, and city has a <strong>government</strong> to take care of its people. This is called the <strong>Local Government</strong>.
+                            </p>
+                            <div style={{ background: '#E3F2FD', borderRadius: '16px', padding: '20px', marginTop: '16px' }}>
+                                <p style={{ fontSize: '15px', color: '#1565C0', margin: 0 }}>
+                                    <strong>Fun Fact:</strong> India is a very big country, so we have local governments everywhere to make sure everyone gets the help they need!
+                                </p>
+                            </div>
+                        </Section>
+
+                        <Section>
+                            <SectionTitle emoji="🏘️">Types of Local Government</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                There are different types of local governments depending on where you live:
+                            </p>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px', marginTop: '20px' }}>
+                                <div style={{ background: '#E8F5E9', borderRadius: '16px', padding: '20px', border: '2px solid #A5D6A7' }}>
+                                    <h4 style={{ fontSize: '16px', color: '#2E7D32', fontWeight: 700, margin: '0 0 8px 0' }}>🏡 In Villages</h4>
+                                    <p style={{ fontSize: '14px', color: '#388E3C', margin: 0 }}>It is called the <strong>Gram Panchayat</strong>. The head of the Gram Panchayat is the <strong>Sarpanch</strong>.</p>
+                                </div>
+                                <div style={{ background: '#FFF3E0', borderRadius: '16px', padding: '20px', border: '2px solid #FFCC80' }}>
+                                    <h4 style={{ fontSize: '16px', color: '#E65100', fontWeight: 700, margin: '0 0 8px 0' }}>🏢 In Towns</h4>
+                                    <p style={{ fontSize: '14px', color: '#F57C00', margin: 0 }}>It is called the <strong>Municipal Council</strong> (or Nagar Palika).</p>
+                                </div>
+                                <div style={{ background: '#F3E5F5', borderRadius: '16px', padding: '20px', border: '2px solid #CE93D8' }}>
+                                    <h4 style={{ fontSize: '16px', color: '#7B1FA2', fontWeight: 700, margin: '0 0 8px 0' }}>🏙️ In Big Cities</h4>
+                                    <p style={{ fontSize: '14px', color: '#8E24AA', margin: 0 }}>It is called the <strong>Municipal Corporation</strong>. The head is the <strong>Mayor</strong>.</p>
+                                </div>
+                            </div>
+                        </Section>
+
+                        <Section>
+                            <SectionTitle emoji="🛠️">Duties of the Local Government</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                The local government works hard to make our lives comfortable and safe. Some of their main duties are:
+                            </p>
+                            <ul style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8, marginTop: '16px', display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                                <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                                    <span style={{ fontSize: '20px' }}>💧</span>
+                                    <span>Providing clean <strong>drinking water</strong> to all homes.</span>
+                                </li>
+                                <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                                    <span style={{ fontSize: '20px' }}>🧹</span>
+                                    <span>Keeping the streets clean and collecting <strong>garbage</strong>.</span>
+                                </li>
+                                <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                                    <span style={{ fontSize: '20px' }}>💡</span>
+                                    <span>Maintaining <strong>streetlights</strong> so roads are safe at night.</span>
+                                </li>
+                                <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                                    <span style={{ fontSize: '20px' }}>🏥</span>
+                                    <span>Building and running <strong>hospitals</strong> and dispensaries for the sick.</span>
+                                </li>
+                                <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                                    <span style={{ fontSize: '20px' }}>🏫</span>
+                                    <span>Running <strong>schools</strong> so every child can study.</span>
+                                </li>
+                                <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                                    <span style={{ fontSize: '20px' }}>🛣️</span>
+                                    <span>Building and repairing <strong>roads</strong> and bridges.</span>
+                                </li>
+                                <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                                    <span style={{ fontSize: '20px' }}>🌳</span>
+                                    <span>Creating <strong>parks</strong> and gardens for children to play.</span>
+                                </li>
+                            </ul>
+                        </Section>
+
+                        <Section>
+                            <SectionTitle emoji="🗳️">How is the Local Government Chosen?</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                The members of the local government are chosen by the people!
+                            </p>
+                            <ul style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8, marginTop: '16px' }}>
+                                <li>Adults (people who are 18 years or older) <strong>vote</strong> to choose their representatives.</li>
+                                <li>These chosen representatives form the local government.</li>
+                                <li>The local government is chosen for a period of <strong>five years</strong>.</li>
+                            </ul>
+                        </Section>
+
+                        <Section>
+                            <SectionTitle emoji="💰">Where Does the Money Come From?</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                To do all this work, the local government needs money. Where do they get it?
+                            </p>
+                            <div style={{ background: '#FFF9C4', borderRadius: '16px', padding: '20px', marginTop: '16px' }}>
+                                <ul style={{ fontSize: '15px', color: '#F57F17', margin: 0, paddingLeft: '20px' }}>
+                                    <li><strong>Taxes:</strong> People pay taxes on houses, land, and water.</li>
+                                    <li><strong>State Government:</strong> The state government also gives them funds to help develop the area.</li>
+                                </ul>
+                            </div>
+                        </Section>
+
+                        <Section>
+                            <SectionTitle emoji="🌟">Our Responsibility</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                The local government works for us, but as good citizens, we also have duties!
+                            </p>
+                            <ul style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8, marginTop: '16px' }}>
+                                <li>We should throw garbage only in dustbins.</li>
+                                <li>We should not waste water or electricity.</li>
+                                <li>We must protect public property like parks and streetlights.</li>
+                            </ul>
+                        </Section>
+                    </>
+                )}
+
+                // ─────────────────────────────────────────────────────────────────────────
+                //     CLASS 4 – SOCIAL STUDIES – CULTURE AND FESTIVALS
+                // ───────────────────────────────────────────────────────────────────────────
+                {classId === '4' && chapterId === 'culture-and-festivals' && (
+                    <>
+                        {/* Sidebar Navigation */}
+                        <nav style={{ position: 'sticky', top: 100, left: 0, alignSelf: 'flex-start', marginBottom: 32, zIndex: 2 }}>
+                            <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
+                                <li><a href="#lesson-content" style={{ color: '#D97706', fontWeight: 600, fontSize: 16, textDecoration: 'none' }}>Lesson Content</a></li>
+                                <li><a href="#videos" style={{ color: '#D97706', fontWeight: 600, fontSize: 16, textDecoration: 'none' }}>Videos</a></li>
+                                <li><a href="#quiz" style={{ color: '#D97706', fontWeight: 600, fontSize: 16, textDecoration: 'none' }}>Quiz</a></li>
+                            </ul>
+                        </nav>
+
+                        {/* 1. Lesson Content Section */}
+                        <Section id="lesson-content">
+                            <SectionTitle emoji="🎨">What is Culture?</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                Culture is the <strong>way of life of people in a society</strong>.<br /><br />
+                                It includes:
+                            </p>
+                            <ul style={{ fontSize: '15px', color: '#D97706', marginLeft: 24, marginBottom: 16 }}>
+                                <li>Language</li>
+                                <li>Food</li>
+                                <li>Clothing</li>
+                                <li>Music</li>
+                                <li>Dance</li>
+                                <li>Traditions</li>
+                            </ul>
+                            <div style={{ background: '#FEF3C7', borderRadius: '12px', padding: '16px', border: '1px solid #FBBF24', marginBottom: 12 }}>
+                                <p style={{ fontSize: '15px', color: '#B45309', margin: 0 }}>
+                                    🪔 Culture reflects the identity of a community or country.
+                                </p>
+                            </div>
+                        </Section>
+
+                        {/* 2. Cultural Diversity in India */}
+                        <Section>
+                            <SectionTitle emoji="🤝">Unity in Diversity</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                India is known for its <strong>unity in diversity</strong>.<br /><br />
+                                People from different regions follow different traditions, languages, and customs.
+                            </p>
+                            <ul style={{ fontSize: '15px', color: '#D97706', marginLeft: 24, marginBottom: 16 }}>
+                                <li>Different traditional dresses</li>
+                                <li>Different foods</li>
+                                <li>Different languages</li>
+                            </ul>
+                            <div style={{ background: '#FDE68A', borderRadius: '12px', padding: '16px', border: '1px solid #FBBF24', marginBottom: 12 }}>
+                                <p style={{ fontSize: '15px', color: '#B45309', margin: 0 }}>
+                                    🇮🇳 Despite these differences, people in India live together peacefully.
+                                </p>
+                            </div>
+                        </Section>
+
+                        {/* 3. Festivals in India */}
+                        <Section>
+                            <SectionTitle emoji="🎉">Popular Indian Festivals</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                India celebrates many festivals throughout the year.
+                            </p>
+                            <ul style={{ fontSize: '15px', color: '#D97706', marginLeft: 24, marginBottom: 16 }}>
+                                <li>Diwali → festival of lights</li>
+                                <li>Holi → festival of colors</li>
+                                <li>Pongal → harvest festival</li>
+                                <li>Eid → celebrated by Muslims</li>
+                                <li>Christmas → celebrated by Christians</li>
+                            </ul>
+                            <div style={{ background: '#FECACA', borderRadius: '12px', padding: '16px', border: '1px solid #F87171', marginBottom: 12 }}>
+                                <p style={{ fontSize: '15px', color: '#B91C1C', margin: 0 }}>
+                                    🎊 Festivals bring joy and strengthen community bonds.
+                                </p>
+                            </div>
+                        </Section>
+
+                        {/* 4. Traditions and Celebrations */}
+                        <Section>
+                            <SectionTitle emoji="🪔">Indian Traditions</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                Traditions are customs that are followed for many years.
+                            </p>
+                            <ul style={{ fontSize: '15px', color: '#D97706', marginLeft: 24, marginBottom: 16 }}>
+                                <li>Lighting lamps during Diwali</li>
+                                <li>Decorating homes during festivals</li>
+                                <li>Preparing special foods</li>
+                            </ul>
+                            <div style={{ background: '#F3E8FF', borderRadius: '12px', padding: '16px', border: '1px solid #A78BFA', marginBottom: 12 }}>
+                                <p style={{ fontSize: '15px', color: '#7C3AED', margin: 0 }}>
+                                    🕯️ Traditions connect people with their culture and history.
+                                </p>
+                            </div>
+                        </Section>
+
+                        {/* 5. Importance of Festivals */}
+                        <Section>
+                            <SectionTitle emoji="🌟">Why Festivals are Important</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                Festivals help people:
+                            </p>
+                            <ul style={{ fontSize: '15px', color: '#D97706', marginLeft: 24, marginBottom: 16 }}>
+                                <li>Celebrate together</li>
+                                <li>Share happiness</li>
+                                <li>Strengthen relationships</li>
+                                <li>Respect different cultures</li>
+                            </ul>
+                            <div style={{ background: '#D1FAE5', borderRadius: '12px', padding: '16px', border: '1px solid #34D399', marginBottom: 12 }}>
+                                <p style={{ fontSize: '15px', color: '#059669', margin: 0 }}>
+                                    🎈 Festivals bring people closer and promote unity.
+                                </p>
+                            </div>
+                        </Section>
+
+                        {/* 6. Respecting Different Cultures */}
+                        <Section>
+                            <SectionTitle emoji="🤲">Respecting Diversity</SectionTitle>
+                            <p style={{ fontSize: '16px', color: '#334155', lineHeight: 1.8 }}>
+                                India has many cultures and religions.<br /><br />
+                                People should respect different traditions and celebrations.
+                            </p>
+                            <ul style={{ fontSize: '15px', color: '#D97706', marginLeft: 24, marginBottom: 16 }}>
+                                <li>Learning about other festivals</li>
+                                <li>Participating in cultural events</li>
+                                <li>Respecting different beliefs</li>
+                            </ul>
+                            <div style={{ background: '#FDE68A', borderRadius: '12px', padding: '16px', border: '1px solid #FBBF24', marginBottom: 12 }}>
+                                <p style={{ fontSize: '15px', color: '#B45309', margin: 0 }}>
+                                    🤝 Respecting diversity helps build harmony in society.
                                 </p>
                             </div>
                         </Section>

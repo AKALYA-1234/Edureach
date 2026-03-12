@@ -909,7 +909,72 @@ const subjectChapters = {
             ctaTitle: 'Want to explore more?',
             ctaText: 'Discover fascinating stories from history and geography.',
             ctaButton: 'Explore Social Studies',
-            chapters: [],
+            chapters: [
+                {
+                    id: 'early-human-life',
+                    title: 'Early Human Life',
+                    description: 'Learn about how early humans lived, hunted, and discovered fire and tools.',
+                    emoji: '🦴',
+                    bgColor: '#D7CCC8',
+                    iconBg: '#BCAAA4',
+                },
+                {
+                    id: 'maps-and-directions',
+                    title: 'Maps and Directions',
+                    description: 'Understand how to read maps, use directions, and find locations.',
+                    emoji: '🗺️',
+                    bgColor: '#B3E5FC',
+                    iconBg: '#81D4FA',
+                },
+                {
+                    id: 'physical-features-of-earth',
+                    title: 'Physical Features of the Earth',
+                    description: 'Explore mountains, rivers, plains, deserts, and other landforms.',
+                    emoji: '🏔️',
+                    bgColor: '#C8E6C9',
+                    iconBg: '#A5D6A7',
+                },
+                {
+                    id: 'our-country-india',
+                    title: 'Our Country India',
+                    description: 'Learn about India\'s states, capitals, national symbols, and heritage.',
+                    emoji: '🇮🇳',
+                    bgColor: '#FFECB3',
+                    iconBg: '#FFE082',
+                },
+                {
+                    id: 'cities-towns-villages',
+                    title: 'Cities, Towns, and Villages',
+                    description: 'Understand the differences between urban and rural areas.',
+                    emoji: '🏘️',
+                    bgColor: '#F8BBD0',
+                    iconBg: '#F48FB1',
+                },
+                {
+                    id: 'community-and-occupations',
+                    title: 'Community and Occupations',
+                    description: 'Learn about different jobs, workers, and how communities function.',
+                    emoji: '👷',
+                    bgColor: '#E1BEE7',
+                    iconBg: '#CE93D8',
+                },
+                {
+                    id: 'local-government',
+                    title: 'Local Government',
+                    description: 'Discover how local governments work and serve the community.',
+                    emoji: '🏛️',
+                    bgColor: '#BBDEFB',
+                    iconBg: '#90CAF9',
+                },
+                {
+                    id: 'culture-and-festivals',
+                    title: 'Culture and Festivals',
+                    description: 'Explore the diverse cultures, traditions, and festivals of India.',
+                    emoji: '🎉',
+                    bgColor: '#FFE0B2',
+                    iconBg: '#FFCC80',
+                },
+            ],
         },
         gk: {
             title: 'General Knowledge',
@@ -1085,7 +1150,7 @@ const ChapterPage = () => {
                                         justifyContent: 'space-between',
                                         width: '100%',
                                         padding: '12px 16px',
-                                        background: subjectData.buttonColor,
+                                        background: '#4BA3E3',
                                         color: '#FFFFFF',
                                         border: 'none',
                                         borderRadius: '10px',
@@ -1095,10 +1160,10 @@ const ChapterPage = () => {
                                         transition: 'background 0.2s ease',
                                     }}
                                     onMouseEnter={(e) => {
-                                        e.currentTarget.style.background = subjectData.buttonHover;
+                                        e.currentTarget.style.background = '#3A8FCC';
                                     }}
                                     onMouseLeave={(e) => {
-                                        e.currentTarget.style.background = subjectData.buttonColor;
+                                        e.currentTarget.style.background = '#4BA3E3';
                                     }}
                                     onClick={(e) => {
                                         e.stopPropagation();

@@ -72,7 +72,7 @@ io.on("connection", (socket) => {
     console.log("User disconnected:", socket.id);
   });
 });
-// ─────────────────────────────────────────────────────────
+// ──────────────────────────────────────────────────────
 
 app.get("/api/health", (req, res) => {
   res.json({ status: "EduReach server running" });
