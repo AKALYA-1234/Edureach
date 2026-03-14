@@ -1,6 +1,10 @@
 const Groq = require('groq-sdk');
 
-const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
+let groq;
+function getGroqClient() {
+  if (!groq) groq = new Groq({ apiKey: process.env.GROQ_API_KEY || 'placeholder' });
+  return groq;
+}
 
 const GRADE_GUIDANCE = {
   'Class 6':  'The student is in Class 6 (age ~11). Use very simple language, short sentences, and basic concepts only. Avoid jargon entirely. Use fun everyday comparisons from a child\'s world — toys, games, school life.',
@@ -53,7 +57,7 @@ exports.askDoubt = async (req, res) => {
       },
     ];
 
-    const completion = await groq.chat.completions.create({
+    const completion = await getGroqClient().chat.completions.create({
       model: 'llama-3.3-70b-versatile',
       messages,
       max_tokens: 400,

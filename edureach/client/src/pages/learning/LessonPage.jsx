@@ -5983,6 +5983,301 @@ const lessonData = {
         ],
         summaryEnd: 'Well done! Keep practicing punctuation and spelling every day!',
         nextLesson: null
+    },
+
+    '5-large-numbers': {
+        title: 'Large Numbers',
+        subtitle: 'Learn to read, write, compare, and round off numbers up to 7 digits (millions) and beyond.',
+        videoSubtitle: 'Watch these videos to understand large numbers easily!',
+        videos: [
+            { src: 'https://www.youtube.com/embed/QqmcFvFpUic?si=yUscHBy2PY0A3umr', title: 'Large Numbers - Indian & International System', thumb: 'https://img.youtube.com/vi/QqmcFvFpUic/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/k6G-MBQQ_co?si=_OSZsjG8UbeBhU6-', title: 'Place Value & Face Value', thumb: 'https://img.youtube.com/vi/k6G-MBQQ_co/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/gBqbUf2_8aI?si=Tb1o1OT7uXdxaq_B', title: 'Comparing and Rounding Numbers', thumb: 'https://img.youtube.com/vi/gBqbUf2_8aI/hqdefault.jpg' }
+        ],
+        quiz: [
+            {
+                question: 'What is the place value of 5 in the number 5,342,100?',
+                visual: '🔢',
+                options: ['5 Thousands', '5 Lakhs', '5 Millions', '5 Tens'],
+                correct: 2
+            },
+            {
+                question: 'Which number is ONE MILLION?',
+                visual: '💰',
+                options: ['100,000', '1,000,000', '10,000,000', '1,000'],
+                correct: 1
+            },
+            {
+                question: 'How do we write "Three million, two hundred thousand, forty" in numbers?',
+                visual: '✏️',
+                options: ['3,200,400', '3,020,040', '3,200,040', '3,200,004'],
+                correct: 2
+            },
+            {
+                question: 'Compare: 4,500,000 ___ 4,050,000',
+                visual: '⚖️',
+                options: ['>', '<', '=', 'None'],
+                correct: 0
+            },
+            {
+                question: 'Round 45,678 to the nearest 1,000.',
+                visual: '🎯',
+                options: ['45,000', '46,000', '45,700', '40,000'],
+                correct: 1
+            },
+            {
+                question: 'What is the smallest 7-digit number?',
+                visual: '🐜',
+                options: ['9,999,999', '1,000,000', '100,000', '1,111,111'],
+                correct: 1
+            },
+            {
+                question: 'Round 123,456 to the nearest 10,000.',
+                visual: '🎯',
+                options: ['120,000', '130,000', '123,000', '100,000'],
+                correct: 0
+            },
+            {
+                question: 'If the population of a city is 2,450,890, what is the digit in the hundred thousands place?',
+                visual: '🏙️',
+                options: ['2', '4', '5', '8'],
+                correct: 1
+            },
+            {
+                question: 'Write 8,000,000 + 40,000 + 500 + 2 in standard form.',
+                visual: '➕',
+                options: ['8,450,002', '8,040,502', '8,400,502', '8,452,000'],
+                correct: 1
+            },
+            {
+                question: 'Which symbol makes this true? 9,999,999 ___ 10,000,000',
+                visual: '👉',
+                options: ['>', '<', '=', '+'],
+                correct: 1
+            }
+        ],
+        summary: [
+            'Large numbers are used for populations, distances, and huge amounts of money.',
+            'A 7-digit number goes up to Millions (International) or Ten Lakhs (Indian system).',
+            'We use commas to separate periods (Thousands, Millions) to make numbers easier to read.',
+            'We can compare large numbers by checking their highest place value first.',
+            'Rounding helps us estimate numbers to the nearest 10, 100, 1000, or 10,000.'
+        ],
+        summaryEnd: 'Fantastic! You have conquered Large Numbers!',
+        nextLesson: { id: 'addition-subtraction', title: 'Addition & Subtraction' }
+    },
+
+    '5-addition-subtraction': {
+        title: 'Addition & Subtraction of Large Numbers',
+        subtitle: 'Master adding and subtracting large numbers with proper alignment and careful carrying or borrowing.',
+        videoSubtitle: 'Watch these videos to learn addition and subtraction of large numbers!',
+        videos: [
+            { src: 'https://www.youtube.com/embed/c7Ty0K8CDQ8?si=7osLvafeNeHSX2hV', title: 'Addition of Large Numbers', thumb: 'https://img.youtube.com/vi/c7Ty0K8CDQ8/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/186wdnoAYJc?si=Hr7VNeiaNqGjiWyh', title: 'Subtraction of Large Numbers', thumb: 'https://img.youtube.com/vi/186wdnoAYJc/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/u1jvS6b31qg?si=sMCFguL5ZZi8n-FN', title: 'Word Problems with Large Numbers', thumb: 'https://img.youtube.com/vi/u1jvS6b31qg/hqdefault.jpg' }
+        ],
+        quiz: [
+            { question: 'What is 4,50,000 + 2,30,000?', visual: '➕', options: ['6,70,000', '6,80,000', '6,60,000', '6,90,000'], correct: 0 },
+            { question: 'What is 7,25,000 − 2,15,000?', visual: '➖', options: ['5,10,000', '5,20,000', '5,00,000', '4,90,000'], correct: 0 },
+            { question: 'What is 3,40,500 + 2,10,200?', visual: '➕', options: ['5,50,700', '5,60,700', '5,40,700', '5,70,700'], correct: 0 },
+            { question: 'What is 8,90,000 − 3,20,000?', visual: '➖', options: ['5,70,000', '5,60,000', '5,80,000', '5,50,000'], correct: 0 },
+            { question: 'What is 6,45,300 + 1,23,400?', visual: '➕', options: ['7,68,700', '7,60,700', '7,58,700', '7,70,700'], correct: 0 },
+            { question: 'What is 9,00,000 − 4,50,000?', visual: '➖', options: ['4,40,000', '4,50,000', '4,60,000', '4,30,000'], correct: 1 },
+            { question: 'What is 2,34,500 + 3,45,600?', visual: '➕', options: ['5,80,100', '5,70,100', '5,90,100', '5,60,100'], correct: 0 },
+            { question: 'What is 7,00,000 − 1,25,000?', visual: '➖', options: ['5,75,000', '5,85,000', '5,65,000', '5,95,000'], correct: 0 },
+            { question: 'What is 5,67,200 + 2,12,300?', visual: '➕', options: ['7,79,500', '7,69,500', '7,89,500', '7,59,500'], correct: 0 },
+            { question: 'What is 8,40,000 − 3,10,000?', visual: '➖', options: ['5,30,000', '5,20,000', '5,40,000', '5,10,000'], correct: 0 }
+        ],
+        summary: [
+            'Align numbers by place value before adding or subtracting.',
+            'Add or subtract column by column, starting from the rightmost (ones) column.',
+            'Carry over when the sum in a column is 10 or more.',
+            'Borrow from the next column when the top digit is smaller than the digit below.',
+            'Always verify your answer after solving.'
+        ],
+        summaryEnd: 'Well done! You have mastered addition and subtraction of large numbers!',
+        nextLesson: { id: 'multiplication', title: 'Multiplication' }
+    },
+
+    '5-multiplication': {
+        title: 'Multiplication of Multi-Digit Numbers',
+        subtitle: 'Learn to multiply multi-digit numbers using the column method, breaking numbers, and grid method.',
+        videoSubtitle: 'Watch these videos to master multiplication of multi-digit numbers!',
+        videos: [
+            { src: 'https://www.youtube.com/embed/0MqP7aeTszM?si=tUZdue6lvdhIA27w', title: 'Multi-Digit Multiplication', thumb: 'https://img.youtube.com/vi/0MqP7aeTszM/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/XRtEJJi8YVs?si=aBVShTnb1fSNX212', title: 'Multiplication Methods', thumb: 'https://img.youtube.com/vi/XRtEJJi8YVs/hqdefault.jpg' }
+        ],
+        quiz: [
+            { question: 'What is 234 × 5?', visual: '✖️', options: ['1170', '1180', '1160', '1190'], correct: 0 },
+            { question: 'What is 345 × 4?', visual: '✖️', options: ['1380', '1370', '1360', '1390'], correct: 0 },
+            { question: 'What is 456 × 2?', visual: '✖️', options: ['912', '902', '922', '932'], correct: 0 },
+            { question: 'What is 120 × 6?', visual: '✖️', options: ['720', '730', '710', '740'], correct: 0 },
+            { question: 'What is 25 × 12?', visual: '✖️', options: ['300', '250', '320', '310'], correct: 0 },
+            { question: 'What is 78 × 5?', visual: '✖️', options: ['390', '380', '400', '370'], correct: 0 },
+            { question: 'What is 134 × 3?', visual: '✖️', options: ['402', '392', '412', '422'], correct: 0 },
+            { question: 'What is 240 × 4?', visual: '✖️', options: ['960', '950', '970', '980'], correct: 0 },
+            { question: 'What is 56 × 8?', visual: '✖️', options: ['448', '438', '458', '468'], correct: 0 },
+            { question: 'What is 123 × 3?', visual: '✖️', options: ['369', '379', '359', '389'], correct: 0 }
+        ],
+        summary: [
+            'Multiplication finds the total when the same number is added repeatedly.',
+            'Use the column method: multiply from right to left and carry over when needed.',
+            'Breaking numbers and grid methods are helpful alternatives.',
+            'Write numbers in proper columns and check your answer by estimation.'
+        ],
+        summaryEnd: 'Excellent! You have mastered multiplication of multi-digit numbers!',
+        nextLesson: { id: 'division', title: 'Division' }
+    },
+
+    '5-division': {
+        title: 'Division – Long Division with Remainders',
+        subtitle: 'Learn to divide large numbers using long division and understand remainders.',
+        videoSubtitle: 'Watch these videos to master long division with remainders!',
+        videos: [
+            { src: 'https://www.youtube.com/embed/J15nbHRpSiQ?si=THUugnHvtEfUS5yY', title: 'Long Division', thumb: 'https://img.youtube.com/vi/J15nbHRpSiQ/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/6Ij98BwDcOg?si=Ga7EJ6ZMX3r5VpTr', title: 'Division with Remainders', thumb: 'https://img.youtube.com/vi/6Ij98BwDcOg/hqdefault.jpg' }
+        ],
+        quiz: [
+            { question: 'What is 96 ÷ 8?', visual: '➗', options: ['12', '10', '14', '16'], correct: 0 },
+            { question: 'What is 144 ÷ 6?', visual: '➗', options: ['24', '26', '22', '20'], correct: 0 },
+            { question: 'What is 225 ÷ 5?', visual: '➗', options: ['45', '40', '35', '50'], correct: 0 },
+            { question: 'What is 378 ÷ 7?', visual: '➗', options: ['54', '52', '56', '58'], correct: 0 },
+            { question: 'What is 360 ÷ 9?', visual: '➗', options: ['40', '45', '35', '50'], correct: 0 },
+            { question: 'What is 420 ÷ 6?', visual: '➗', options: ['70', '60', '65', '75'], correct: 0 },
+            { question: 'What is 500 ÷ 10?', visual: '➗', options: ['50', '45', '40', '55'], correct: 0 },
+            { question: 'What is 468 ÷ 6?', visual: '➗', options: ['78', '76', '74', '80'], correct: 0 },
+            { question: 'What is 875 ÷ 5?', visual: '➗', options: ['175', '170', '165', '180'], correct: 0 },
+            { question: 'What is 720 ÷ 8?', visual: '➗', options: ['90', '85', '80', '95'], correct: 0 }
+        ],
+        summary: [
+            'Division splits a number into equal parts; the leftover is called the remainder.',
+            'Dividend ÷ Divisor = Quotient remainder Remainder.',
+            'Long division: divide, multiply, subtract, bring down, repeat.',
+            'Check: Divisor × Quotient + Remainder = Dividend.'
+        ],
+        summaryEnd: 'Well done! You have mastered long division with remainders!',
+        nextLesson: { id: 'fractions-decimals', title: 'Fractions & Decimals' }
+    },
+
+    '5-fractions-decimals': {
+        title: 'Fractions & Decimals',
+        subtitle: 'Understand fractions, decimals, their conversions, and operations.',
+        videoSubtitle: 'Watch these videos to master fractions and decimals!',
+        videos: [
+            { src: 'https://www.youtube.com/embed/7g4Ef4h8o-w?si=tLtRbKfiDW8-I7d9', title: 'Understanding Fractions', thumb: 'https://img.youtube.com/vi/7g4Ef4h8o-w/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/qesj2jpktaE?si=GevP8br1xCOATjMy', title: 'Understanding Decimals', thumb: 'https://img.youtube.com/vi/qesj2jpktaE/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/2vjbNZaFz3c?si=K0wbRuzXVtwepbwG', title: 'Fractions and Decimals', thumb: 'https://img.youtube.com/vi/2vjbNZaFz3c/hqdefault.jpg' }
+        ],
+        quiz: [
+            { question: 'What is 1/2 as a decimal?', visual: '🥧', options: ['0.5', '0.2', '0.25', '0.75'], correct: 0 },
+            { question: 'What is 3/4 as a decimal?', visual: '🥧', options: ['0.75', '0.5', '0.25', '0.6'], correct: 0 },
+            { question: 'What is 0.6 as a fraction?', visual: '🥧', options: ['3/5', '2/5', '4/5', '1/5'], correct: 0 },
+            { question: 'What is 2/5 + 1/5?', visual: '➕', options: ['3/5', '2/5', '4/5', '5/5'], correct: 0 },
+            { question: 'What is 7/8 − 3/8?', visual: '➖', options: ['4/8', '5/8', '3/8', '2/8'], correct: 0 },
+            { question: 'What is 2.5 + 1.2?', visual: '➕', options: ['3.7', '3.5', '3.6', '3.8'], correct: 0 },
+            { question: 'What is 5.8 − 2.4?', visual: '➖', options: ['3.4', '3.2', '3.6', '3.8'], correct: 0 },
+            { question: 'Which of the following is a proper fraction?', visual: '🥧', options: ['3/5', '7/4', '5/3', '9/8'], correct: 0 },
+            { question: 'What is 0.25 as a fraction?', visual: '🥧', options: ['1/4', '1/2', '3/4', '1/5'], correct: 0 },
+            { question: 'What is 1/10 as a decimal?', visual: '🥧', options: ['0.1', '0.01', '0.5', '1.0'], correct: 0 }
+        ],
+        summary: [
+            'Fractions represent parts of a whole (numerator/denominator).',
+            'Types: proper, improper, mixed. Equivalent fractions have the same value.',
+            'Decimals use a decimal point; place values are tenths, hundredths, thousandths.',
+            'Convert between fractions and decimals; line up decimal points when adding or subtracting.'
+        ],
+        summaryEnd: 'Great job! You have learned fractions and decimals!',
+        nextLesson: { id: 'geometry', title: 'Geometry' }
+    },
+
+    '5-geometry': {
+        title: 'Geometry: Angles, Triangles, Circles, Perimeter, Area, and Volume',
+        subtitle: 'Learn about angles, triangles, circles, and how to find perimeter, area, and volume.',
+        videoSubtitle: 'Watch these videos to understand geometry!',
+        videos: [
+            { src: 'https://www.youtube.com/embed/2UEUWC313QY?si=92UEtWV-oiZvb15E', title: 'Geometry Basics', thumb: 'https://img.youtube.com/vi/2UEUWC313QY/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/FvpUVUgq_lo?si=IQVr64UhyvGsIYDw', title: 'Perimeter, Area and Volume', thumb: 'https://img.youtube.com/vi/FvpUVUgq_lo/hqdefault.jpg' }
+        ],
+        quiz: [
+            { question: 'An acute angle is', visual: '📐', options: ['Less than 90°', 'Equal to 90°', 'Greater than 180°', 'Equal to 180°'], correct: 0 },
+            { question: 'A right angle measures', visual: '📐', options: ['45°', '90°', '120°', '180°'], correct: 1 },
+            { question: 'A triangle with all sides equal is called', visual: '🔺', options: ['Scalene triangle', 'Equilateral triangle', 'Isosceles triangle', 'Right triangle'], correct: 1 },
+            { question: 'The sum of the angles of a triangle is', visual: '🔺', options: ['90°', '180°', '270°', '360°'], correct: 1 },
+            { question: 'The distance around a shape is called', visual: '📏', options: ['Area', 'Volume', 'Perimeter', 'Radius'], correct: 2 },
+            { question: 'Area of a rectangle is', visual: '▭', options: ['length + width', '2 × length × width', 'length × width', 'length − width'], correct: 2 },
+            { question: 'The center of a circle is', visual: '⭕', options: ['the edge', 'the middle point', 'the boundary', 'the side'], correct: 1 },
+            { question: 'The diameter of a circle is', visual: '⭕', options: ['Half of the radius', 'Twice the radius', 'Equal to the radius', 'Smaller than the radius'], correct: 1 },
+            { question: 'Volume measures', visual: '📦', options: ['distance', 'area', 'space inside an object', 'perimeter'], correct: 2 },
+            { question: 'Volume of a cube is', visual: '📦', options: ['side × side', 'side × side × side', 'side + side', 'side × 2'], correct: 1 }
+        ],
+        summary: [
+            'Angles: acute (<90°), right (90°), obtuse (90°–180°), straight (180°).',
+            'Triangles: equilateral, isosceles, scalene; sum of angles = 180°.',
+            'Circle: center, radius, diameter, circumference; diameter = 2 × radius.',
+            'Perimeter = distance around; Area = space inside; Volume = space inside a 3D object.'
+        ],
+        summaryEnd: 'Excellent! You have learned geometry basics!',
+        nextLesson: { id: 'measurement', title: 'Measurement' }
+    },
+
+    '5-measurement': {
+        title: 'Measurement: Length, Weight, and Capacity',
+        subtitle: 'Understand and convert units of length, weight, and capacity used in daily life.',
+        videoSubtitle: 'Watch these videos to learn all about measurement!',
+        videos: [
+            { src: 'https://www.youtube.com/embed/CaOo7h2MOkw?si=VIp-GKk_Ju_Vm1f9', title: 'Measurement Basics', thumb: 'https://img.youtube.com/vi/CaOo7h2MOkw/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/TVVPivUdfrU?si=BMxxylLMzj1SlDvp', title: 'Length, Weight and Capacity', thumb: 'https://img.youtube.com/vi/TVVPivUdfrU/hqdefault.jpg' }
+        ],
+        quiz: [
+            { question: '100 centimeters is equal to', visual: '📏', options: ['1 meter', '10 meters', '1000 meters', '1 kilometer'], correct: 0 },
+            { question: '1 kilometer is equal to', visual: '🚗', options: ['100 meters', '1000 meters', '10 meters', '500 meters'], correct: 1 },
+            { question: '1 kilogram equals', visual: '⚖️', options: ['100 grams', '500 grams', '1000 grams', '2000 grams'], correct: 2 },
+            { question: '1 liter equals', visual: '🥤', options: ['100 mL', '500 mL', '1000 mL', '2000 mL'], correct: 2 },
+            { question: '4 meters equals', visual: '📏', options: ['400 cm', '40 cm', '4000 cm', '40 m'], correct: 0 },
+            { question: '3 kg equals', visual: '⚖️', options: ['300 g', '3000 g', '30 g', '30000 g'], correct: 1 },
+            { question: '2000 mL equals', visual: '🥤', options: ['1 L', '2 L', '3 L', '4 L'], correct: 1 },
+            { question: 'Which unit is used to measure the length of roads?', visual: '🛣️', options: ['meters', 'centimeters', 'kilometers', 'millimeters'], correct: 2 },
+            { question: 'Which unit is used to measure the weight of fruits?', visual: '🍎', options: ['kilogram', 'meter', 'liter', 'centimeter'], correct: 0 },
+            { question: 'Which unit is used to measure the capacity of a water bottle?', visual: '🥤', options: ['meter', 'liter', 'kilogram', 'centimeter'], correct: 1 }
+        ],
+        summary: [
+            'Measurement tells us the size, amount, or quantity of objects.',
+            'Length is measured in mm, cm, m, km; Weight in g and kg; Capacity in mL and L.',
+            'Use multiplication when converting to smaller units and division for larger units.',
+            'Always write the correct unit with your answer.'
+        ],
+        summaryEnd: 'Great work! You now understand basic measurement of length, weight, and capacity!',
+        nextLesson: { id: 'data-handling', title: 'Data Handling' }
+    },
+
+    '5-data-handling': {
+        title: 'Data Handling: Tables, Bar Graphs, and Pie Charts',
+        subtitle: 'Learn to collect, organize, and interpret data using tables, bar graphs, and pie charts.',
+        videoSubtitle: 'Watch these videos to understand data handling!',
+        videos: [
+            { src: 'https://www.youtube.com/embed/su3NNcgJ4LE?si=wVKd9CXlosBADa41', title: 'Data Handling', thumb: 'https://img.youtube.com/vi/su3NNcgJ4LE/hqdefault.jpg' },
+            { src: 'https://www.youtube.com/embed/i-GWpe78d1w?si=Eub33uCahZuRfIpd', title: 'Bar Graphs and Pie Charts', thumb: 'https://img.youtube.com/vi/i-GWpe78d1w/hqdefault.jpg' }
+        ],
+        quiz: [
+            { question: 'Data handling means', visual: '📊', options: ['collecting and organizing information', 'drawing shapes', 'measuring length', 'solving equations'], correct: 0 },
+            { question: 'A table organizes data using', visual: '📋', options: ['circles', 'rows and columns', 'triangles', 'lines'], correct: 1 },
+            { question: 'A bar graph represents data using', visual: '📊', options: ['circles', 'bars', 'dots', 'triangles'], correct: 1 },
+            { question: 'A pie chart is shaped like', visual: '🥧', options: ['a square', 'a rectangle', 'a circle', 'a triangle'], correct: 2 },
+            { question: 'Which graph is best for comparing quantities?', visual: '📊', options: ['Bar graph', 'Pie chart', 'Line segment', 'Triangle'], correct: 0 },
+            { question: 'Pie charts show', visual: '🥧', options: ['shapes', 'parts of a whole', 'distances', 'angles'], correct: 1 },
+            { question: 'If the bar for apples reaches 10 and bananas reaches 6, which is higher?', visual: '📊', options: ['Apples', 'Bananas', 'Both equal', 'Cannot say'], correct: 0 },
+            { question: 'Data collected from a survey is called', visual: '📋', options: ['number line', 'data', 'fraction', 'measurement'], correct: 1 },
+            { question: 'Which graph is circular?', visual: '🥧', options: ['Bar graph', 'Pie chart', 'Line graph', 'Table'], correct: 1 },
+            { question: 'Data helps us', visual: '📊', options: ['understand information', 'draw pictures', 'write stories', 'solve puzzles'], correct: 0 }
+        ],
+        summary: [
+            'Data handling involves collecting, organizing, and understanding information.',
+            'Tables organize data in rows and columns for easy reading.',
+            'Bar graphs use bars to compare values across categories.',
+            'Pie charts show how a whole is divided into parts.'
+        ],
+        summaryEnd: 'Well done! You have learned data handling with tables, bar graphs, and pie charts!',
+        nextLesson: null
     }
 };
 
@@ -6254,6 +6549,1119 @@ const LessonPage = () => {
                     <div id="lesson-content" style={{ scrollMarginTop: '100px' }} />
 
                     {/* ──────────── LESSON CONTENT MODULES ──────────── */}
+                    {classId === '5' && chapterId === 'large-numbers' && (
+                        <>
+                            {/* ──────────── 1. INTRODUCTION ──────────── */}
+                            <Section>
+                                <SectionTitle emoji="🌍">What Are Large Numbers?</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.8, margin: '0 0 16px' }}>
+                                    Have you ever wondered how many stars are in the sky or how many people live in India? 
+                                    These amounts are so big that we need <strong>Large Numbers</strong> to count them!
+                                </p>
+                                <div style={{
+                                    display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginTop: '20px'
+                                }}>
+                                    <div style={{ background: '#EFF6FF', padding: '16px', borderRadius: '12px', borderLeft: '4px solid #3B82F6' }}>
+                                        <div style={{ fontSize: '24px', marginBottom: '8px' }}>👨‍👩‍👧‍👦</div>
+                                        <div style={{ fontWeight: 700, color: '#1E40AF' }}>Population of a City</div>
+                                        <div style={{ color: '#475569', fontSize: '14px' }}>Mumbai has over 20,000,000 people!</div>
+                                    </div>
+                                    <div style={{ background: '#ECFDF5', padding: '16px', borderRadius: '12px', borderLeft: '4px solid #10B981' }}>
+                                        <div style={{ fontSize: '24px', marginBottom: '8px' }}>🚀</div>
+                                        <div style={{ fontWeight: 700, color: '#065F46' }}>Distance to the Moon</div>
+                                        <div style={{ color: '#475569', fontSize: '14px' }}>It is about 384,400 kilometers away!</div>
+                                    </div>
+                                </div>
+                            </Section>
+
+                            {/* ──────────── 2. PLACE VALUE CHART ──────────── */}
+                            <Section style={{ background: '#F8FAFC' }}>
+                                <SectionTitle emoji="📊">The Place Value Chart</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.8, margin: '0 0 16px' }}>
+                                    To read large numbers, we put them in a <strong>Place Value Chart</strong>. 
+                                    In the International System, we group numbers into periods of three: <strong>Ones, Thousands, and Millions</strong>.
+                                </p>
+                                <div style={{ overflowX: 'auto', background: 'white', borderRadius: '12px', border: '1px solid #E2E8F0' }}>
+                                    <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'center', fontSize: '15px' }}>
+                                        <thead>
+                                            <tr style={{ background: '#F1F5F9' }}>
+                                                <th colSpan="3" style={{ padding: '12px', border: '1px solid #E2E8F0', color: '#0F172A' }}>Millions Period</th>
+                                                <th colSpan="3" style={{ padding: '12px', border: '1px solid #E2E8F0', color: '#0F172A' }}>Thousands Period</th>
+                                                <th colSpan="3" style={{ padding: '12px', border: '1px solid #E2E8F0', color: '#0F172A' }}>Ones Period</th>
+                                            </tr>
+                                            <tr style={{ background: '#EEF2FF', color: '#4338CA', fontSize: '13px' }}>
+                                                <th style={{ padding: '8px', border: '1px solid #E2E8F0' }}>H. Millions</th>
+                                                <th style={{ padding: '8px', border: '1px solid #E2E8F0' }}>T. Millions</th>
+                                                <th style={{ padding: '8px', border: '1px solid #E2E8F0' }}>Millions</th>
+                                                <th style={{ padding: '8px', border: '1px solid #E2E8F0' }}>H. Thousands</th>
+                                                <th style={{ padding: '8px', border: '1px solid #E2E8F0' }}>T. Thousands</th>
+                                                <th style={{ padding: '8px', border: '1px solid #E2E8F0' }}>Thousands</th>
+                                                <th style={{ padding: '8px', border: '1px solid #E2E8F0' }}>Hundreds</th>
+                                                <th style={{ padding: '8px', border: '1px solid #E2E8F0' }}>Tens</th>
+                                                <th style={{ padding: '8px', border: '1px solid #E2E8F0' }}>Ones</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td style={{ padding: '12px', border: '1px solid #E2E8F0', fontWeight: 700 }}>1</td>
+                                                <td style={{ padding: '12px', border: '1px solid #E2E8F0', fontWeight: 700 }}>2</td>
+                                                <td style={{ padding: '12px', border: '1px solid #E2E8F0', fontWeight: 700 }}>5</td>
+                                                <td style={{ padding: '12px', border: '1px solid #E2E8F0', fontWeight: 700 }}>4</td>
+                                                <td style={{ padding: '12px', border: '1px solid #E2E8F0', fontWeight: 700 }}>3</td>
+                                                <td style={{ padding: '12px', border: '1px solid #E2E8F0', fontWeight: 700 }}>0</td>
+                                                <td style={{ padding: '12px', border: '1px solid #E2E8F0', fontWeight: 700 }}>8</td>
+                                                <td style={{ padding: '12px', border: '1px solid #E2E8F0', fontWeight: 700 }}>9</td>
+                                                <td style={{ padding: '12px', border: '1px solid #E2E8F0', fontWeight: 700 }}>7</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div style={{ textAlign: 'center', marginTop: '16px', fontSize: '18px', fontWeight: 700, color: '#334155' }}>
+                                    Reads as: <span style={{ color: '#2563EB' }}>125,430,897</span>
+                                </div>
+                            </Section>
+
+                            {/* ──────────── 3. READING & WRITING ──────────── */}
+                            <Section>
+                                <SectionTitle emoji="📖">Reading and Writing Large Numbers</SectionTitle>
+                                <div style={{ background: '#FFFBEB', padding: '20px', borderRadius: '12px', border: '1px solid #FDE68A', marginBottom: '20px' }}>
+                                    <h4 style={{ margin: '0 0 10px 0', color: '#92400E', fontSize: '18px' }}>Rule of Commas:</h4>
+                                    <p style={{ margin: 0, color: '#78350F' }}>
+                                        To make numbers easy to read, we use commas ( , ) to separate periods. In the International system, we put a comma after every <strong>three digits</strong> from the right.
+                                    </p>
+                                </div>
+                                
+                                <div style={{ display: 'grid', gap: '16px' }}>
+                                    <div style={{ display: 'flex', alignItems: 'center', background: 'white', padding: '16px', borderRadius: '12px', border: '1px solid #E2E8F0', boxShadow: '0 2px 4px rgba(0,0,0,0.02)' }}>
+                                        <div style={{ fontSize: '24px', fontWeight: 800, color: '#0F172A', width: '160px' }}>2,500,000</div>
+                                        <div style={{ flex: 1, color: '#475569', fontSize: '16px' }}>→ Two million, five hundred thousand</div>
+                                    </div>
+                                    <div style={{ display: 'flex', alignItems: 'center', background: 'white', padding: '16px', borderRadius: '12px', border: '1px solid #E2E8F0', boxShadow: '0 2px 4px rgba(0,0,0,0.02)' }}>
+                                        <div style={{ fontSize: '24px', fontWeight: 800, color: '#0F172A', width: '160px' }}>34,080,105</div>
+                                        <div style={{ flex: 1, color: '#475569', fontSize: '16px' }}>→ Thirty-four million, eighty thousand, one hundred five</div>
+                                    </div>
+                                </div>
+                            </Section>
+
+                            {/* ──────────── 4. COMPARING NUMBERS ──────────── */}
+                            <Section>
+                                <SectionTitle emoji="⚖️">Comparing Large Numbers</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.8, margin: '0 0 16px' }}>
+                                    To compare numbers, use these symbols: <br/>
+                                    <strong>&gt; (Greater than)</strong>, <strong>&lt; (Less than)</strong>, and <strong>= (Equal to)</strong>.
+                                </p>
+                                <div style={{ display: 'flex', gap: '24px', alignItems: 'center', justifyContent: 'center', padding: '24px', background: '#F0FDF4', borderRadius: '16px', border: '2px dashed #86EFAC' }}>
+                                    <div style={{ textAlign: 'center' }}>
+                                        <div style={{ fontSize: '28px', fontWeight: 800, color: '#166534' }}>4,560,000</div>
+                                    </div>
+                                    <div style={{ fontSize: '40px', fontWeight: 900, color: '#22C55E' }}>&gt;</div>
+                                    <div style={{ textAlign: 'center' }}>
+                                        <div style={{ fontSize: '28px', fontWeight: 800, color: '#dc2626' }}>4,506,000</div>
+                                    </div>
+                                </div>
+                                <p style={{ textAlign: 'center', marginTop: '12px', color: '#64748B', fontSize: '14px' }}>
+                                    Compare the highest place value first! (Both have 4 million, 5 hundred thousand. But 60,000 &gt; 6,000).
+                                </p>
+                            </Section>
+
+                            {/* ──────────── 5. ROUNDING NUMBERS ──────────── */}
+                            <Section>
+                                <SectionTitle emoji="🎯">Rounding Large Numbers</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.8, margin: '0 0 16px' }}>
+                                    Rounding makes numbers simpler. <br/>
+                                    <strong>Rule:</strong> Look at the digit to the right: <br/>
+                                    - If it is <strong>0, 1, 2, 3, 4</strong> → Round Down (keep the digit same). <br/>
+                                    - If it is <strong>5, 6, 7, 8, 9</strong> → Round Up (add 1 to the digit).
+                                </p>
+                                <div style={{ background: '#FAF5FF', padding: '20px', borderRadius: '12px', borderLeft: '4px solid #A855F7' }}>
+                                    <h4 style={{ margin: '0 0 10px', color: '#6B21A8' }}>Example: Round 4,528,700</h4>
+                                    <ul style={{ margin: 0, paddingLeft: '20px', color: '#4C1D95', lineHeight: '1.6' }}>
+                                        <li>To nearest <strong>1,000</strong> → 4,52<strong>9,000</strong> (because 7 in hundreds is ≥ 5)</li>
+                                        <li>To nearest <strong>10,000</strong> → 4,5<strong>30,000</strong> (because 8 in thousands is ≥ 5)</li>
+                                        <li>To nearest <strong>100,000</strong> → 4,<strong>500,000</strong> (because 2 in ten-thousands is &lt; 5)</li>
+                                    </ul>
+                                </div>
+                            </Section>
+
+                            {/* ──────────── 6. PRACTICE QUESTIONS ──────────── */}
+                            <Section style={{ background: '#F8FAFC', border: '1px solid #E2E8F0' }}>
+                                <SectionTitle emoji="📝">Try It Yourself!</SectionTitle>
+                                <div style={{ display: 'grid', gap: '16px' }}>
+                                    {[
+                                        { q: "Write in numbers: Two million, four hundred.", a: "2,000,400" },
+                                        { q: "Compare: 3,500,000 ___ 3,500,000", a: "=" },
+                                        { q: "Round 8,765,432 to nearest 100,000", a: "8,800,000" }
+                                    ].map((item, idx) => (
+                                        <div key={idx} style={{ background: '#FFFFFF', padding: '16px', borderRadius: '12px', border: '1px solid #CBD5E1', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                            <span style={{ fontWeight: 600, color: '#334155' }}>Q: {item.q}</span>
+                                            <span style={{ background: '#ECFDF5', color: '#047857', padding: '6px 12px', borderRadius: '8px', fontWeight: 700, fontSize: '14px' }}>
+                                                Ans: {item.a}
+                                            </span>
+                                        </div>
+                                    ))}
+                                </div>
+                            </Section>
+                        </>
+                    )}
+
+                    {classId === '5' && chapterId === 'addition-subtraction' && (
+                        <>
+                            <Section>
+                                <SectionTitle emoji="➕">Introduction</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: 0 }}>
+                                    <strong>Addition</strong> means combining two or more numbers to find the total. <strong>Subtraction</strong> means
+                                    taking one number away from another to find the difference. When numbers become large, we still follow the same
+                                    basic rules of addition and subtraction, but we must carefully arrange the numbers according to their place values.
+                                </p>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📐">Understanding Addition of Large Numbers</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    When adding large numbers, place the numbers in columns according to their place values (ones, tens, hundreds,
+                                    thousands, etc.). Start adding from the rightmost column.
+                                </p>
+                                <div style={{ marginTop: 14, background: '#EFF6FF', border: '1px solid #BFDBFE', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 10px', fontSize: '15px', fontWeight: 800, color: '#1D4ED8' }}>Example 1</p>
+                                    <div style={{ fontFamily: 'monospace', fontSize: '16px', color: '#1E3A8A', lineHeight: 2 }}>
+                                        <div>4,56,789</div>
+                                        <div>+ 2,13,456</div>
+                                        <div style={{ borderTop: '2px solid #3B82F6', marginTop: 4, paddingTop: 4 }}>= 6,70,245</div>
+                                    </div>
+                                    <ul style={{ margin: '12px 0 0', paddingLeft: 18, color: '#1E3A8A', lineHeight: 1.8 }}>
+                                        <li>Step 1: Add ones → 9 + 6 = 15, write 5 and carry 1</li>
+                                        <li>Step 2: Add tens → 8 + 5 + 1 = 14, write 4 and carry 1</li>
+                                        <li>Step 3: Continue adding column by column.</li>
+                                    </ul>
+                                </div>
+                                <div style={{ marginTop: 14, background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 10px', fontSize: '15px', fontWeight: 800, color: '#065F46' }}>Example 2</p>
+                                    <div style={{ fontFamily: 'monospace', fontSize: '16px', color: '#065F46', lineHeight: 2 }}>
+                                        <div>7,25,430</div>
+                                        <div>+ 1,54,290</div>
+                                        <div style={{ borderTop: '2px solid #10B981', marginTop: 4, paddingTop: 4 }}>= 8,79,720</div>
+                                    </div>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="➖">Understanding Subtraction of Large Numbers</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    To subtract large numbers, write the larger number on top and the smaller number below it.
+                                    Subtract from the rightmost column.
+                                </p>
+                                <div style={{ marginTop: 14, background: '#FFF7ED', border: '1px solid #FED7AA', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 10px', fontSize: '15px', fontWeight: 800, color: '#9A3412' }}>Example 1</p>
+                                    <div style={{ fontFamily: 'monospace', fontSize: '16px', color: '#9A3412', lineHeight: 2 }}>
+                                        <div>8,75,320</div>
+                                        <div>− 2,41,210</div>
+                                        <div style={{ borderTop: '2px solid #F59E0B', marginTop: 4, paddingTop: 4 }}>= 6,34,110</div>
+                                    </div>
+                                </div>
+                                <div style={{ marginTop: 14, background: '#F5F3FF', border: '1px solid #C4B5FD', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 10px', fontSize: '15px', fontWeight: 800, color: '#6D28D9' }}>Example 2</p>
+                                    <div style={{ fontFamily: 'monospace', fontSize: '16px', color: '#6D28D9', lineHeight: 2 }}>
+                                        <div>9,00,000</div>
+                                        <div>− 3,45,678</div>
+                                        <div style={{ borderTop: '2px solid #8B5CF6', marginTop: 4, paddingTop: 4 }}>= 5,54,322</div>
+                                    </div>
+                                    <p style={{ margin: '12px 0 0', fontSize: '14px', color: '#5B21B6' }}>
+                                        If a digit in the top number is smaller than the digit below it, we borrow from the next column.
+                                    </p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📝">Word Problems</SectionTitle>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>1. A city has a population of 4,75,230 people. Another nearby town has 2,34,150 people. How many people live in both places together?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Solution: 4,75,230 + 2,34,150 = 7,09,380</p>
+                                    </div>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>2. A company produced 8,50,000 toys last year and 6,25,450 toys this year. How many fewer toys were produced this year?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Solution: 8,50,000 − 6,25,450 = 2,24,550</p>
+                                    </div>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>3. A school library had 45,780 books. It bought 12,340 new books this year. How many books are there now?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Solution: 45,780 + 12,340 = 58,120</p>
+                                    </div>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="💡">Tips for Solving Large Number Problems</SectionTitle>
+                                <ul style={{ margin: 0, paddingLeft: 18, display: 'flex', flexDirection: 'column', gap: 8, color: '#334155' }}>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Always align numbers by place value.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Start calculations from the rightmost column.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Check carrying and borrowing carefully.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Verify the answer after solving.</li>
+                                </ul>
+                            </Section>
+
+                            <Section style={{ background: '#FFFBEB', border: '1px solid #FDE68A', borderRadius: 16 }}>
+                                <SectionTitle emoji="✏️">Practice Exercises</SectionTitle>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: 12, color: '#334155' }}>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>1. 4,56,123 + 3,21,456 = ______</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>2. 7,80,345 + 1,24,550 = ______</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>3. 9,45,210 − 2,31,450 = ______</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>4. 8,76,500 − 4,32,120 = ______</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>5. A shop sold 35,450 pencils in January and 21,350 in February. How many pencils were sold in total?</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>6. A factory produced 90,000 bottles but sold 65,250. How many bottles are left?</p>
+                                </div>
+                            </Section>
+                        </>
+                    )}
+
+                    {classId === '5' && chapterId === 'multiplication' && (
+                        <>
+                            <Section>
+                                <SectionTitle emoji="✖️">Introduction</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: 0 }}>
+                                    <strong>Multiplication</strong> is a mathematical operation used to find the total when the same number is added
+                                    repeatedly. Instead of adding a number again and again, multiplication provides a faster method. For example,
+                                    6 + 6 + 6 + 6 can be written as <strong>6 × 4 = 24</strong>. As numbers become larger, multiplication helps us
+                                    calculate totals quickly and efficiently.
+                                </p>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📐">Understanding Multi-Digit Multiplication</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    When multiplying multi-digit numbers, we follow a step-by-step column method. Each digit in one number is
+                                    multiplied by the digits of the other number.
+                                </p>
+                                <div style={{ marginTop: 14, background: '#EFF6FF', border: '1px solid #BFDBFE', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 10px', fontSize: '15px', fontWeight: 800, color: '#1D4ED8' }}>Example 1</p>
+                                    <div style={{ fontFamily: 'monospace', fontSize: '16px', color: '#1E3A8A', lineHeight: 2 }}>
+                                        <div style={{ whiteSpace: 'pre' }}>  234</div>
+                                        <div style={{ whiteSpace: 'pre' }}>×   5</div>
+                                        <div style={{ borderTop: '2px solid #3B82F6', marginTop: 4, paddingTop: 4 }}> 1170</div>
+                                    </div>
+                                    <ul style={{ margin: '12px 0 0', paddingLeft: 18, color: '#1E3A8A', lineHeight: 1.8 }}>
+                                        <li>Step 1: Multiply 5 × 4 = 20 → write 0 and carry 2</li>
+                                        <li>Step 2: Multiply 5 × 3 = 15, add carry 2 → 17</li>
+                                        <li>Step 3: Multiply 5 × 2 = 10 → result 1170</li>
+                                    </ul>
+                                </div>
+                                <div style={{ marginTop: 14, background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 10px', fontSize: '15px', fontWeight: 800, color: '#065F46' }}>Example 2</p>
+                                    <div style={{ fontFamily: 'monospace', fontSize: '16px', color: '#065F46', lineHeight: 2 }}>
+                                        <div style={{ whiteSpace: 'pre' }}>  456</div>
+                                        <div style={{ whiteSpace: 'pre' }}>×  23</div>
+                                        <div style={{ whiteSpace: 'pre' }}> 1368</div>
+                                        <div style={{ whiteSpace: 'pre' }}> 9120</div>
+                                        <div style={{ borderTop: '2px solid #10B981', marginTop: 4, paddingTop: 4 }}>10488</div>
+                                    </div>
+                                    <ul style={{ margin: '12px 0 0', paddingLeft: 18, color: '#065F46', lineHeight: 1.8 }}>
+                                        <li>Step 1: Multiply 456 × 3</li>
+                                        <li>Step 2: Multiply 456 × 20</li>
+                                        <li>Step 3: Add both results</li>
+                                    </ul>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="🔢">Multiplying Large Numbers</SectionTitle>
+                                <div style={{ background: '#FFF7ED', border: '1px solid #FED7AA', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 10px', fontSize: '15px', fontWeight: 800, color: '#9A3412' }}>Example</p>
+                                    <div style={{ fontFamily: 'monospace', fontSize: '16px', color: '#9A3412', lineHeight: 2 }}>
+                                        <div style={{ whiteSpace: 'pre' }}>  1,245</div>
+                                        <div style={{ whiteSpace: 'pre' }}>×    34</div>
+                                        <div style={{ whiteSpace: 'pre' }}>  4,980</div>
+                                        <div style={{ whiteSpace: 'pre' }}> 37,350</div>
+                                        <div style={{ borderTop: '2px solid #F59E0B', marginTop: 4, paddingTop: 4 }}> 42,330</div>
+                                    </div>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📋">Different Methods of Multiplication</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    <strong>1. Standard Column Method</strong> – Numbers are written one below the other and multiplied step by step.
+                                </p>
+                                <div style={{ marginTop: 14, background: '#F5F3FF', border: '1px solid #C4B5FD', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 10px', fontSize: '15px', fontWeight: 800, color: '#6D28D9' }}>2. Breaking Numbers Method (Distributive Method)</p>
+                                    <div style={{ fontFamily: 'monospace', fontSize: '15px', color: '#5B21B6', lineHeight: 2 }}>
+                                        <div>23 × 14</div>
+                                        <div>= 23 × (10 + 4)</div>
+                                        <div>= (23 × 10) + (23 × 4)</div>
+                                        <div>= 230 + 92</div>
+                                        <div>= 322</div>
+                                    </div>
+                                </div>
+                                <div style={{ marginTop: 14, background: '#F0FDF4', border: '1px solid #86EFAC', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 10px', fontSize: '15px', fontWeight: 800, color: '#166534' }}>3. Grid Method</p>
+                                    <p style={{ margin: '0 0 8px', fontSize: '15px', color: '#166534' }}>34 × 12 → (30 + 4) × (10 + 2)</p>
+                                    <div style={{ display: 'grid', gap: 8, marginTop: 8 }}>
+                                        <span>30×10 = 300</span>
+                                        <span>30×2 = 60</span>
+                                        <span>4×10 = 40</span>
+                                        <span>4×2 = 8</span>
+                                    </div>
+                                    <p style={{ margin: '12px 0 0', fontSize: '15px', fontWeight: 700, color: '#15803D' }}>Add all: 300 + 60 + 40 + 8 = 408</p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📝">Word Problems</SectionTitle>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>1. A factory produces 235 toys each day. How many toys are produced in 12 days?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Solution: 235 × 12 = 2,820 toys</p>
+                                    </div>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>2. A book costs ₹125. If a school buys 24 books, what is the total cost?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Solution: 125 × 24 = ₹3,000</p>
+                                    </div>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>3. A farmer plants 148 trees in each row. If there are 15 rows, how many trees are planted in total?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Solution: 148 × 15 = 2,220 trees</p>
+                                    </div>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="💡">Tips for Multiplication</SectionTitle>
+                                <ul style={{ margin: 0, paddingLeft: 18, display: 'flex', flexDirection: 'column', gap: 8, color: '#334155' }}>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Write numbers in proper columns according to place value.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Multiply from the rightmost digit first.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Add carried numbers carefully.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Check your answer by estimation.</li>
+                                </ul>
+                            </Section>
+
+                            <Section style={{ background: '#FFFBEB', border: '1px solid #FDE68A', borderRadius: 16 }}>
+                                <SectionTitle emoji="✏️">Practice Exercises</SectionTitle>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: 12, color: '#334155' }}>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>1. 345 × 6 = ______</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>2. 278 × 4 = ______</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>3. 456 × 12 = ______</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>4. 324 × 15 = ______</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>5. A shop sells 145 chocolates each day. How many chocolates are sold in 8 days?</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>6. A library buys 36 books each month. How many books are bought in 12 months?</p>
+                                </div>
+                            </Section>
+                        </>
+                    )}
+
+                    {classId === '5' && chapterId === 'division' && (
+                        <>
+                            <Section>
+                                <SectionTitle emoji="➗">Introduction</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: 0 }}>
+                                    <strong>Division</strong> is a mathematical operation used to split a number into equal parts. It is the opposite of
+                                    multiplication. When we divide, we find how many times one number fits into another number. Sometimes the number
+                                    cannot be divided exactly, and the leftover part is called the <strong>remainder</strong>.
+                                </p>
+                                <div style={{ marginTop: 14, background: '#EFF6FF', border: '1px solid #BFDBFE', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 800, color: '#1D4ED8' }}>Example</p>
+                                    <p style={{ margin: 0, fontSize: '16px', color: '#1E3A8A' }}>12 ÷ 3 = 4</p>
+                                    <p style={{ margin: '8px 0 0', fontSize: '15px', color: '#1E3A8A' }}>This means 12 items can be divided into 3 equal groups, with 4 items in each group.</p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📋">Understanding Division Terms</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    In a division problem, the numbers have special names:
+                                </p>
+                                <ul style={{ margin: 0, paddingLeft: 18, display: 'flex', flexDirection: 'column', gap: 6, color: '#334155' }}>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}><strong>Dividend</strong> – the number that is being divided</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}><strong>Divisor</strong> – the number we divide by</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}><strong>Quotient</strong> – the answer of the division</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}><strong>Remainder</strong> – the number left over after division</li>
+                                </ul>
+                                <div style={{ marginTop: 14, background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 800, color: '#065F46' }}>Example: 20 ÷ 6 = 3 remainder 2</p>
+                                    <p style={{ margin: 0, fontSize: '15px', color: '#065F46' }}>Dividend = 20, Divisor = 6, Quotient = 3, Remainder = 2</p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📐">Understanding Long Division</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    Long division is used when dividing large numbers.
+                                </p>
+                                <div style={{ marginTop: 14, background: '#FFF7ED', border: '1px solid #FED7AA', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 10px', fontSize: '15px', fontWeight: 800, color: '#9A3412' }}>Example 1: Divide 156 ÷ 4</p>
+                                    <ul style={{ margin: 0, paddingLeft: 18, color: '#9A3412', lineHeight: 1.9 }}>
+                                        <li>Step 1: 4 goes into 15 → 3 times</li>
+                                        <li>Step 2: 3 × 4 = 12</li>
+                                        <li>Step 3: Subtract → 15 − 12 = 3</li>
+                                        <li>Step 4: Bring down 6 → 36</li>
+                                        <li>Step 5: 4 goes into 36 → 9 times</li>
+                                    </ul>
+                                    <p style={{ margin: '12px 0 0', fontSize: '16px', fontWeight: 700, color: '#C2410C' }}>Answer = 39</p>
+                                </div>
+                                <div style={{ marginTop: 14, background: '#F5F3FF', border: '1px solid #C4B5FD', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 10px', fontSize: '15px', fontWeight: 800, color: '#6D28D9' }}>Example 2: Divide 245 ÷ 6</p>
+                                    <ul style={{ margin: 0, paddingLeft: 18, color: '#6D28D9', lineHeight: 1.9 }}>
+                                        <li>Step 1: 6 goes into 24 → 4 times</li>
+                                        <li>Step 2: 4 × 6 = 24</li>
+                                        <li>Step 3: Subtract → 24 − 24 = 0</li>
+                                        <li>Step 4: Bring down 5</li>
+                                        <li>Step 5: 6 goes into 5 → 0 times</li>
+                                    </ul>
+                                    <p style={{ margin: '12px 0 0', fontSize: '16px', fontWeight: 700, color: '#5B21B6' }}>Answer = 40 remainder 5</p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="🔢">Division with Large Numbers</SectionTitle>
+                                <div style={{ background: '#EFF6FF', border: '1px solid #BFDBFE', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 10px', fontSize: '15px', fontWeight: 800, color: '#1D4ED8' }}>Example: Divide 4,356 ÷ 7</p>
+                                    <ul style={{ margin: 0, paddingLeft: 18, color: '#1E3A8A', lineHeight: 1.9 }}>
+                                        <li>Step 1: 7 goes into 43 → 6 times</li>
+                                        <li>Step 2: 6 × 7 = 42</li>
+                                        <li>Step 3: Subtract → 1</li>
+                                        <li>Step 4: Bring down 5 → 15</li>
+                                        <li>Step 5: 7 goes into 15 → 2 times</li>
+                                        <li>Step 6: Bring down 6 → 16</li>
+                                        <li>Step 7: 7 goes into 16 → 2 times</li>
+                                    </ul>
+                                    <p style={{ margin: '12px 0 0', fontSize: '16px', fontWeight: 700, color: '#1D4ED8' }}>Answer = 622 remainder 2</p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="✅">Checking Division</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    We can check our division answer using multiplication.
+                                </p>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 8px', fontWeight: 700 }}>Formula: Divisor × Quotient + Remainder = Dividend</p>
+                                <div style={{ background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: 0, fontSize: '16px', color: '#065F46', fontWeight: 600 }}>Example: 6 × 40 + 5 = 245 ✔</p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📝">Word Problems</SectionTitle>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>1. A teacher has 96 pencils and wants to distribute them equally among 8 students. How many pencils will each student get?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Solution: 96 ÷ 8 = 12 pencils</p>
+                                    </div>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>2. A factory produced 875 toys and packed them into boxes containing 5 toys each. How many boxes are needed?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Solution: 875 ÷ 5 = 175 boxes</p>
+                                    </div>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>3. A farmer harvested 468 apples and packed them equally into 6 baskets. How many apples are in each basket?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Solution: 468 ÷ 6 = 78 apples</p>
+                                    </div>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="💡">Tips for Division</SectionTitle>
+                                <ul style={{ margin: 0, paddingLeft: 18, display: 'flex', flexDirection: 'column', gap: 8, color: '#334155' }}>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Always start dividing from the leftmost digit.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Multiply the quotient digit with the divisor to check each step.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Bring down the next digit carefully.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>If the number cannot be divided exactly, write the remainder.</li>
+                                </ul>
+                            </Section>
+
+                            <Section style={{ background: '#FFFBEB', border: '1px solid #FDE68A', borderRadius: 16 }}>
+                                <SectionTitle emoji="✏️">Practice Exercises</SectionTitle>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: 12, color: '#334155' }}>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>1. 144 ÷ 6 = ______</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>2. 256 ÷ 4 = ______</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>3. 378 ÷ 7 = ______</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>4. 945 ÷ 5 = ______</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>5. A school bought 240 notebooks and distributed them equally among 8 classes. How many notebooks did each class receive?</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>6. A baker made 360 cookies and packed them into boxes of 9 cookies each. How many boxes were used?</p>
+                                </div>
+                            </Section>
+                        </>
+                    )}
+
+                    {classId === '5' && chapterId === 'fractions-decimals' && (
+                        <>
+                            <Section>
+                                <SectionTitle emoji="🥧">Introduction</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: 0 }}>
+                                    <strong>Fractions</strong> and <strong>decimals</strong> are used to represent parts of a whole. In everyday life, we often
+                                    deal with fractions and decimals when measuring quantities such as food, money, distance, and time. Understanding
+                                    fractions and decimals helps us perform calculations more accurately in many real-life situations.
+                                </p>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📐">Understanding Fractions</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    A fraction represents a part of a whole. It has two parts:
+                                </p>
+                                <ul style={{ margin: 0, paddingLeft: 18, display: 'flex', flexDirection: 'column', gap: 6, color: '#334155' }}>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}><strong>Numerator</strong> – the top number that shows how many parts are taken.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}><strong>Denominator</strong> – the bottom number that shows the total number of equal parts.</li>
+                                </ul>
+                                <div style={{ marginTop: 14, background: '#EFF6FF', border: '1px solid #BFDBFE', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: 0, fontSize: '16px', color: '#1E3A8A', fontWeight: 600 }}>Example: 3/4 means 3 parts out of 4 equal parts.</p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📋">Types of Fractions</SectionTitle>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+                                    <div style={{ background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: 16, padding: 16 }}>
+                                        <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 800, color: '#065F46' }}>Proper Fraction</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#065F46' }}>Numerator is smaller than the denominator. Example: 3/5</p>
+                                    </div>
+                                    <div style={{ background: '#FFF7ED', border: '1px solid #FED7AA', borderRadius: 16, padding: 16 }}>
+                                        <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 800, color: '#9A3412' }}>Improper Fraction</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#9A3412' }}>Numerator is greater than or equal to the denominator. Example: 7/4</p>
+                                    </div>
+                                    <div style={{ background: '#F5F3FF', border: '1px solid #C4B5FD', borderRadius: 16, padding: 16 }}>
+                                        <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 800, color: '#6D28D9' }}>Mixed Fraction</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#6D28D9' }}>A combination of a whole number and a fraction. Example: 2 1/3</p>
+                                    </div>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="🔄">Equivalent Fractions</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    Fractions that represent the same value are called equivalent fractions.
+                                </p>
+                                <div style={{ marginTop: 14, background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>Example: 1/2 = 2/4 = 4/8</p>
+                                    <p style={{ margin: 0, fontSize: '15px', color: '#475569' }}>We can find equivalent fractions by multiplying or dividing the numerator and denominator by the same number.</p>
+                                    <p style={{ margin: '8px 0 0', fontSize: '15px', color: '#334155' }}>Example: 3/5 × 2/2 = 6/10</p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="➕">Addition and Subtraction of Fractions</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    When the denominators are the same, add or subtract the numerators.
+                                </p>
+                                <div style={{ display: 'grid', gap: 12, marginTop: 12 }}>
+                                    <div style={{ background: '#EFF6FF', border: '1px solid #BFDBFE', borderRadius: 16, padding: 16 }}>
+                                        <p style={{ margin: 0, fontSize: '16px', color: '#1D4ED8', fontWeight: 600 }}>Addition: 1/4 + 2/4 = 3/4 &nbsp;&nbsp; &nbsp; 2/5 + 1/5 = 3/5</p>
+                                    </div>
+                                    <div style={{ background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: 16, padding: 16 }}>
+                                        <p style={{ margin: 0, fontSize: '16px', color: '#065F46', fontWeight: 600 }}>Subtraction: 5/6 − 2/6 = 3/6</p>
+                                    </div>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="🔢">Understanding Decimals</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    Decimals are another way of representing fractions. They are written using a decimal point.
+                                </p>
+                                <div style={{ marginTop: 14, background: '#FFFBEB', border: '1px solid #FDE68A', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#92400E' }}>Examples</p>
+                                    <p style={{ margin: 0, fontSize: '15px', color: '#92400E' }}>1/10 = 0.1 &nbsp;&nbsp; 1/100 = 0.01 &nbsp;&nbsp; 1/2 = 0.5</p>
+                                </div>
+                                <p style={{ margin: '14px 0 8px', fontSize: '16px', color: '#475569', fontWeight: 600 }}>Place values after the decimal point: Tenths, Hundredths, Thousandths</p>
+                                <div style={{ background: '#F5F3FF', border: '1px solid #C4B5FD', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: 0, fontSize: '15px', color: '#6D28D9' }}>Example: 0.75 → 7 is in the tenths place, 5 is in the hundredths place.</p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="🔄">Converting Between Fractions and Decimals</SectionTitle>
+                                <div style={{ display: 'grid', gap: 12 }}>
+                                    <div style={{ background: '#EFF6FF', border: '1px solid #BFDBFE', borderRadius: 16, padding: 16 }}>
+                                        <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 700, color: '#1D4ED8' }}>Fractions to decimals: 1/2 = 0.5 &nbsp; 3/4 = 0.75 &nbsp; 1/5 = 0.2</p>
+                                    </div>
+                                    <div style={{ background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: 16, padding: 16 }}>
+                                        <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 700, color: '#065F46' }}>Decimals to fractions: 0.6 = 6/10 = 3/5 &nbsp; 0.25 = 25/100 = 1/4</p>
+                                    </div>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="➕➖">Adding and Subtracting Decimals</SectionTitle>
+                                <div style={{ display: 'grid', gap: 12 }}>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 16 }}>
+                                        <p style={{ margin: 0, fontSize: '16px', color: '#334155', fontWeight: 600 }}>Adding: 2.5 + 1.3 = 3.8</p>
+                                    </div>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 16 }}>
+                                        <p style={{ margin: 0, fontSize: '16px', color: '#334155', fontWeight: 600 }}>Subtracting: 5.8 − 2.4 = 3.4</p>
+                                    </div>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📝">Word Problems</SectionTitle>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>1. A chocolate bar is divided into 8 equal pieces. Riya eats 3 pieces. What fraction of the chocolate bar did she eat?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Solution: 3/8</p>
+                                    </div>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>2. A bottle contains 1.5 liters of juice. Rahul drinks 0.6 liters. How much juice is left?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Solution: 1.5 − 0.6 = 0.9 liters</p>
+                                    </div>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>3. A rope is 2.75 meters long. A piece of 1.25 meters is cut from it. What is the remaining length?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Solution: 2.75 − 1.25 = 1.50 meters</p>
+                                    </div>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="💡">Tips for Fractions and Decimals</SectionTitle>
+                                <ul style={{ margin: 0, paddingLeft: 18, display: 'flex', flexDirection: 'column', gap: 8, color: '#334155' }}>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Always check the denominator when adding or subtracting fractions.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Line up decimal points before adding or subtracting decimals.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Simplify fractions whenever possible.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Convert fractions and decimals carefully.</li>
+                                </ul>
+                            </Section>
+
+                            <Section style={{ background: '#FFFBEB', border: '1px solid #FDE68A', borderRadius: 16 }}>
+                                <SectionTitle emoji="✏️">Practice Exercises</SectionTitle>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: 12, color: '#334155' }}>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>1. Convert 3/4 into a decimal.</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>2. Convert 0.5 into a fraction.</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>3. Find the sum: 1/5 + 2/5</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>4. Find the difference: 7/8 − 3/8</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>5. Add: 2.6 + 1.4</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>6. Subtract: 5.9 − 2.3</p>
+                                </div>
+                            </Section>
+                        </>
+                    )}
+
+                    {classId === '5' && chapterId === 'geometry' && (
+                        <>
+                            <Section>
+                                <SectionTitle emoji="📐">Introduction</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: 0 }}>
+                                    <strong>Geometry</strong> is the branch of mathematics that studies shapes, sizes, and spaces. It helps us understand
+                                    objects around us such as buildings, roads, playgrounds, and many other structures. By learning geometry, students can
+                                    identify shapes, measure distances, and calculate areas and volumes.
+                                </p>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📐">Understanding Angles</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    An <strong>angle</strong> is formed when two lines meet at a point. The point where the lines meet is called the <strong>vertex</strong>.
+                                </p>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginTop: 14 }}>
+                                    <div style={{ background: '#EFF6FF', border: '1px solid #BFDBFE', borderRadius: 16, padding: 16 }}>
+                                        <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 800, color: '#1D4ED8' }}>Acute Angle</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#1E3A8A' }}>An angle smaller than 90°. Example: 45°</p>
+                                    </div>
+                                    <div style={{ background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: 16, padding: 16 }}>
+                                        <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 800, color: '#065F46' }}>Right Angle</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#065F46' }}>An angle exactly equal to 90°</p>
+                                    </div>
+                                    <div style={{ background: '#FFF7ED', border: '1px solid #FED7AA', borderRadius: 16, padding: 16 }}>
+                                        <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 800, color: '#9A3412' }}>Obtuse Angle</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#9A3412' }}>An angle greater than 90° but less than 180°. Example: 120°</p>
+                                    </div>
+                                    <div style={{ background: '#F5F3FF', border: '1px solid #C4B5FD', borderRadius: 16, padding: 16 }}>
+                                        <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 800, color: '#6D28D9' }}>Straight Angle</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#6D28D9' }}>An angle equal to 180°</p>
+                                    </div>
+                                </div>
+                                <p style={{ margin: '14px 0 0', fontSize: '15px', color: '#334155' }}>If two lines meet forming a right angle, it measures 90°.</p>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="🔺">Understanding Triangles</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    A <strong>triangle</strong> is a shape with three sides and three angles.
+                                </p>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginTop: 14 }}>
+                                    <div style={{ background: '#EFF6FF', border: '1px solid #BFDBFE', borderRadius: 16, padding: 16 }}>
+                                        <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 800, color: '#1D4ED8' }}>Equilateral Triangle</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#1E3A8A' }}>All three sides are equal.</p>
+                                    </div>
+                                    <div style={{ background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: 16, padding: 16 }}>
+                                        <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 800, color: '#065F46' }}>Isosceles Triangle</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#065F46' }}>Two sides are equal.</p>
+                                    </div>
+                                    <div style={{ background: '#FFF7ED', border: '1px solid #FED7AA', borderRadius: 16, padding: 16 }}>
+                                        <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 800, color: '#9A3412' }}>Scalene Triangle</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#9A3412' }}>All three sides are different.</p>
+                                    </div>
+                                </div>
+                                <div style={{ marginTop: 14, background: '#F0FDF4', border: '1px solid #86EFAC', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 800, color: '#166534' }}>Important property</p>
+                                    <p style={{ margin: 0, fontSize: '15px', color: '#166534' }}>The sum of the interior angles of a triangle is always <strong>180°</strong>.</p>
+                                    <p style={{ margin: '8px 0 0', fontSize: '15px', color: '#15803D' }}>Example: If one angle is 60° and another is 70°, the third angle = 180° − (60° + 70°) = 50°</p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="⭕">Understanding Circles</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    A <strong>circle</strong> is a round shape where all points are the same distance from the center.
+                                </p>
+                                <ul style={{ margin: 0, paddingLeft: 18, display: 'flex', flexDirection: 'column', gap: 6, color: '#334155' }}>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}><strong>Center</strong> – the middle point of the circle</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}><strong>Radius</strong> – the distance from the center to the edge</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}><strong>Diameter</strong> – a line through the center connecting two points on the circle</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}><strong>Circumference</strong> – the boundary of the circle</li>
+                                </ul>
+                                <div style={{ marginTop: 14, background: '#F5F3FF', border: '1px solid #C4B5FD', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: 0, fontSize: '15px', color: '#6D28D9', fontWeight: 600 }}>Example: If the radius of a circle is 5 cm, the diameter will be 10 cm.</p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📏">Perimeter</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    The <strong>perimeter</strong> is the total distance around a shape.
+                                </p>
+                                <p style={{ margin: '0 0 8px', fontSize: '16px', color: '#334155', fontWeight: 700 }}>Perimeter of a rectangle = 2 × (length + width)</p>
+                                <div style={{ background: '#EFF6FF', border: '1px solid #BFDBFE', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 6px', fontSize: '15px', color: '#1E3A8A' }}>Example: Length = 10 cm, Width = 5 cm</p>
+                                    <p style={{ margin: 0, fontSize: '15px', color: '#1E3A8A' }}>Perimeter = 2 × (10 + 5) = 30 cm</p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="▭">Area</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    <strong>Area</strong> is the amount of space inside a shape.
+                                </p>
+                                <p style={{ margin: '0 0 8px', fontSize: '16px', color: '#334155', fontWeight: 700 }}>Area of a rectangle = length × width</p>
+                                <div style={{ background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 6px', fontSize: '15px', color: '#065F46' }}>Example: Length = 8 cm, Width = 6 cm</p>
+                                    <p style={{ margin: 0, fontSize: '15px', color: '#065F46' }}>Area = 8 × 6 = 48 cm²</p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📦">Volume</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    <strong>Volume</strong> is the amount of space inside a three-dimensional object.
+                                </p>
+                                <p style={{ margin: '0 0 8px', fontSize: '16px', color: '#334155', fontWeight: 700 }}>Volume of a cube = side × side × side</p>
+                                <div style={{ background: '#FFF7ED', border: '1px solid #FED7AA', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: 0, fontSize: '15px', color: '#9A3412' }}>If side = 4 cm → Volume = 4 × 4 × 4 = 64 cm³</p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📝">Word Problems</SectionTitle>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>1. A rectangular garden has a length of 12 m and width of 8 m. What is its perimeter?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Solution: Perimeter = 2 × (12 + 8) = 40 m</p>
+                                    </div>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>2. A rectangular floor has a length of 10 m and width of 7 m. What is its area?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Solution: Area = 10 × 7 = 70 m²</p>
+                                    </div>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>3. A cube-shaped box has sides of 5 cm. What is its volume?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Solution: Volume = 5 × 5 × 5 = 125 cm³</p>
+                                    </div>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="💡">Tips for Geometry</SectionTitle>
+                                <ul style={{ margin: 0, paddingLeft: 18, display: 'flex', flexDirection: 'column', gap: 8, color: '#334155' }}>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Always identify the shape before solving a problem.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Use the correct formula for perimeter, area, or volume.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Draw diagrams when solving geometry problems.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Check measurements and units carefully.</li>
+                                </ul>
+                            </Section>
+
+                            <Section style={{ background: '#FFFBEB', border: '1px solid #FDE68A', borderRadius: 16 }}>
+                                <SectionTitle emoji="✏️">Practice Exercises</SectionTitle>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: 12, color: '#334155' }}>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>1. Identify the type of angle: 45°</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>2. Identify the type of triangle with two equal sides.</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>3. Find the perimeter of a rectangle with length 9 cm and width 4 cm.</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>4. Find the area of a rectangle with length 7 cm and width 5 cm.</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>5. Find the volume of a cube with side length 3 cm.</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>6. If the radius of a circle is 6 cm, what is its diameter?</p>
+                                </div>
+                            </Section>
+                        </>
+                    )}
+
+                    {classId === '5' && chapterId === 'measurement' && (
+                        <>
+                            <Section>
+                                <SectionTitle emoji="📏">Introduction</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: 0 }}>
+                                    <strong>Measurement</strong> helps us determine the size, amount, or quantity of objects. In everyday life, we measure
+                                    things like the length of a table, the weight of fruits, or the amount of water in a bottle. Standard units of
+                                    measurement make it easy to compare and calculate quantities accurately.
+                                </p>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📏">Measurement of Length</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    <strong>Length</strong> tells us how long or short something is. We measure length using units such as millimeters (mm),
+                                    centimeters (cm), meters (m), and kilometers (km).
+                                </p>
+                                <div style={{ background: '#EFF6FF', border: '1px solid #BFDBFE', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 700, color: '#1D4ED8' }}>Common Units of Length</p>
+                                    <ul style={{ margin: 0, paddingLeft: 18, color: '#1E3A8A', lineHeight: 1.8 }}>
+                                        <li>10 millimeters = 1 centimeter</li>
+                                        <li>100 centimeters = 1 meter</li>
+                                        <li>1000 meters = 1 kilometer</li>
+                                    </ul>
+                                </div>
+                                <div style={{ marginTop: 14, background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 700, color: '#065F46' }}>Examples</p>
+                                    <ul style={{ margin: 0, paddingLeft: 18, color: '#065F46', lineHeight: 1.8 }}>
+                                        <li>A pencil may be about 15 cm long.</li>
+                                        <li>The height of a door may be about 2 meters.</li>
+                                        <li>The distance between two cities may be measured in kilometers.</li>
+                                    </ul>
+                                </div>
+                                <div style={{ marginTop: 14, background: '#FFF7ED', border: '1px solid #FED7AA', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 700, color: '#9A3412' }}>Example Problem: Convert 3 meters into centimeters.</p>
+                                    <p style={{ margin: 0, fontSize: '15px', color: '#9A3412' }}>1 meter = 100 cm → 3 meters = 3 × 100 = <strong>300 cm</strong></p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="⚖️">Measurement of Weight</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    <strong>Weight</strong> tells us how heavy an object is. It is commonly measured in grams (g) and kilograms (kg).
+                                </p>
+                                <div style={{ background: '#F5F3FF', border: '1px solid #C4B5FD', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 700, color: '#6D28D9' }}>Common Units of Weight</p>
+                                    <p style={{ margin: 0, fontSize: '15px', color: '#6D28D9' }}>1000 grams = 1 kilogram</p>
+                                </div>
+                                <div style={{ marginTop: 14, background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 700, color: '#065F46' }}>Examples</p>
+                                    <ul style={{ margin: 0, paddingLeft: 18, color: '#065F46', lineHeight: 1.8 }}>
+                                        <li>A chocolate bar may weigh about 100 g.</li>
+                                        <li>A bag of rice may weigh about 5 kg.</li>
+                                    </ul>
+                                </div>
+                                <div style={{ marginTop: 14, background: '#FFF7ED', border: '1px solid #FED7AA', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 700, color: '#9A3412' }}>Example Problem: Convert 4 kilograms into grams.</p>
+                                    <p style={{ margin: 0, fontSize: '15px', color: '#9A3412' }}>1 kg = 1000 g → 4 kg = 4 × 1000 = <strong>4000 g</strong></p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="🥤">Measurement of Capacity</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    <strong>Capacity</strong> tells us how much liquid a container can hold. The common units used are milliliters (mL) and liters (L).
+                                </p>
+                                <div style={{ background: '#FFFBEB', border: '1px solid #FDE68A', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 700, color: '#92400E' }}>Common Units of Capacity</p>
+                                    <p style={{ margin: 0, fontSize: '15px', color: '#92400E' }}>1000 milliliters = 1 liter</p>
+                                </div>
+                                <div style={{ marginTop: 14, background: '#EFF6FF', border: '1px solid #BFDBFE', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 700, color: '#1D4ED8' }}>Examples</p>
+                                    <ul style={{ margin: 0, paddingLeft: 18, color: '#1E3A8A', lineHeight: 1.8 }}>
+                                        <li>A water bottle may hold 1 liter of water.</li>
+                                        <li>A medicine bottle may contain 100 mL.</li>
+                                    </ul>
+                                </div>
+                                <div style={{ marginTop: 14, background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 6px', fontSize: '15px', fontWeight: 700, color: '#065F46' }}>Example Problem: Convert 5 liters into milliliters.</p>
+                                    <p style={{ margin: 0, fontSize: '15px', color: '#065F46' }}>1 L = 1000 mL → 5 L = 5 × 1000 = <strong>5000 mL</strong></p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="🔄">Converting Between Units</SectionTitle>
+                                <div style={{ display: 'grid', gap: 12 }}>
+                                    <div style={{ background: '#EFF6FF', border: '1px solid #BFDBFE', borderRadius: 16, padding: 16 }}>
+                                        <p style={{ margin: 0, fontSize: '15px', fontWeight: 700, color: '#1D4ED8' }}>Length</p>
+                                        <p style={{ margin: '6px 0 0', fontSize: '15px', color: '#1E3A8A' }}>2 km = 2000 m &nbsp; | &nbsp; 500 cm = 5 m</p>
+                                    </div>
+                                    <div style={{ background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: 16, padding: 16 }}>
+                                        <p style={{ margin: 0, fontSize: '15px', fontWeight: 700, color: '#065F46' }}>Weight</p>
+                                        <p style={{ margin: '6px 0 0', fontSize: '15px', color: '#065F46' }}>3 kg = 3000 g &nbsp; | &nbsp; 750 g = 0.75 kg</p>
+                                    </div>
+                                    <div style={{ background: '#FFFBEB', border: '1px solid #FDE68A', borderRadius: 16, padding: 16 }}>
+                                        <p style={{ margin: 0, fontSize: '15px', fontWeight: 700, color: '#92400E' }}>Capacity</p>
+                                        <p style={{ margin: '6px 0 0', fontSize: '15px', color: '#92400E' }}>2 L = 2000 mL &nbsp; | &nbsp; 1500 mL = 1.5 L</p>
+                                    </div>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📝">Word Problems</SectionTitle>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>1. A rope is 8 meters long. How many centimeters is this?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Solution: 8 × 100 = <strong>800 cm</strong></p>
+                                    </div>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>2. A shopkeeper sells 6 kg of apples. How many grams is this?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Solution: 6 × 1000 = <strong>6000 g</strong></p>
+                                    </div>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>3. A container holds 3 liters of juice. How many milliliters is that?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Solution: 3 × 1000 = <strong>3000 mL</strong></p>
+                                    </div>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="💡">Tips for Measurement</SectionTitle>
+                                <ul style={{ margin: 0, paddingLeft: 18, display: 'flex', flexDirection: 'column', gap: 8, color: '#334155' }}>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Always write the correct unit with your answer.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Remember the conversion relationships between units.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Multiply when converting to smaller units.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Divide when converting to larger units.</li>
+                                </ul>
+                            </Section>
+
+                            <Section style={{ background: '#FFFBEB', border: '1px solid #FDE68A', borderRadius: 16 }}>
+                                <SectionTitle emoji="✏️">Practice Exercises</SectionTitle>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: 12, color: '#334155' }}>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>1. Convert 7 meters into centimeters.</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>2. Convert 2 kilometers into meters.</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>3. Convert 5 kilograms into grams.</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>4. Convert 2500 milliliters into liters.</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>5. A bottle contains 2 liters of milk. How many milliliters is this?</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>6. A bag weighs 3 kg. How many grams does it weigh?</p>
+                                </div>
+                            </Section>
+                        </>
+                    )}
+
+                    {classId === '5' && chapterId === 'data-handling' && (
+                        <>
+                            <Section>
+                                <SectionTitle emoji="📊">Introduction</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: 0 }}>
+                                    <strong>Data handling</strong> is the process of collecting, organizing, and understanding information. In daily life, we often
+                                    collect data such as the number of students in a class, favorite fruits, daily temperatures, or sports scores. By organizing
+                                    this data in tables and graphs, we can understand it more easily and make comparisons.
+                                </p>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📋">Collecting Data</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    Data is information collected for a particular purpose. For example, a teacher may collect data about the favorite fruits of
+                                    students in a class.
+                                </p>
+                                <div style={{ background: '#EFF6FF', border: '1px solid #BFDBFE', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 10px', fontSize: '15px', fontWeight: 800, color: '#1D4ED8' }}>Example: Favorite Fruit of Students</p>
+                                    <ul style={{ margin: 0, paddingLeft: 18, color: '#1E3A8A', lineHeight: 1.9 }}>
+                                        <li>Apple – 8 students</li>
+                                        <li>Banana – 6 students</li>
+                                        <li>Mango – 10 students</li>
+                                        <li>Orange – 5 students</li>
+                                    </ul>
+                                    <p style={{ margin: '12px 0 0', fontSize: '15px', color: '#1E3A8A' }}>This information is called <strong>data</strong>.</p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📋">Organizing Data Using Tables</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    A table helps organize data in rows and columns so that it becomes easier to read.
+                                </p>
+                                <div style={{ overflowX: 'auto', background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 0 }}>
+                                    <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '15px' }}>
+                                        <thead>
+                                            <tr style={{ background: '#E2E8F0' }}>
+                                                <th style={{ padding: '12px 16px', border: '1px solid #CBD5E1', textAlign: 'left', fontWeight: 700, color: '#334155' }}>Fruit</th>
+                                                <th style={{ padding: '12px 16px', border: '1px solid #CBD5E1', textAlign: 'left', fontWeight: 700, color: '#334155' }}>Number of Students</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr><td style={{ padding: '12px 16px', border: '1px solid #E2E8F0', color: '#475569' }}>Apple</td><td style={{ padding: '12px 16px', border: '1px solid #E2E8F0', color: '#475569' }}>8</td></tr>
+                                            <tr><td style={{ padding: '12px 16px', border: '1px solid #E2E8F0', color: '#475569' }}>Banana</td><td style={{ padding: '12px 16px', border: '1px solid #E2E8F0', color: '#475569' }}>6</td></tr>
+                                            <tr><td style={{ padding: '12px 16px', border: '1px solid #E2E8F0', color: '#475569' }}>Mango</td><td style={{ padding: '12px 16px', border: '1px solid #E2E8F0', color: '#475569' }}>10</td></tr>
+                                            <tr><td style={{ padding: '12px 16px', border: '1px solid #E2E8F0', color: '#475569' }}>Orange</td><td style={{ padding: '12px 16px', border: '1px solid #E2E8F0', color: '#475569' }}>5</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <p style={{ margin: '12px 0 0', fontSize: '15px', color: '#475569' }}>From the table, we can easily see which fruit is the most popular.</p>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📊">Understanding Bar Graphs</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    A <strong>bar graph</strong> is a visual representation of data using bars. Each bar shows the value of a category.
+                                </p>
+                                <div style={{ background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#065F46' }}>Favorite fruits in a bar graph:</p>
+                                    <p style={{ margin: 0, fontSize: '15px', color: '#065F46' }}>Apple – bar reaching 8 &nbsp;|&nbsp; Banana – bar reaching 6 &nbsp;|&nbsp; Mango – bar reaching 10 &nbsp;|&nbsp; Orange – bar reaching 5</p>
+                                    <p style={{ margin: '12px 0 0', fontSize: '15px', color: '#065F46' }}>From the bar graph, we can quickly compare which fruit has the highest or lowest number of students.</p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="🥧">Understanding Pie Charts</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    A <strong>pie chart</strong> is a circular graph that shows how data is divided into parts of a whole. Each section represents a portion of the total data.
+                                </p>
+                                <div style={{ background: '#FFF7ED', border: '1px solid #FED7AA', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#9A3412' }}>Example: Favorite activities</p>
+                                    <p style={{ margin: 0, fontSize: '15px', color: '#9A3412' }}>Reading – 40% &nbsp;|&nbsp; Sports – 30% &nbsp;|&nbsp; Music – 20% &nbsp;|&nbsp; Drawing – 10%</p>
+                                    <p style={{ margin: '12px 0 0', fontSize: '15px', color: '#9A3412' }}>Each activity appears as a slice of the pie chart representing its percentage.</p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="🔍">Interpreting Data</SectionTitle>
+                                <p style={{ fontSize: '16px', color: '#475569', lineHeight: 1.9, margin: '0 0 12px' }}>
+                                    Interpreting data means understanding and analyzing information from tables or graphs.
+                                </p>
+                                <div style={{ background: '#F5F3FF', border: '1px solid #C4B5FD', borderRadius: 16, padding: 18 }}>
+                                    <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#6D28D9' }}>Example questions:</p>
+                                    <ul style={{ margin: 0, paddingLeft: 18, color: '#5B21B6', lineHeight: 1.8 }}>
+                                        <li>Which fruit is liked by the most students?</li>
+                                        <li>Which fruit is liked by the fewest students?</li>
+                                        <li>How many students like fruits in total?</li>
+                                    </ul>
+                                    <p style={{ margin: '12px 0 0', fontSize: '15px', color: '#5B21B6' }}>By studying tables and graphs, we can answer these questions quickly.</p>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="📝">Word Problems</SectionTitle>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>1. A teacher recorded the number of books read: Rahul 4, Meena 6, Arjun 3, Priya 5. Who read the most books?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Answer: Meena read the most books (6).</p>
+                                    </div>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>2. Football 12, Cricket 15, Basketball 8, Tennis 5. Which sport is the most popular?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Answer: Cricket is the most popular sport.</p>
+                                    </div>
+                                    <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: 16, padding: 18 }}>
+                                        <p style={{ margin: '0 0 8px', fontSize: '15px', fontWeight: 700, color: '#334155' }}>3. If 20 students participated and 8 chose reading, what fraction chose reading?</p>
+                                        <p style={{ margin: 0, fontSize: '15px', color: '#059669', fontWeight: 600 }}>Answer: 8/20 = 2/5</p>
+                                    </div>
+                                </div>
+                            </Section>
+
+                            <Section>
+                                <SectionTitle emoji="💡">Tips for Data Handling</SectionTitle>
+                                <ul style={{ margin: 0, paddingLeft: 18, display: 'flex', flexDirection: 'column', gap: 8, color: '#334155' }}>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Always read the labels on graphs carefully.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Check the numbers in tables before interpreting data.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Bar graphs help compare values easily.</li>
+                                    <li style={{ fontSize: '15px', lineHeight: 1.8 }}>Pie charts show how a whole is divided into parts.</li>
+                                </ul>
+                            </Section>
+
+                            <Section style={{ background: '#FFFBEB', border: '1px solid #FDE68A', borderRadius: 16 }}>
+                                <SectionTitle emoji="✏️">Practice Exercises</SectionTitle>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: 12, color: '#334155' }}>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>1. In a class survey, 12 like chocolate, 8 like vanilla, 5 like strawberry. Which flavor is most popular?</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>2. Create a simple table: pets owned by four friends: 2, 1, 3, and 0.</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>3. If 10 students like football and 6 like basketball, which sport is more popular?</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>4. In a pie chart, if half the circle represents reading, what fraction does it represent?</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>5. If 15 like apples and 10 like bananas, how many students were surveyed in total?</p>
+                                    <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.8 }}>6. Which type of graph is best for comparing different categories?</p>
+                                </div>
+                            </Section>
+                        </>
+                    )}
+
                     {chapterId === 'counting-numbers' && (
                         <>
                             {/* ──────────── 2. EXPLANATION ──────────── */}
